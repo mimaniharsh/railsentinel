@@ -1,0 +1,86 @@
+# Corridors used by the digital twin to generate its synthetic timetable.
+#
+# Stations and their coordinates are real (see stations.csv, datameet CC0).
+# The trains generated on these corridors are SYNTHETIC: numbers use the
+# "RS" prefix so they never collide with real Indian Railways train numbers,
+# and their timings, fares and delays come from the twin's simulator.
+#
+# Each corridor lists its stops in order and how many trains of each
+# category to generate per direction.
+
+corridors:
+  pune_delhi_central:
+    stops: [PUNE, DD, MMR, BSL, ET, BPL, GWL, AGC, MTJ, NZM]
+    trains: {superfast: 2, express: 2}
+  pune_delhi_western:
+    stops: [PUNE, KYN, ST, BRC, RTM, KOTA, NDLS]
+    trains: {premium: 1, superfast: 1, express: 1}
+  mumbai_delhi_western:
+    stops: [BDTS, ST, BRC, RTM, KOTA, MTJ, NDLS]
+    trains: {premium: 2, superfast: 2, express: 1}
+  mumbai_delhi_central:
+    stops: [LTT, KYN, NK, MMR, BSL, ET, BPL, GWL, AGC, NDLS]
+    trains: {superfast: 1, express: 2}
+  delhi_howrah:
+    stops: [NDLS, CNB, PRYJ, DDU, GAYA, DHN, HWH]
+    trains: {premium: 2, superfast: 2, express: 2}
+  delhi_patna:
+    stops: [NDLS, CNB, PRYJ, DDU, PNBE]
+    trains: {premium: 1, superfast: 1, express: 2}
+  delhi_lucknow:
+    stops: [NDLS, CNB, LKO]
+    trains: {intercity: 2, superfast: 1, express: 1}
+  delhi_varanasi:
+    stops: [NDLS, CNB, PRYJ, BSB]
+    trains: {intercity: 1, express: 1}
+  delhi_amritsar:
+    stops: [NDLS, UMB, LDH, JUC, ASR]
+    trains: {intercity: 2, superfast: 1, express: 1}
+  delhi_chandigarh:
+    stops: [NDLS, UMB, CDG]
+    trains: {intercity: 2}
+  delhi_jaipur:
+    stops: [NDLS, JP]
+    trains: {intercity: 2}
+  delhi_ahmedabad:
+    stops: [DEE, JP, AII, ADI]
+    trains: {superfast: 1, express: 2}
+  mumbai_ahmedabad:
+    stops: [BDTS, ST, BRC, ADI]
+    trains: {intercity: 2, superfast: 1}
+  mumbai_howrah:
+    stops: [CSMT, KYN, NK, MMR, BSL, AK, BD, NGP, R, BSP, TATA, KGP, HWH]
+    trains: {superfast: 2, express: 1}
+  mumbai_chennai:
+    stops: [CSMT, KYN, PUNE, DD, SUR, WADI, GTL, RU, MAS]
+    trains: {superfast: 1, express: 2}
+  bengaluru_delhi:
+    stops: [SBC, GTL, SC, NGP, BPL, GWL, AGC, NZM]
+    trains: {premium: 1, superfast: 1, express: 1}
+  chennai_delhi:
+    stops: [MAS, BZA, NGP, ET, BPL, GWL, AGC, NDLS]
+    trains: {premium: 1, superfast: 1, express: 1}
+  chennai_howrah:
+    stops: [MAS, BZA, VSKP, BBS, KGP, HWH]
+    trains: {superfast: 2, express: 1}
+  chennai_bengaluru:
+    stops: [MAS, KPD, JTJ, SBC]
+    trains: {intercity: 2, express: 1}
+  mumbai_goa:
+    stops: [CSMT, PNVL, RN, MAO]
+    trains: {intercity: 1, express: 2}
+  pune_bengaluru:
+    stops: [PUNE, MRJ, UBL, SBC]
+    trains: {express: 2}
+  kerala_bengaluru:
+    stops: [TVC, ERS, PGT, CBE, JTJ, SBC]
+    trains: {intercity: 1, express: 2}
+  howrah_guwahati:
+    stops: [HWH, NJP, GHY]
+    trains: {superfast: 1, express: 2}
+  hyderabad_chennai:
+    stops: [SC, BZA, MAS]
+    trains: {express: 2}
+  jabalpur_mumbai:
+    stops: [JBP, ET, BSL, MMR, NK, KYN, CSMT]
+    trains: {express: 1, superfast: 1}

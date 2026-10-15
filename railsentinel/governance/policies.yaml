@@ -1,0 +1,86 @@
+# Governance policies for every AI asset on the platform.
+#
+# The supervisor agent reads this file on every cycle. Thresholds decide when a
+# finding is raised; `autonomy` and `approvals_required` decide which
+# remediations run automatically and which wait for a human in the Control Tower.
+
+defaults:
+  window: 400              # most recent production predictions examined per cycle
+  min_samples: 120         # below this, monitors report "insufficient data" instead of judging
+  min_labels: 150          # labelled outcomes needed before performance is judged
+  sla:
+    p95_latency_ms: 300
+    max_error_rate: 0.01
+  data_quality:
+    max_blocked_rate: 0.03
+  drift:
+    psi_warn: 0.10
+    psi_alert: 0.25
+    p_value: 0.01          # the shift must also be significant (KS for numeric, chi-square for categorical)
+  performance:
+    max_relative_degradation: 0.10
+  fairness:
+    enabled: false
+  retraining:
+    min_labels: 450        # post-change labelled outcomes required before a retrain starts
+    max_attempts: 2        # automated attempts per remediation type before escalating to a human
+  approvals_required: []
+
+assets:
+  confirmation_predictor:
+    performance: {metric: accuracy, max_relative_degradation: 0.08}
+    fairness: {enabled: true, metric: accuracy, min_ratio: 0.80}
+
+  delay_predictor:
+    performance: {metric: mae, max_relative_degradation: 0.35}
+
+  fare_forecaster:
+    performance: {metric: mae, max_relative_degradation: 0.40}
+    data_quality: {max_blocked_rate: 0.02, max_quote_anomaly_rate: 0.02}
+
+  fraud_detector:
+    performance: {metric: recall, max_relative_degradation: 0.10}
+    false_positives: {max_fpr: 0.03}
+    fairness: {enabled: true, metric: fpr, min_ratio: 0.95}
+    approvals_required: [adjust_threshold]
+
+  train_recommender:
+    window: 600
+    performance: {metric: hit_at_1, max_relative_degradation: 0.25}
+    fairness: {enabled: true, metric: hit_at_1, min_ratio: 0.30, max_drop_vs_baseline: 0.40}
+    exposure: {max_premium_exposure_ratio: 1.25}
+
+  support_assistant:
+    window: 200
+    min_samples: 60
+    hallucination: {max_rate: 0.10}
+    quality: {min_grounding: 0.60, min_csat: 0.60}
+
+  travel_planner_agent:
+    window: 150
+    min_samples: 40
+    agent:
+      max_violation_rate: 0.05
+      max_tool_error_rate: 0.10
+      max_abnormal_rate: 0.10
+      max_mean_steps: 14
+
+actions:
+  watch:                 {risk: none,   description: "Keep monitoring; no change to production"}
+  retrain:               {risk: medium, description: "Retrain on recent labelled data, evaluate, deploy as shadow"}
+  promote:               {risk: medium, description: "Promote a shadow version that beat production on live traffic"}
+  rollback:              {risk: low,    description: "Return the previous production version to service"}
+  quarantine_feed:       {risk: low,    description: "Switch an upstream feed to its backup and block bad records"}
+  circuit_breaker:       {risk: low,    description: "Stop calling a failing tool and use the cached fallback"}
+  close_circuit_breaker: {risk: low,    description: "Resume a tool after successful health probes"}
+  enable_strict_grounding: {risk: low,  description: "Force extractive, source-only answers in the support assistant"}
+  adjust_threshold:      {risk: high,   description: "Change a decision threshold that affects passengers"}
+  escalate:              {risk: none,   description: "Ask a human to investigate"}
+
+autonomy:
+  # Actions at or below this risk run without approval unless the asset lists them in approvals_required.
+  auto_execute_max_risk: medium
+  risk_order: [none, low, medium, high]
+  # Severity and tier weights used to prioritise incidents.
+  severity_weight: {info: 1, warning: 2, critical: 4}
+  tier_weight: {low: 1, medium: 1.5, high: 2.5}

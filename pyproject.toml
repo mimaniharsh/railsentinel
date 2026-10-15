@@ -1,0 +1,13 @@
+[project]
+name = "railsentinel"
+version = "1.0.0"
+description = "AI rail-travel services governed by an autonomous AI control tower"
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+markers = ["slow: end-to-end chaos scenarios (about 1-2 minutes each on a laptop)"]
+filterwarnings = ["ignore::DeprecationWarning", "ignore:Using .httpx. with .starlette.testclient. is deprecated"]

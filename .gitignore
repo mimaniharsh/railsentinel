@@ -1,0 +1,25 @@
+# Generated at runtime by scripts/bootstrap.py (root only: railsentinel/data/ is package data)
+/data/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+*.egg-info/
+build/
+dist/
+
+# Secrets
+.env
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Created by scripts/backup.py
+/backups/

@@ -1,0 +1,9512 @@
+[
+ {
+  "number": "RS101",
+  "name": "Pune\u2013Delhi Superfast Express",
+  "category": "superfast",
+  "category_label": "Superfast Express",
+  "corridor": "pune_delhi_central",
+  "classes": [
+   "SL",
+   "3A",
+   "2A",
+   "1A"
+  ],
+  "origin": "PUNE",
+  "destination": "NZM",
+  "total_km": 1580,
+  "dynamic_fare": false,
+  "stops": [
+   {
+    "code": "PUNE",
+    "arr": null,
+    "dep": "19:00",
+    "day": 1,
+    "km": 0
+   },
+   {
+    "code": "DD",
+    "arr": "20:24",
+    "dep": "20:32",
+    "day": 1,
+    "km": 84
+   },
+   {
+    "code": "MMR",
+    "arr": "00:15",
+    "dep": "00:23",
+    "day": 2,
+    "km": 307
+   },
+   {
+    "code": "BSL",
+    "arr": "03:29",
+    "dep": "03:37",
+    "day": 2,
+    "km": 493
+   },
+   {
+    "code": "ET",
+    "arr": "08:37",
+    "dep": "08:45",
+    "day": 2,
+    "km": 793
+   },
+   {
+    "code": "BPL",
+    "arr": "10:17",
+    "dep": "10:25",
+    "day": 2,
+    "km": 885
+   },
+   {
+    "code": "GWL",
+    "arr": "16:42",
+    "dep": "16:50",
+    "day": 2,
+    "km": 1262
+   },
+   {
+    "code": "AGC",
+    "arr": "18:49",
+    "dep": "18:57",
+    "day": 2,
+    "km": 1381
+   },
+   {
+    "code": "MTJ",
+    "arr": "19:50",
+    "dep": "19:58",
+    "day": 2,
+    "km": 1435
+   },
+   {
+    "code": "NZM",
+    "arr": "22:23",
+    "dep": null,
+    "day": 2,
+    "km": 1580
+   }
+  ]
+ },
+ {
+  "number": "RS102",
+  "name": "Delhi\u2013Pune Superfast Express",
+  "category": "superfast",
+  "category_label": "Superfast Express",
+  "corridor": "pune_delhi_central",
+  "classes": [
+   "SL",
+   "3A",
+   "2A",
+   "1A"
+  ],
+  "origin": "NZM",
+  "destination": "PUNE",
+  "total_km": 1580,
+  "dynamic_fare": false,
+  "stops": [
+   {
+    "code": "NZM",
+    "arr": null,
+    "dep": "05:35",
+    "day": 1,
+    "km": 0
+   },
+   {
+    "code": "MTJ",
+    "arr": "08:00",
+    "dep": "08:08",
+    "day": 1,
+    "km": 145
+   },
+   {
+    "code": "AGC",
+    "arr": "09:01",
+    "dep": "09:09",
+    "day": 1,
+    "km": 199
+   },
+   {
+    "code": "GWL",
+    "arr": "11:08",
+    "dep": "11:16",
+    "day": 1,
+    "km": 318
+   },
+   {
+    "code": "BPL",
+    "arr": "17:33",
+    "dep": "17:41",
+    "day": 1,
+    "km": 695
+   },
+   {
+    "code": "ET",
+    "arr": "19:13",
+    "dep": "19:21",
+    "day": 1,
+    "km": 787
+   },
+   {
+    "code": "BSL",
+    "arr": "00:21",
+    "dep": "00:29",
+    "day": 2,
+    "km": 1087
+   },
+   {
+    "code": "MMR",
+    "arr": "03:35",
+    "dep": "03:43",
+    "day": 2,
+    "km": 1273
+   },
+   {
+    "code": "DD",
+    "arr": "07:26",
+    "dep": "07:34",
+    "day": 2,
+    "km": 1496
+   },
+   {
+    "code": "PUNE",
+    "arr": "08:58",
+    "dep": null,
+    "day": 2,
+    "km": 1580
+   }
+  ]
+ },
+ {
+  "number": "RS103",
+  "name": "Pune\u2013Delhi Superfast Express",
+  "category": "superfast",
+  "category_label": "Superfast Express",
+  "corridor": "pune_delhi_central",
+  "classes": [
+   "SL",
+   "3A",
+   "2A",
+   "1A"
+  ],
+  "origin": "PUNE",
+  "destination": "NZM",
+  "total_km": 1580,
+  "dynamic_fare": false,
+  "stops": [
+   {
+    "code": "PUNE",
+    "arr": null,
+    "dep": "07:05",
+    "day": 1,
+    "km": 0
+   },
+   {
+    "code": "DD",
+    "arr": "08:29",
+    "dep": "08:37",
+    "day": 1,
+    "km": 84
+   },
+   {
+    "code": "MMR",
+    "arr": "12:20",
+    "dep": "12:28",
+    "day": 1,
+    "km": 307
+   },
+   {
+    "code": "BSL",
+    "arr": "15:34",
+    "dep": "15:42",
+    "day": 1,
+    "km": 493
+   },
+   {
+    "code": "ET",
+    "arr": "20:42",
+    "dep": "20:50",
+    "day": 1,
+    "km": 793
+   },
+   {
+    "code": "BPL",
+    "arr": "22:22",
+    "dep": "22:30",
+    "day": 1,
+    "km": 885
+   },
+   {
+    "code": "GWL",
+    "arr": "04:47",
+    "dep": "04:55",
+    "day": 2,
+    "km": 1262
+   },
+   {
+    "code": "AGC",
+    "arr": "06:54",
+    "dep": "07:02",
+    "day": 2,
+    "km": 1381
+   },
+   {
+    "code": "MTJ",
+    "arr": "07:55",
+    "dep": "08:03",
+    "day": 2,
+    "km": 1435
+   },
+   {
+    "code": "NZM",
+    "arr": "10:28",
+    "dep": null,
+    "day": 2,
+    "km": 1580
+   }
+  ]
+ },
+ {
+  "number": "RS104",
+  "name": "Delhi\u2013Pune Superfast Express",
+  "category": "superfast",
+  "category_label": "Superfast Express",
+  "corridor": "pune_delhi_central",
+  "classes": [
+   "SL",
+   "3A",
+   "2A",
+   "1A"
+  ],
+  "origin": "NZM",
+  "destination": "PUNE",
+  "total_km": 1580,
+  "dynamic_fare": false,
+  "stops": [
+   {
+    "code": "NZM",
+    "arr": null,
+    "dep": "21:55",
+    "day": 1,
+    "km": 0
+   },
+   {
+    "code": "MTJ",
+    "arr": "00:20",
+    "dep": "00:28",
+    "day": 2,
+    "km": 145
+   },
+   {
+    "code": "AGC",
+    "arr": "01:21",
+    "dep": "01:29",
+    "day": 2,
+    "km": 199
+   },
+   {
+    "code": "GWL",
+    "arr": "03:28",
+    "dep": "03:36",
+    "day": 2,
+    "km": 318
+   },
+   {
+    "code": "BPL",
+    "arr": "09:53",
+    "dep": "10:01",
+    "day": 2,
+    "km": 695
+   },
+   {
+    "code": "ET",
+    "arr": "11:33",
+    "dep": "11:41",
+    "day": 2,
+    "km": 787
+   },
+   {
+    "code": "BSL",
+    "arr": "16:41",
+    "dep": "16:49",
+    "day": 2,
+    "km": 1087
+   },
+   {
+    "code": "MMR",
+    "arr": "19:55",
+    "dep": "20:03",
+    "day": 2,
+    "km": 1273
+   },
+   {
+    "code": "DD",
+    "arr": "23:46",
+    "dep": "23:54",
+    "day": 2,
+    "km": 1496
+   },
+   {
+    "code": "PUNE",
+    "arr": "01:18",
+    "dep": null,
+    "day": 3,
+    "km": 1580
+   }
+  ]
+ },
+ {
+  "number": "RS105",
+  "name": "Pune\u2013Delhi Mail/Express",
+  "category": "express",
+  "category_label": "Mail/Express",
+  "corridor": "pune_delhi_central",
+  "classes": [
+   "2S",
+   "SL",
+   "3A",
+   "2A"
+  ],
+  "origin": "PUNE",
+  "destination": "NZM",
+  "total_km": 1580,
+  "dynamic_fare": false,
+  "stops": [
+   {
+    "code": "PUNE",
+    "arr": null,
+    "dep": "22:35",
+    "day": 1,
+    "km": 0
+   },
+   {
+    "code": "DD",
+    "arr": "00:15",
+    "dep": "00:23",
+    "day": 2,
+    "km": 84
+   },
+   {
+    "code": "MMR",
+    "arr": "04:51",
+    "dep": "04:59",
+    "day": 2,
+    "km": 307
+   },
+   {
+    "code": "BSL",
+    "arr": "08:42",
+    "dep": "08:50",
+    "day": 2,
+    "km": 493
+   },
+   {
+    "code": "ET",
+    "arr": "14:50",
+    "dep": "14:58",
+    "day": 2,
+    "km": 793
+   },
+   {
+    "code": "BPL",
+    "arr": "16:48",
+    "dep": "16:56",
+    "day": 2,
+    "km": 885
+   },
+   {
+    "code": "GWL",
+    "arr": "00:29",
+    "dep": "00:37",
+    "day": 3,
+    "km": 1262
+   },
+   {
+    "code": "AGC",
+    "arr": "03:00",
+    "dep": "03:08",
+    "day": 3,
+    "km": 1381
+   },
+   {
+    "code": "MTJ",
+    "arr": "04:12",
+    "dep": "04:20",
+    "day": 3,
+    "km": 1435
+   },
+   {
+    "code": "NZM",
+    "arr": "07:14",
+    "dep": null,
+    "day": 3,
+    "km": 1580
+   }
+  ]
+ },
+ {
+  "number": "RS106",
+  "name": "Delhi\u2013Pune Mail/Express",
+  "category": "express",
+  "category_label": "Mail/Express",
+  "corridor": "pune_delhi_central",
+  "classes": [
+   "2S",
+   "SL",
+   "3A",
+   "2A"
+  ],
+  "origin": "NZM",
+  "destination": "PUNE",
+  "total_km": 1580,
+  "dynamic_fare": false,
+  "stops": [
+   {
+    "code": "NZM",
+    "arr": null,
+    "dep": "06:30",
+    "day": 1,
+    "km": 0
+   },
+   {
+    "code": "MTJ",
+    "arr": "09:24",
+    "dep": "09:32",
+    "day": 1,
+    "km": 145
+   },
+   {
+    "code": "AGC",
+    "arr": "10:36",
+    "dep": "10:44",
+    "day": 1,
+    "km": 199
+   },
+   {
+    "code": "GWL",
+    "arr": "13:07",
+    "dep": "13:15",
+    "day": 1,
+    "km": 318
+   },
+   {
+    "code": "BPL",
+    "arr": "20:48",
+    "dep": "20:56",
+    "day": 1,
+    "km": 695
+   },
+   {
+    "code": "ET",
+    "arr": "22:46",
+    "dep": "22:54",
+    "day": 1,
+    "km": 787
+   },
+   {
+    "code": "BSL",
+    "arr": "04:54",
+    "dep": "05:02",
+    "day": 2,
+    "km": 1087
+   },
+   {
+    "code": "MMR",
+    "arr": "08:45",
+    "dep": "08:53",
+    "day": 2,
+    "km": 1273
+   },
+   {
+    "code": "DD",
+    "arr": "13:21",
+    "dep": "13:29",
+    "day": 2,
+    "km": 1496
+   },
+   {
+    "code": "PUNE",
+    "arr": "15:09",
+    "dep": null,
+    "day": 2,
+    "km": 1580
+   }
+  ]
+ },
+ {
+  "number": "RS107",
+  "name": "Pune\u2013Delhi Mail/Express",
+  "category": "express",
+  "category_label": "Mail/Express",
+  "corridor": "pune_delhi_central",
+  "classes": [
+   "2S",
+   "SL",
+   "3A",
+   "2A"
+  ],
+  "origin": "PUNE",
+  "destination": "NZM",
+  "total_km": 1580,
+  "dynamic_fare": false,
+  "stops": [
+   {
+    "code": "PUNE",
+    "arr": null,
+    "dep": "04:50",
+    "day": 1,
+    "km": 0
+   },
+   {
+    "code": "DD",
+    "arr": "06:30",
+    "dep": "06:38",
+    "day": 1,
+    "km": 84
+   },
+   {
+    "code": "MMR",
+    "arr": "11:06",
+    "dep": "11:14",
+    "day": 1,
+    "km": 307
+   },
+   {
+    "code": "BSL",
+    "arr": "14:57",
+    "dep": "15:05",
+    "day": 1,
+    "km": 493
+   },
+   {
+    "code": "ET",
+    "arr": "21:05",
+    "dep": "21:13",
+    "day": 1,
+    "km": 793
+   },
+   {
+    "code": "BPL",
+    "arr": "23:03",
+    "dep": "23:11",
+    "day": 1,
+    "km": 885
+   },
+   {
+    "code": "GWL",
+    "arr": "06:44",
+    "dep": "06:52",
+    "day": 2,
+    "km": 1262
+   },
+   {
+    "code": "AGC",
+    "arr": "09:15",
+    "dep": "09:23",
+    "day": 2,
+    "km": 1381
+   },
+   {
+    "code": "MTJ",
+    "arr": "10:27",
+    "dep": "10:35",
+    "day": 2,
+    "km": 1435
+   },
+   {
+    "code": "NZM",
+    "arr": "13:29",
+    "dep": null,
+    "day": 2,
+    "km": 1580
+   }
+  ]
+ },
+ {
+  "number": "RS108",
+  "name": "Delhi\u2013Pune Mail/Express",
+  "category": "express",
+  "category_label": "Mail/Express",
+  "corridor": "pune_delhi_central",
+  "classes": [
+   "2S",
+   "SL",
+   "3A",
+   "2A"
+  ],
+  "origin": "NZM",
+  "destination": "PUNE",
+  "total_km": 1580,
+  "dynamic_fare": false,
+  "stops": [
+   {
+    "code": "NZM",
+    "arr": null,
+    "dep": "05:50",
+    "day": 1,
+    "km": 0
+   },
+   {
+    "code": "MTJ",
+    "arr": "08:44",
+    "dep": "08:52",
+    "day": 1,
+    "km": 145
+   },
+   {
+    "code": "AGC",
+    "arr": "09:56",
+    "dep": "10:04",
+    "day": 1,
+    "km": 199
+   },
+   {
+    "code": "GWL",
+    "arr": "12:27",
+    "dep": "12:35",
+    "day": 1,
+    "km": 318
+   },
+   {
+    "code": "BPL",
+    "arr": "20:08",
+    "dep": "20:16",
+    "day": 1,
+    "km": 695
+   },
+   {
+    "code": "ET",
+    "arr": "22:06",
+    "dep": "22:14",
+    "day": 1,
+    "km": 787
+   },
+   {
+    "code": "BSL",
+    "arr": "04:14",
+    "dep": "04:22",
+    "day": 2,
+    "km": 1087
+   },
+   {
+    "code": "MMR",
+    "arr": "08:05",
+    "dep": "08:13",
+    "day": 2,
+    "km": 1273
+   },
+   {
+    "code": "DD",
+    "arr": "12:41",
+    "dep": "12:49",
+    "day": 2,
+    "km": 1496
+   },
+   {
+    "code": "PUNE",
+    "arr": "14:29",
+    "dep": null,
+    "day": 2,
+    "km": 1580
+   }
+  ]
+ },
+ {
+  "number": "RS109",
+  "name": "Pune\u2013Delhi Premium Express",
+  "category": "premium",
+  "category_label": "Premium Express",
+  "corridor": "pune_delhi_western",
+  "classes": [
+   "3A",
+   "2A",
+   "1A"
+  ],
+  "origin": "PUNE",
+  "destination": "NDLS",
+  "total_km": 1469,
+  "dynamic_fare": true,
+  "stops": [
+   {
+    "code": "PUNE",
+    "arr": null,
+    "dep": "19:35",
+    "day": 1,
+    "km": 0
+   },
+   {
+    "code": "KYN",
+    "arr": "21:16",
+    "dep": "21:21",
+    "day": 1,
+    "km": 124
+   },
+   {
+    "code": "ST",
+    "arr": "00:42",
+    "dep": "00:47",
+    "day": 2,
+    "km": 372
+   },
+   {
+    "code": "BRC",
+    "arr": "02:43",
+    "dep": "02:48",
+    "day": 2,
+    "km": 515
+   },
+   {
+    "code": "RTM",
+    "arr": "06:11",
+    "dep": "06:16",
+    "day": 2,
+    "km": 765
+   },
+   {
+    "code": "KOTA",
+    "arr": "09:41",
+    "dep": "09:46",
+    "day": 2,
+    "km": 1018
+   },
+   {
+    "code": "NDLS",
+    "arr": "15:52",
+    "dep": null,
+    "day": 2,
+    "km": 1469
+   }
+  ]
+ },
+ {
+  "number": "RS110",
+  "name": "Delhi\u2013Pune Premium Express",
+  "category": "premium",
+  "category_label": "Premium Express",
+  "corridor": "pune_delhi_western",
+  "classes": [
+   "3A",
+   "2A",
+   "1A"
+  ],
+  "origin": "NDLS",
+  "destination": "PUNE",
+  "total_km": 1469,
+  "dynamic_fare": true,
+  "stops": [
+   {
+    "code": "NDLS",
+    "arr": null,
+    "dep": "19:25",
+    "day": 1,
+    "km": 0
+   },
+   {
+    "code": "KOTA",
+    "arr": "01:31",
+    "dep": "01:36",
+    "day": 2,
+    "km": 451
+   },
+   {
+    "code": "RTM",
+    "arr": "05:01",
+    "dep": "05:06",
+    "day": 2,
+    "km": 704
+   },
+   {
+    "code": "BRC",
+    "arr": "08:29",
+    "dep": "08:34",
+    "day": 2,
+    "km": 954
+   },
+   {
+    "code": "ST",
+    "arr": "10:30",
+    "dep": "10:35",
+    "day": 2,
+    "km": 1097
+   },
+   {
+    "code": "KYN",
+    "arr": "13:56",
+    "dep": "14:01",
+    "day": 2,
+    "km": 1345
+   },
+   {
+    "code": "PUNE",
+    "arr": "15:42",
+    "dep": null,
+    "day": 2,
+    "km": 1469
+   }
+  ]
+ },
+ {
+  "number": "RS111",
+  "name": "Pune\u2013Delhi Superfast Express",
+  "category": "superfast",
+  "category_label": "Superfast Express",
+  "corridor": "pune_delhi_western",
+  "classes": [
+   "SL",
+   "3A",
+   "2A",
+   "1A"
+  ],
+  "origin": "PUNE",
+  "destination": "NDLS",
+  "total_km": 1469,
+  "dynamic_fare": false,
+  "stops": [
+   {
+    "code": "PUNE",
+    "arr": null,
+    "dep": "18:55",
+    "day": 1,
+    "km": 0
+   },
+   {
+    "code": "KYN",
+    "arr": "20:59",
+    "dep": "21:07",
+    "day": 1,
+    "km": 124
+   },
+   {
+    "code": "ST",
+    "arr": "01:15",
+    "dep": "01:23",
+    "day": 2,
+    "km": 372
+   },
+   {
+    "code": "BRC",
+    "arr": "03:46",
+    "dep": "03:54",
+    "day": 2,
+    "km": 515
+   },
+   {
+    "code": "RTM",
+    "arr": "08:04",
+    "dep": "08:12",
+    "day": 2,
+    "km": 765
+   },
+   {
+    "code": "KOTA",
+    "arr": "12:25",
+    "dep": "12:33",
+    "day": 2,
+    "km": 1018
+   },
+   {
+    "code": "NDLS",
+    "arr": "20:04",
+    "dep": null,
+    "day": 2,
+    "km": 1469
+   }
+  ]
+ },
+ {
+  "number": "RS112",
+  "name": "Delhi\u2013Pune Superfast Express",
+  "category": "superfast",
+  "category_label": "Superfast Express",
+  "corridor": "pune_delhi_western",
+  "classes": [
+   "SL",
+   "3A",
+   "2A",
+   "1A"
+  ],
+  "origin": "NDLS",
+  "destination": "PUNE",
+  "total_km": 1469,
+  "dynamic_fare": false,
+  "stops": [
+   {
+    "code": "NDLS",
+    "arr": null,
+    "dep": "07:30",
+    "day": 1,
+    "km": 0
+   },
+   {
+    "code": "KOTA",
+    "arr": "15:01",
+    "dep": "15:09",
+    "day": 1,
+    "km": 451
+   },
+   {
+    "code": "RTM",
+    "arr": "19:22",
+    "dep": "19:30",
+    "day": 1,
+    "km": 704
+   },
+   {
+    "code": "BRC",
+    "arr": "23:40",
+    "dep": "23:48",
+    "day": 1,
+    "km": 954
+   },
+   {
+    "code": "ST",
+    "arr": "02:11",
+    "dep": "02:19",
+    "day": 2,
+    "km": 1097
+   },
+   {
+    "code": "KYN",
+    "arr": "06:27",
+    "dep": "06:35",
+    "day": 2,
+    "km": 1345
+   },
+   {
+    "code": "PUNE",
+    "arr": "08:39",
+    "dep": null,
+    "day": 2,
+    "km": 1469
+   }
+  ]
+ },
+ {
+  "number": "RS113",
+  "name": "Pune\u2013Delhi Mail/Express",
+  "category": "express",
+  "category_label": "Mail/Express",
+  "corridor": "pune_delhi_western",
+  "classes": [
+   "2S",
+   "SL",
+   "3A",
+   "2A"
+  ],
+  "origin": "PUNE",
+  "destination": "NDLS",
+  "total_km": 1469,
+  "dynamic_fare": false,
+  "stops": [
+   {
+    "code": "PUNE",
+    "arr": null,
+    "dep": "13:25",
+    "day": 1,
+    "km": 0
+   },
+   {
+    "code": "KYN",
+    "arr": "15:54",
+    "dep": "16:02",
+    "day": 1,
+    "km": 124
+   },
+   {
+    "code": "ST",
+    "arr": "20:59",
+    "dep": "21:07",
+    "day": 1,
+    "km": 372
+   },
+   {
+    "code": "BRC",
+    "arr": "23:59",
+    "dep": "00:07",
+    "day": 1,
+    "km": 515
+   },
+   {
+    "code": "RTM",
+    "arr": "05:07",
+    "dep": "05:15",
+    "day": 2,
+    "km": 765
+   },
+   {
+    "code": "KOTA",
+    "arr": "10:18",
+    "dep": "10:26",
+    "day": 2,
+    "km": 1018
+   },
+   {
+    "code": "NDLS",
+    "arr": "19:27",
+    "dep": null,
+    "day": 2,
+    "km": 1469
+   }
+  ]
+ },
+ {
+  "number": "RS114",
+  "name": "Delhi\u2013Pune Mail/Express",
+  "category": "express",
+  "category_label": "Mail/Express",
+  "corridor": "pune_delhi_western",
+  "classes": [
+   "2S",
+   "SL",
+   "3A",
+   "2A"
+  ],
+  "origin": "NDLS",
+  "destination": "PUNE",
+  "total_km": 1469,
+  "dynamic_fare": false,
+  "stops": [
+   {
+    "code": "NDLS",
+    "arr": null,
+    "dep": "21:35",
+    "day": 1,
+    "km": 0
+   },
+   {
+    "code": "KOTA",
+    "arr": "06:36",
+    "dep": "06:44",
+    "day": 2,
+    "km": 451
+   },
+   {
+    "code": "RTM",
+    "arr": "11:47",
+    "dep": "11:55",
+    "day": 2,
+    "km": 704
+   },
+   {
+    "code": "BRC",
+    "arr": "16:55",
+    "dep": "17:03",
+    "day": 2,
+    "km": 954
+   },
+   {
+    "code": "ST",
+    "arr": "19:55",
+    "dep": "20:03",
+    "day": 2,
+    "km": 1097
+   },
+   {
+    "code": "KYN",
+    "arr": "01:00",
+    "dep": "01:08",
+    "day": 3,
+    "km": 1345
+   },
+   {
+    "code": "PUNE",
+    "arr": "03:37",
+    "dep": null,
+    "day": 3,
+    "km": 1469
+   }
+  ]
+ },
+ {
+  "number": "RS115",
+  "name": "Mumbai\u2013Delhi Premium Express",
+  "category": "premium",
+  "category_label": "Premium Express",
+  "corridor": "mumbai_delhi_western",
+  "classes": [
+   "3A",
+   "2A",
+   "1A"
+  ],
+  "origin": "BDTS",
+  "destination": "NDLS",
+  "total_km": 1411,
+  "dynamic_fare": true,
+  "stops": [
+   {
+    "code": "BDTS",
+    "arr": null,
+    "dep": "19:00",
+    "day": 1,
+    "km": 0
+   },
+   {
+    "code": "ST",
+    "arr": "22:37",
+    "dep": "22:42",
+    "day": 1,
+    "km": 267
+   },
+   {
+    "code": "BRC",
+    "arr": "00:38",
+    "dep": "00:43",
+    "day": 2,
+    "km": 410
+   },
+   {
+    "code": "RTM",
+    "arr": "04:06",
+    "dep": "04:11",
+    "day": 2,
+    "km": 660
+   },
+   {
+    "code": "KOTA",
+    "arr": "07:36",
+    "dep": "07:41",
+    "day": 2,
+    "km": 913
+   },
+   {
+    "code": "MTJ",
+    "arr": "12:21",
+    "dep": "12:26",
+    "day": 2,
+    "km": 1258
+   },
+   {
+    "code": "NDLS",
+    "arr": "14:30",
+    "dep": null,
+    "day": 2,
+    "km": 1411
+   }
+  ]
+ },
+ {
+  "number": "RS116",
+  "name": "Delhi\u2013Mumbai Premium Express",
+  "category": "premium",
+  "category_label": "Premium Express",
+  "corridor": "mumbai_delhi_western",
+  "classes": [
+   "3A",
+   "2A",
+   "1A"
+  ],
+  "origin": "NDLS",
+  "destination": "BDTS",
+  "total_km": 1411,
+  "dynamic_fare": true,
+  "stops": [
+   {
+    "code": "NDLS",
+    "arr": null,
+    "dep": "19:50",
+    "day": 1,
+    "km": 0
+   },
+   {
+    "code": "MTJ",
+    "arr": "21:54",
+    "dep": "21:59",
+    "day": 1,
+    "km": 153
+   },
+   {
+    "code": "KOTA",
+    "arr": "02:39",
+    "dep": "02:44",
+    "day": 2,
+    "km": 498
+   },
+   {
+    "code": "RTM",
+    "arr": "06:09",
+    "dep": "06:14",
+    "day": 2,
+    "km": 751
+   },
+   {
+    "code": "BRC",
+    "arr": "09:37",
+    "dep": "09:42",
+    "day": 2,
+    "km": 1001
+   },
+   {
+    "code": "ST",
+    "arr": "11:38",
+    "dep": "11:43",
+    "day": 2,
+    "km": 1144
+   },
+   {
+    "code": "BDTS",
+    "arr": "15:20",
+    "dep": null,
+    "day": 2,
+    "km": 1411
+   }
+  ]
+ },
+ {
+  "number": "RS117",
+  "name": "Mumbai\u2013Delhi Premium Express",
+  "category": "premium",
+  "category_label": "Premium Express",
+  "corridor": "mumbai_delhi_western",
+  "classes": [
+   "3A",
+   "2A",
+   "1A"
+  ],
+  "origin": "BDTS",
+  "destination": "NDLS",
+  "total_km": 1411,
+  "dynamic_fare": true,
+  "stops": [
+   {
+    "code": "BDTS",
+    "arr": null,
+    "dep": "16:05",
+    "day": 1,
+    "km": 0
+   },
+   {
+    "code": "ST",
+    "arr": "19:42",
+    "dep": "19:47",
+    "day": 1,
+    "km": 267
+   },
+   {
+    "code": "BRC",
+    "arr": "21:43",
+    "dep": "21:48",
+    "day": 1,
+    "km": 410
+   },
+   {
+    "code": "RTM",
+    "arr": "01:11",
+    "dep": "01:16",
+    "day": 2,
+    "km": 660
+   },
+   {
+    "code": "KOTA",
+    "arr": "04:41",
+    "dep": "04:46",
+    "day": 2,
+    "km": 913
+   },
+   {
+    "code": "MTJ",
+    "arr": "09:26",
+    "dep": "09:31",
+    "day": 2,
+    "km": 1258
+   },
+   {
+    "code": "NDLS",
+    "arr": "11:35",
+    "dep": null,
+    "day": 2,
+    "km": 1411
+   }
+  ]
+ },
+ {
+  "number": "RS118",
+  "name": "Delhi\u2013Mumbai Premium Express",
+  "category": "premium",
+  "category_label": "Premium Express",
+  "corridor": "mumbai_delhi_western",
+  "classes": [
+   "3A",
+   "2A",
+   "1A"
+  ],
+  "origin": "NDLS",
+  "destination": "BDTS",
+  "total_km": 1411,
+  "dynamic_fare": true,
+  "stops": [
+   {
+    "code": "NDLS",
+    "arr": null,
+    "dep": "19:50",
+    "day": 1,
+    "km": 0
+   },
+   {
+    "code": "MTJ",
+    "arr": "21:54",
+    "dep": "21:59",
+    "day": 1,
+    "km": 153
+   },
+   {
+    "code": "KOTA",
+    "arr": "02:39",
+    "dep": "02:44",
+    "day": 2,
+    "km": 498
+   },
+   {
+    "code": "RTM",
+    "arr": "06:09",
+    "dep": "06:14",
+    "day": 2,
+    "km": 751
+   },
+   {
+    "code": "BRC",
+    "arr": "09:37",
+    "dep": "09:42",
+    "day": 2,
+    "km": 1001
+   },
+   {
+    "code": "ST",
+    "arr": "11:38",
+    "dep": "11:43",
+    "day": 2,
+    "km": 1144
+   },
+   {
+    "code": "BDTS",
+    "arr": "15:20",
+    "dep": null,
+    "day": 2,
+    "km": 1411
+   }
+  ]
+ },
+ {
+  "number": "RS119",
+  "name": "Mumbai\u2013Delhi Superfast Express",
+  "category": "superfast",
+  "category_label": "Superfast Express",
+  "corridor": "mumbai_delhi_western",
+  "classes": [
+   "SL",
+   "3A",
+   "2A",
+   "1A"
+  ],
+  "origin": "BDTS",
+  "destination": "NDLS",
+  "total_km": 1411,
+  "dynamic_fare": false,
+  "stops": [
+   {
+    "code": "BDTS",
+    "arr": null,
+    "dep": "20:45",
+    "day": 1,
+    "km": 0
+   },
+   {
+    "code": "ST",
+    "arr": "01:12",
+    "dep": "01:20",
+    "day": 2,
+    "km": 267
+   },
+   {
+    "code": "BRC",
+    "arr": "03:43",
+    "dep": "03:51",
+    "day": 2,
+    "km": 410
+   },
+   {
+    "code": "RTM",
+    "arr": "08:01",
+    "dep": "08:09",
+    "day": 2,
+    "km": 660
+   },
+   {
+    "code": "KOTA",
+    "arr": "12:22",
+    "dep": "12:30",
+    "day": 2,
+    "km": 913
+   },
+   {
+    "code": "MTJ",
+    "arr": "18:15",
+    "dep": "18:23",
+    "day": 2,
+    "km": 1258
+   },
+   {
+    "code": "NDLS",
+    "arr": "20:56",
+    "dep": null,
+    "day": 2,
+    "km": 1411
+   }
+  ]
+ },
+ {
+  "number": "RS120",
+  "name": "Delhi\u2013Mumbai Superfast Express",
+  "category": "superfast",
+  "category_label": "Superfast Express",
+  "corridor": "mumbai_delhi_western",
+  "classes": [
+   "SL",
+   "3A",
+   "2A",
+   "1A"
+  ],
+  "origin": "NDLS",
+  "destination": "BDTS",
+  "total_km": 1411,
+  "dynamic_fare": false,
+  "stops": [
+   {
+    "code": "NDLS",
+    "arr": null,
+    "dep": "18:30",
+    "day": 1,
+    "km": 0
+   },
+   {
+    "code": "MTJ",
+    "arr": "21:03",
+    "dep": "21:11",
+    "day": 1,
+    "km": 153
+   },
+   {
+    "code": "KOTA",
+    "arr": "02:56",
+    "dep": "03:04",
+    "day": 2,
+    "km": 498
+   },
+   {
+    "code": "RTM",
+    "arr": "07:17",
+    "dep": "07:25",
+    "day": 2,
+    "km": 751
+   },
+   {
+    "code": "BRC",
+    "arr": "11:35",
+    "dep": "11:43",
+    "day": 2,
+    "km": 1001
+   },
+   {
+    "code": "ST",
+    "arr": "14:06",
+    "dep": "14:14",
+    "day": 2,
+    "km": 1144
+   },
+   {
+    "code": "BDTS",
+    "arr": "18:41",
+    "dep": null,
+    "day": 2,
+    "km": 1411
+   }
+  ]
+ },
+ {
+  "number": "RS121",
+  "name": "Mumbai\u2013Delhi Superfast Express",
+  "category": "superfast",
+  "category_label": "Superfast Express",
+  "corridor": "mumbai_delhi_western",
+  "classes": [
+   "SL",
+   "3A",
+   "2A",
+   "1A"
+  ],
+  "origin": "BDTS",
+  "destination": "NDLS",
+  "total_km": 1411,
+  "dynamic_fare": false,
+  "stops": [
+   {
+    "code": "BDTS",
+    "arr": null,
+    "dep": "18:15",
+    "day": 1,
+    "km": 0
+   },
+   {
+    "code": "ST",
+    "arr": "22:42",
+    "dep": "22:50",
+    "day": 1,
+    "km": 267
+   },
+   {
+    "code": "BRC",
+    "arr": "01:13",
+    "dep": "01:21",
+    "day": 2,
+    "km": 410
+   },
+   {
+    "code": "RTM",
+    "arr": "05:31",
+    "dep": "05:39",
+    "day": 2,
+    "km": 660
+   },
+   {
+    "code": "KOTA",
+    "arr": "09:52",
+    "dep": "10:00",
+    "day": 2,
+    "km": 913
+   },
+   {
+    "code": "MTJ",
+    "arr": "15:45",
+    "dep": "15:53",
+    "day": 2,
+    "km": 1258
+   },
+   {
+    "code": "NDLS",
+    "arr": "18:26",
+    "dep": null,
+    "day": 2,
+    "km": 1411
+   }
+  ]
+ },
+ {
+  "number": "RS122",
+  "name": "Delhi\u2013Mumbai Superfast Express",
+  "category": "superfast",
+  "category_label": "Superfast Express",
+  "corridor": "mumbai_delhi_western",
+  "classes": [
+   "SL",
+   "3A",
+   "2A",
+   "1A"
+  ],
+  "origin": "NDLS",
+  "destination": "BDTS",
+  "total_km": 1411,
+  "dynamic_fare": false,
+  "stops": [
+   {
+    "code": "NDLS",
+    "arr": null,
+    "dep": "07:50",
+    "day": 1,
+    "km": 0
+   },
+   {
+    "code": "MTJ",
+    "arr": "10:23",
+    "dep": "10:31",
+    "day": 1,
+    "km": 153
+   },
+   {
+    "code": "KOTA",
+    "arr": "16:16",
+    "dep": "16:24",
+    "day": 1,
+    "km": 498
+   },
+   {
+    "code": "RTM",
+    "arr": "20:37",
+    "dep": "20:45",
+    "day": 1,
+    "km": 751
+   },
+   {
+    "code": "BRC",
+    "arr": "00:55",
+    "dep": "01:03",
+    "day": 2,
+    "km": 1001
+   },
+   {
+    "code": "ST",
+    "arr": "03:26",
+    "dep": "03:34",
+    "day": 2,
+    "km": 1144
+   },
+   {
+    "code": "BDTS",
+    "arr": "08:01",
+    "dep": null,
+    "day": 2,
+    "km": 1411
+   }
+  ]
+ },
+ {
+  "number": "RS123",
+  "name": "Mumbai\u2013Delhi Mail/Express",
+  "category": "express",
+  "category_label": "Mail/Express",
+  "corridor": "mumbai_delhi_western",
+  "classes": [
+   "2S",
+   "SL",
+   "3A",
+   "2A"
+  ],
+  "origin": "BDTS",
+  "destination": "NDLS",
+  "total_km": 1411,
+  "dynamic_fare": false,
+  "stops": [
+   {
+    "code": "BDTS",
+    "arr": null,
+    "dep": "10:00",
+    "day": 1,
+    "km": 0
+   },
+   {
+    "code": "ST",
+    "arr": "15:21",
+    "dep": "15:29",
+    "day": 1,
+    "km": 267
+   },
+   {
+    "code": "BRC",
+    "arr": "18:21",
+    "dep": "18:29",
+    "day": 1,
+    "km": 410
+   },
+   {
+    "code": "RTM",
+    "arr": "23:29",
+    "dep": "23:37",
+    "day": 1,
+    "km": 660
+   },
+   {
+    "code": "KOTA",
+    "arr": "04:40",
+    "dep": "04:48",
+    "day": 2,
+    "km": 913
+   },
+   {
+    "code": "MTJ",
+    "arr": "11:42",
+    "dep": "11:50",
+    "day": 2,
+    "km": 1258
+   },
+   {
+    "code": "NDLS",
+    "arr": "14:54",
+    "dep": null,
+    "day": 2,
+    "km": 1411
+   }
+  ]
+ },
+ {
+  "number": "RS124",
+  "name": "Delhi\u2013Mumbai Mail/Express",
+  "category": "express",
+  "category_label": "Mail/Express",
+  "corridor": "mumbai_delhi_western",
+  "classes": [
+   "2S",
+   "SL",
+   "3A",
+   "2A"
+  ],
+  "origin": "NDLS",
+  "destination": "BDTS",
+  "total_km": 1411,
+  "dynamic_fare": false,
+  "stops": [
+   {
+    "code": "NDLS",
+    "arr": null,
+    "dep": "01:25",
+    "day": 1,
+    "km": 0
+   },
+   {
+    "code": "MTJ",
+    "arr": "04:29",
+    "dep": "04:37",
+    "day": 1,
+    "km": 153
+   },
+   {
+    "code": "KOTA",
+    "arr": "11:31",
+    "dep": "11:39",
+    "day": 1,
+    "km": 498
+   },
+   {
+    "code": "RTM",
+    "arr": "16:42",
+    "dep": "16:50",
+    "day": 1,
+    "km": 751
+   },
+   {
+    "code": "BRC",
+    "arr": "21:50",
+    "dep": "21:58",
+    "day": 1,
+    "km": 1001
+   },
+   {
+    "code": "ST",
+    "arr": "00:50",
+    "dep": "00:58",
+    "day": 2,
+    "km": 1144
+   },
+   {
+    "code": "BDTS",
+    "arr": "06:19",
+    "dep": null,
+    "day": 2,
+    "km": 1411
+   }
+  ]
+ },
+ {
+  "number": "RS125",
+  "name": "Mumbai\u2013Delhi Superfast Express",
+  "category": "superfast",
+  "category_label": "Superfast Express",
+  "corridor": "mumbai_delhi_central",
+  "classes": [
+   "SL",
+   "3A",
+   "2A",
+   "1A"
+  ],
+  "origin": "LTT",
+  "destination": "NDLS",
+  "total_km": 1514,
+  "dynamic_fare": false,
+  "stops": [
+   {
+    "code": "LTT",
+    "arr": null,
+    "dep": "18:05",
+    "day": 1,
+    "km": 0
+   },
+   {
+    "code": "KYN",
+    "arr": "18:40",
+    "dep": "18:48",
+    "day": 1,
+    "km": 35
+   },
+   {
+    "code": "NK",
+    "arr": "20:50",
+    "dep": "20:58",
+    "day": 1,
+    "km": 157
+   },
+   {
+    "code": "MMR",
+    "arr": "22:17",
+    "dep": "22:25",
+    "day": 1,
+    "km": 236
+   },
+   {
+    "code": "BSL",
+    "arr": "01:31",
+    "dep": "01:39",
+    "day": 2,
+    "km": 422
+   },
+   {
+    "code": "ET",
+    "arr": "06:39",
+    "dep": "06:47",
+    "day": 2,
+    "km": 722
+   },
+   {
+    "code": "BPL",
+    "arr": "08:19",
+    "dep": "08:27",
+    "day": 2,
+    "km": 814
+   },
+   {
+    "code": "GWL",
+    "arr": "14:44",
+    "dep": "14:52",
+    "day": 2,
+    "km": 1191
+   },
+   {
+    "code": "AGC",
+    "arr": "16:51",
+    "dep": "16:59",
+    "day": 2,
+    "km": 1310
+   },
+   {
+    "code": "NDLS",
+    "arr": "20:22",
+    "dep": null,
+    "day": 2,
+    "km": 1514
+   }
+  ]
+ },
+ {
+  "number": "RS126",
+  "name": "Delhi\u2013Mumbai Superfast Express",
+  "category": "superfast",
+  "category_label": "Superfast Express",
+  "corridor": "mumbai_delhi_central",
+  "classes": [
+   "SL",
+   "3A",
+   "2A",
+   "1A"
+  ],
+  "origin": "NDLS",
+  "destination": "LTT",
+  "total_km": 1514,
+  "dynamic_fare": false,
+  "stops": [
+   {
+    "code": "NDLS",
+    "arr": null,
+    "dep": "08:40",
+    "day": 1,
+    "km": 0
+   },
+   {
+    "code": "AGC",
+    "arr": "12:03",
+    "dep": "12:11",
+    "day": 1,
+    "km": 203
+   },
+   {
+    "code": "GWL",
+    "arr": "14:10",
+    "dep": "14:18",
+    "day": 1,
+    "km": 323
+   },
+   {
+    "code": "BPL",
+    "arr": "20:35",
+    "dep": "20:43",
+    "day": 1,
+    "km": 700
+   },
+   {
+    "code": "ET",
+    "arr": "22:15",
+    "dep": "22:23",
+    "day": 1,
+    "km": 792
+   },
+   {
+    "code": "BSL",
+    "arr": "03:23",
+    "dep": "03:31",
+    "day": 2,
+    "km": 1092
+   },
+   {
+    "code": "MMR",
+    "arr": "06:37",
+    "dep": "06:45",
+    "day": 2,
+    "km": 1278
+   },
+   {
+    "code": "NK",
+    "arr": "08:04",
+    "dep": "08:12",
+    "day": 2,
+    "km": 1357
+   },
+   {
+    "code": "KYN",
+    "arr": "10:14",
+    "dep": "10:22",
+    "day": 2,
+    "km": 1479
+   },
+   {
+    "code": "LTT",
+    "arr": "10:57",
+    "dep": null,
+    "day": 2,
+    "km": 1514
+   }
+  ]
+ },
+ {
+  "number": "RS127",
+  "name": "Mumbai\u2013Delhi Mail/Express",
+  "category": "express",
+  "category_label": "Mail/Express",
+  "corridor": "mumbai_delhi_central",
+  "classes": [
+   "2S",
+   "SL",
+   "3A",
+   "2A"
+  ],
+  "origin": "LTT",
+  "destination": "NDLS",
+  "total_km": 1514,
+  "dynamic_fare": false,
+  "stops": [
+   {
+    "code": "LTT",
+    "arr": null,
+    "dep": "19:35",
+    "day": 1,
+    "km": 0
+   },
+   {
+    "code": "KYN",
+    "arr": "20:17",
+    "dep": "20:25",
+    "day": 1,
+    "km": 35
+   },
+   {
+    "code": "NK",
+    "arr": "22:51",
+    "dep": "22:59",
+    "day": 1,
+    "km": 157
+   },
+   {
+    "code": "MMR",
+    "arr": "00:34",
+    "dep": "00:42",
+    "day": 2,
+    "km": 236
+   },
+   {
+    "code": "BSL",
+    "arr": "04:25",
+    "dep": "04:33",
+    "day": 2,
+    "km": 422
+   },
+   {
+    "code": "ET",
+    "arr": "10:33",
+    "dep": "10:41",
+    "day": 2,
+    "km": 722
+   },
+   {
+    "code": "BPL",
+    "arr": "12:31",
+    "dep": "12:39",
+    "day": 2,
+    "km": 814
+   },
+   {
+    "code": "GWL",
+    "arr": "20:12",
+    "dep": "20:20",
+    "day": 2,
+    "km": 1191
+   },
+   {
+    "code": "AGC",
+    "arr": "22:43",
+    "dep": "22:51",
+    "day": 2,
+    "km": 1310
+   },
+   {
+    "code": "NDLS",
+    "arr": "02:55",
+    "dep": null,
+    "day": 3,
+    "km": 1514
+   }
+  ]
+ },
+ {
+  "number": "RS128",
+  "name": "Delhi\u2013Mumbai Mail/Express",
+  "category": "express",
+  "category_label": "Mail/Express",
+  "corridor": "mumbai_delhi_central",
+  "classes": [
+   "2S",
+   "SL",
+   "3A",
+   "2A"
+  ],
+  "origin": "NDLS",
+  "destination": "LTT",
+  "total_km": 1514,
+  "dynamic_fare": false,
+  "stops": [
+   {
+    "code": "NDLS",
+    "arr": null,
+    "dep": "13:00",
+    "day": 1,
+    "km": 0
+   },
+   {
+    "code": "AGC",
+    "arr": "17:04",
+    "dep": "17:12",
+    "day": 1,
+    "km": 203
+   },
+   {
+    "code": "GWL",
+    "arr": "19:35",
+    "dep": "19:43",
+    "day": 1,
+    "km": 323
+   },
+   {
+    "code": "BPL",
+    "arr": "03:16",
+    "dep": "03:24",
+    "day": 2,
+    "km": 700
+   },
+   {
+    "code": "ET",
+    "arr": "05:14",
+    "dep": "05:22",
+    "day": 2,
+    "km": 792
+   },
+   {
+    "code": "BSL",
+    "arr": "11:22",
+    "dep": "11:30",
+    "day": 2,
+    "km": 1092
+   },
+   {
+    "code": "MMR",
+    "arr": "15:13",
+    "dep": "15:21",
+    "day": 2,
+    "km": 1278
+   },
+   {
+    "code": "NK",
+    "arr": "16:56",
+    "dep": "17:04",
+    "day": 2,
+    "km": 1357
+   },
+   {
+    "code": "KYN",
+    "arr": "19:30",
+    "dep": "19:38",
+    "day": 2,
+    "km": 1479
+   },
+   {
+    "code": "LTT",
+    "arr": "20:20",
+    "dep": null,
+    "day": 2,
+    "km": 1514
+   }
+  ]
+ },
+ {
+  "number": "RS129",
+  "name": "Mumbai\u2013Delhi Mail/Express",
+  "category": "express",
+  "category_label": "Mail/Express",
+  "corridor": "mumbai_delhi_central",
+  "classes": [
+   "2S",
+   "SL",
+   "3A",
+   "2A"
+  ],
+  "origin": "LTT",
+  "destination": "NDLS",
+  "total_km": 1514,
+  "dynamic_fare": false,
+  "stops": [
+   {
+    "code": "LTT",
+    "arr": null,
+    "dep": "02:35",
+    "day": 1,
+    "km": 0
+   },
+   {
+    "code": "KYN",
+    "arr": "03:17",
+    "dep": "03:25",
+    "day": 1,
+    "km": 35
+   },
+   {
+    "code": "NK",
+    "arr": "05:51",
+    "dep": "05:59",
+    "day": 1,
+    "km": 157
+   },
+   {
+    "code": "MMR",
+    "arr": "07:34",
+    "dep": "07:42",
+    "day": 1,
+    "km": 236
+   },
+   {
+    "code": "BSL",
+    "arr": "11:25",
+    "dep": "11:33",
+    "day": 1,
+    "km": 422
+   },
+   {
+    "code": "ET",
+    "arr": "17:33",
+    "dep": "17:41",
+    "day": 1,
+    "km": 722
+   },
+   {
+    "code": "BPL",
+    "arr": "19:31",
+    "dep": "19:39",
+    "day": 1,
+    "km": 814
+   },
+   {
+    "code": "GWL",
+    "arr": "03:12",
+    "dep": "03:20",
+    "day": 2,
+    "km": 1191
+   },
+   {
+    "code": "AGC",
+    "arr": "05:43",
+    "dep": "05:51",
+    "day": 2,
+    "km": 1310
+   },
+   {
+    "code": "NDLS",
+    "arr": "09:55",
+    "dep": null,
+    "day": 2,
+    "km": 1514
+   }
+  ]
+ },
+ {
+  "number": "RS130",
+  "name": "Delhi\u2013Mumbai Mail/Express",
+  "category": "express",
+  "category_label": "Mail/Express",
+  "corridor": "mumbai_delhi_central",
+  "classes": [
+   "2S",
+   "SL",
+   "3A",
+   "2A"
+  ],
+  "origin": "NDLS",
+  "destination": "LTT",
+  "total_km": 1514,
+  "dynamic_fare": false,
+  "stops": [
+   {
+    "code": "NDLS",
+    "arr": null,
+    "dep": "05:20",
+    "day": 1,
+    "km": 0
+   },
+   {
+    "code": "AGC",
+    "arr": "09:24",
+    "dep": "09:32",
+    "day": 1,
+    "km": 203
+   },
+   {
+    "code": "GWL",
+    "arr": "11:55",
+    "dep": "12:03",
+    "day": 1,
+    "km": 323
+   },
+   {
+    "code": "BPL",
+    "arr": "19:36",
+    "dep": "19:44",
+    "day": 1,
+    "km": 700
+   },
+   {
+    "code": "ET",
+    "arr": "21:34",
+    "dep": "21:42",
+    "day": 1,
+    "km": 792
+   },
+   {
+    "code": "BSL",
+    "arr": "03:42",
+    "dep": "03:50",
+    "day": 2,
+    "km": 1092
+   },
+   {
+    "code": "MMR",
+    "arr": "07:33",
+    "dep": "07:41",
+    "day": 2,
+    "km": 1278
+   },
+   {
+    "code": "NK",
+    "arr": "09:16",
+    "dep": "09:24",
+    "day": 2,
+    "km": 1357
+   },
+   {
+    "code": "KYN",
+    "arr": "11:50",
+    "dep": "11:58",
+    "day": 2,
+    "km": 1479
+   },
+   {
+    "code": "LTT",
+    "arr": "12:40",
+    "dep": null,
+    "day": 2,
+    "km": 1514
+   }
+  ]
+ },
+ {
+  "number": "RS131",
+  "name": "Delhi\u2013Kolkata Premium Express",
+  "category": "premium",
+  "category_label": "Premium Express",
+  "corridor": "delhi_howrah",
+  "classes": [
+   "3A",
+   "2A",
+   "1A"
+  ],
+  "origin": "NDLS",
+  "destination": "HWH",
+  "total_km": 1486,
+  "dynamic_fare": true,
+  "stops": [
+   {
+    "code": "NDLS",
+    "arr": null,
+    "dep": "19:45",
+    "day": 1,
+    "km": 0
+   },
+   {
+    "code": "CNB",
+    "arr": "01:42",
+    "dep": "01:47",
+    "day": 2,
+    "km": 440
+   },
+   {
+    "code": "PRYJ",
+    "arr": "04:35",
+    "dep": "04:40",
+    "day": 2,
+    "km": 648
+   },
+   {
+    "code": "DDU",
+    "arr": "06:39",
+    "dep": "06:44",
+    "day": 2,
+    "km": 795
+   },
+   {
+    "code": "GAYA",
+    "arr": "09:43",
+    "dep": "09:48",
+    "day": 2,
+    "km": 1015
+   },
+   {
+    "code": "DHN",
+    "arr": "12:35",
+    "dep": "12:40",
+    "day": 2,
+    "km": 1220
+   },
+   {
+    "code": "HWH",
+    "arr": "16:15",
+    "dep": null,
+    "day": 2,
+    "km": 1486
+   }
+  ]
+ },
+ {
+  "number": "RS132",
+  "name": "Kolkata\u2013Delhi Premium Express",
+  "category": "premium",
+  "category_label": "Premium Express",
+  "corridor": "delhi_howrah",
+  "classes": [
+   "3A",
+   "2A",
+   "1A"
+  ],
+  "origin": "HWH",
+  "destination": "NDLS",
+  "total_km": 1486,
+  "dynamic_fare": true,
+  "stops": [
+   {
+    "code": "HWH",
+    "arr": null,
+    "dep": "16:50",
+    "day": 1,
+    "km": 0
+   },
+   {
+    "code": "DHN",
+    "arr": "20:25",
+    "dep": "20:30",
+    "day": 1,
+    "km": 266
+   },
+   {
+    "code": "GAYA",
+    "arr": "23:17",
+    "dep": "23:22",
+    "day": 1,
+    "km": 471
+   },
+   {
+    "code": "DDU",
+    "arr": "02:21",
+    "dep": "02:26",
+    "day": 2,
+    "km": 691
+   },
+   {
+    "code": "PRYJ",
+    "arr": "04:25",
+    "dep": "04:30",
+    "day": 2,
+    "km": 838
+   },
+   {
+    "code": "CNB",
+    "arr": "07:18",
+    "dep": "07:23",
+    "day": 2,
+    "km": 1046
+   },
+   {
+    "code": "NDLS",
+    "arr": "13:20",
+    "dep": null,
+    "day": 2,
+    "km": 1486
+   }
+  ]
+ },
+ {
+  "number": "RS133",
+  "name": "Delhi\u2013Kolkata Premium Express",
+  "category": "premium",
+  "category_label": "Premium Express",
+  "corridor": "delhi_howrah",
+  "classes": [
+   "3A",
+   "2A",
+   "1A"
+  ],
+  "origin": "NDLS",
+  "destination": "HWH",
+  "total_km": 1486,
+  "dynamic_fare": true,
+  "stops": [
+   {
+    "code": "NDLS",
+    "arr": null,
+    "dep": "18:35",
+    "day": 1,
+    "km": 0
+   },
+   {
+    "code": "CNB",
+    "arr": "00:32",
+    "dep": "00:37",
+    "day": 2,
+    "km": 440
+   },
+   {
+    "code": "PRYJ",
+    "arr": "03:25",
+    "dep": "03:30",
+    "day": 2,
+    "km": 648
+   },
+   {
+    "code": "DDU",
+    "arr": "05:29",
+    "dep": "05:34",
+    "day": 2,
+    "km": 795
+   },
+   {
+    "code": "GAYA",
+    "arr": "08:33",
+    "dep": "08:38",
+    "day": 2,
+    "km": 1015
+   },
+   {
+    "code": "DHN",
+    "arr": "11:25",
+    "dep": "11:30",
+    "day": 2,
+    "km": 1220
+   },
+   {
+    "code": "HWH",
+    "arr": "15:05",
+    "dep": null,
+    "day": 2,
+    "km": 1486
+   }
+  ]
+ },
+ {
+  "number": "RS134",
+  "name": "Kolkata\u2013Delhi Premium Express",
+  "category": "premium",
+  "category_label": "Premium Express",
+  "corridor": "delhi_howrah",
+  "classes": [
+   "3A",
+   "2A",
+   "1A"
+  ],
+  "origin": "HWH",
+  "destination": "NDLS",
+  "total_km": 1486,
+  "dynamic_fare": true,
+  "stops": [
+   {
+    "code": "HWH",
+    "arr": null,
+    "dep": "16:30",
+    "day": 1,
+    "km": 0
+   },
+   {
+    "code": "DHN",
+    "arr": "20:05",
+    "dep": "20:10",
+    "day": 1,
+    "km": 266
+   },
+   {
+    "code": "GAYA",
+    "arr": "22:57",
+    "dep": "23:02",
+    "day": 1,
+    "km": 471
+   },
+   {
+    "code": "DDU",
+    "arr": "02:01",
+    "dep": "02:06",
+    "day": 2,
+    "km": 691
+   },
+   {
+    "code": "PRYJ",
+    "arr": "04:05",
+    "dep": "04:10",
+    "day": 2,
+    "km": 838
+   },
+   {
+    "code": "CNB",
+    "arr": "06:58",
+    "dep": "07:03",
+    "day": 2,
+    "km": 1046
+   },
+   {
+    "code": "NDLS",
+    "arr": "13:00",
+    "dep": null,
+    "day": 2,
+    "km": 1486
+   }
+  ]
+ },
+ {
+  "number": "RS135",
+  "name": "Delhi\u2013Kolkata Superfast Express",
+  "category": "superfast",
+  "category_label": "Superfast Express",
+  "corridor": "delhi_howrah",
+  "classes": [
+   "SL",
+   "3A",
+   "2A",
+   "1A"
+  ],
+  "origin": "NDLS",
+  "destination": "HWH",
+  "total_km": 1486,
+  "dynamic_fare": false,
+  "stops": [
+   {
+    "code": "NDLS",
+    "arr": null,
+    "dep": "21:00",
+    "day": 1,
+    "km": 0
+   },
+   {
+    "code": "CNB",
+    "arr": "04:20",
+    "dep": "04:28",
+    "day": 2,
+    "km": 440
+   },
+   {
+    "code": "PRYJ",
+    "arr": "07:56",
+    "dep": "08:04",
+    "day": 2,
+    "km": 648
+   },
+   {
+    "code": "DDU",
+    "arr": "10:31",
+    "dep": "10:39",
+    "day": 2,
+    "km": 795
+   },
+   {
+    "code": "GAYA",
+    "arr": "14:19",
+    "dep": "14:27",
+    "day": 2,
+    "km": 1015
+   },
+   {
+    "code": "DHN",
+    "arr": "17:53",
+    "dep": "18:01",
+    "day": 2,
+    "km": 1220
+   },
+   {
+    "code": "HWH",
+    "arr": "22:27",
+    "dep": null,
+    "day": 2,
+    "km": 1486
+   }
+  ]
+ },
+ {
+  "number": "RS136",
+  "name": "Kolkata\u2013Delhi Superfast Express",
+  "category": "superfast",
+  "category_label": "Superfast Express",
+  "corridor": "delhi_howrah",
+  "classes": [
+   "SL",
+   "3A",
+   "2A",
+   "1A"
+  ],
+  "origin": "HWH",
+  "destination": "NDLS",
+  "total_km": 1486,
+  "dynamic_fare": false,
+  "stops": [
+   {
+    "code": "HWH",
+    "arr": null,
+    "dep": "17:20",
+    "day": 1,
+    "km": 0
+   },
+   {
+    "code": "DHN",
+    "arr": "21:46",
+    "dep": "21:54",
+    "day": 1,
+    "km": 266
+   },
+   {
+    "code": "GAYA",
+    "arr": "01:20",
+    "dep": "01:28",
+    "day": 2,
+    "km": 471
+   },
+   {
+    "code": "DDU",
+    "arr": "05:08",
+    "dep": "05:16",
+    "day": 2,
+    "km": 691
+   },
+   {
+    "code": "PRYJ",
+    "arr": "07:43",
+    "dep": "07:51",
+    "day": 2,
+    "km": 838
+   },
+   {
+    "code": "CNB",
+    "arr": "11:19",
+    "dep": "11:27",
+    "day": 2,
+    "km": 1046
+   },
+   {
+    "code": "NDLS",
+    "arr": "18:47",
+    "dep": null,
+    "day": 2,
+    "km": 1486
+   }
+  ]
+ },
+ {
+  "number": "RS137",
+  "name": "Delhi\u2013Kolkata Superfast Express",
+  "category": "superfast",
+  "category_label": "Superfast Express",
+  "corridor": "delhi_howrah",
+  "classes": [
+   "SL",
+   "3A",
+   "2A",
+   "1A"
+  ],
+  "origin": "NDLS",
+  "destination": "HWH",
+  "total_km": 1486,
+  "dynamic_fare": false,
+  "stops": [
+   {
+    "code": "NDLS",
+    "arr": null,
+    "dep": "07:20",
+    "day": 1,
+    "km": 0
+   },
+   {
+    "code": "CNB",
+    "arr": "14:40",
+    "dep": "14:48",
+    "day": 1,
+    "km": 440
+   },
+   {
+    "code": "PRYJ",
+    "arr": "18:16",
+    "dep": "18:24",
+    "day": 1,
+    "km": 648
+   },
+   {
+    "code": "DDU",
+    "arr": "20:51",
+    "dep": "20:59",
+    "day": 1,
+    "km": 795
+   },
+   {
+    "code": "GAYA",
+    "arr": "00:39",
+    "dep": "00:47",
+    "day": 2,
+    "km": 1015
+   },
+   {
+    "code": "DHN",
+    "arr": "04:13",
+    "dep": "04:21",
+    "day": 2,
+    "km": 1220
+   },
+   {
+    "code": "HWH",
+    "arr": "08:47",
+    "dep": null,
+    "day": 2,
+    "km": 1486
+   }
+  ]
+ },
+ {
+  "number": "RS138",
+  "name": "Kolkata\u2013Delhi Superfast Express",
+  "category": "superfast",
+  "category_label": "Superfast Express",
+  "corridor": "delhi_howrah",
+  "classes": [
+   "SL",
+   "3A",
+   "2A",
+   "1A"
+  ],
+  "origin": "HWH",
+  "destination": "NDLS",
+  "total_km": 1486,
+  "dynamic_fare": false,
+  "stops": [
+   {
+    "code": "HWH",
+    "arr": null,
+    "dep": "05:40",
+    "day": 1,
+    "km": 0
+   },
+   {
+    "code": "DHN",
+    "arr": "10:06",
+    "dep": "10:14",
+    "day": 1,
+    "km": 266
+   },
+   {
+    "code": "GAYA",
+    "arr": "13:40",
+    "dep": "13:48",
+    "day": 1,
+    "km": 471
+   },
+   {
+    "code": "DDU",
+    "arr": "17:28",
+    "dep": "17:36",
+    "day": 1,
+    "km": 691
+   },
+   {
+    "code": "PRYJ",
+    "arr": "20:03",
+    "dep": "20:11",
+    "day": 1,
+    "km": 838
+   },
+   {
+    "code": "CNB",
+    "arr": "23:39",
+    "dep": "23:47",
+    "day": 1,
+    "km": 1046
+   },
+   {
+    "code": "NDLS",
+    "arr": "07:07",
+    "dep": null,
+    "day": 2,
+    "km": 1486
+   }
+  ]
+ },
+ {
+  "number": "RS139",
+  "name": "Delhi\u2013Kolkata Mail/Express",
+  "category": "express",
+  "category_label": "Mail/Express",
+  "corridor": "delhi_howrah",
+  "classes": [
+   "2S",
+   "SL",
+   "3A",
+   "2A"
+  ],
+  "origin": "NDLS",
+  "destination": "HWH",
+  "total_km": 1486,
+  "dynamic_fare": false,
+  "stops": [
+   {
+    "code": "NDLS",
+    "arr": null,
+    "dep": "21:00",
+    "day": 1,
+    "km": 0
+   },
+   {
+    "code": "CNB",
+    "arr": "05:48",
+    "dep": "05:56",
+    "day": 2,
+    "km": 440
+   },
+   {
+    "code": "PRYJ",
+    "arr": "10:05",
+    "dep": "10:13",
+    "day": 2,
+    "km": 648
+   },
+   {
+    "code": "DDU",
+    "arr": "13:09",
+    "dep": "13:17",
+    "day": 2,
+    "km": 795
+   },
+   {
+    "code": "GAYA",
+    "arr": "17:41",
+    "dep": "17:49",
+    "day": 2,
+    "km": 1015
+   },
+   {
+    "code": "DHN",
+    "arr": "21:56",
+    "dep": "22:04",
+    "day": 2,
+    "km": 1220
+   },
+   {
+    "code": "HWH",
+    "arr": "03:23",
+    "dep": null,
+    "day": 3,
+    "km": 1486
+   }
+  ]
+ },
+ {
+  "number": "RS140",
+  "name": "Kolkata\u2013Delhi Mail/Express",
+  "category": "express",
+  "category_label": "Mail/Express",
+  "corridor": "delhi_howrah",
+  "classes": [
+   "2S",
+   "SL",
+   "3A",
+   "2A"
+  ],
+  "origin": "HWH",
+  "destination": "NDLS",
+  "total_km": 1486,
+  "dynamic_fare": false,
+  "stops": [
+   {
+    "code": "HWH",
+    "arr": null,
+    "dep": "06:00",
+    "day": 1,
+    "km": 0
+   },
+   {
+    "code": "DHN",
+    "arr": "11:19",
+    "dep": "11:27",
+    "day": 1,
+    "km": 266
+   },
+   {
+    "code": "GAYA",
+    "arr": "15:34",
+    "dep": "15:42",
+    "day": 1,
+    "km": 471
+   },
+   {
+    "code": "DDU",
+    "arr": "20:06",
+    "dep": "20:14",
+    "day": 1,
+    "km": 691
+   },
+   {
+    "code": "PRYJ",
+    "arr": "23:10",
+    "dep": "23:18",
+    "day": 1,
+    "km": 838
+   },
+   {
+    "code": "CNB",
+    "arr": "03:27",
+    "dep": "03:35",
+    "day": 2,
+    "km": 1046
+   },
+   {
+    "code": "NDLS",
+    "arr": "12:23",
+    "dep": null,
+    "day": 2,
+    "km": 1486
+   }
+  ]
+ },
+ {
+  "number": "RS141",
+  "name": "Delhi\u2013Kolkata Mail/Express",
+  "category": "express",
+  "category_label": "Mail/Express",
+  "corridor": "delhi_howrah",
+  "classes": [
+   "2S",
+   "SL",
+   "3A",
+   "2A"
+  ],
+  "origin": "NDLS",
+  "destination": "HWH",
+  "total_km": 1486,
+  "dynamic_fare": false,
+  "stops": [
+   {
+    "code": "NDLS",
+    "arr": null,
+    "dep": "15:50",
+    "day": 1,
+    "km": 0
+   },
+   {
+    "code": "CNB",
+    "arr": "00:38",
+    "dep": "00:46",
+    "day": 2,
+    "km": 440
+   },
+   {
+    "code": "PRYJ",
+    "arr": "04:55",
+    "dep": "05:03",
+    "day": 2,
+    "km": 648
+   },
+   {
+    "code": "DDU",
+    "arr": "07:59",
+    "dep": "08:07",
+    "day": 2,
+    "km": 795
+   },
+   {
+    "code": "GAYA",
+    "arr": "12:31",
+    "dep": "12:39",
+    "day": 2,
+    "km": 1015
+   },
+   {
+    "code": "DHN",
+    "arr": "16:46",
+    "dep": "16:54",
+    "day": 2,
+    "km": 1220
+   },
+   {
+    "code": "HWH",
+    "arr": "22:13",
+    "dep": null,
+    "day": 2,
+    "km": 1486
+   }
+  ]
+ },
+ {
+  "number": "RS142",
+  "name": "Kolkata\u2013Delhi Mail/Express",
+  "category": "express",
+  "category_label": "Mail/Express",
+  "corridor": "delhi_howrah",
+  "classes": [
+   "2S",
+   "SL",
+   "3A",
+   "2A"
+  ],
+  "origin": "HWH",
+  "destination": "NDLS",
+  "total_km": 1486,
+  "dynamic_fare": false,
+  "stops": [
+   {
+    "code": "HWH",
+    "arr": null,
+    "dep": "13:25",
+    "day": 1,
+    "km": 0
+   },
+   {
+    "code": "DHN",
+    "arr": "18:44",
+    "dep": "18:52",
+    "day": 1,
+    "km": 266
+   },
+   {
+    "code": "GAYA",
+    "arr": "22:59",
+    "dep": "23:07",
+    "day": 1,
+    "km": 471
+   },
+   {
+    "code": "DDU",
+    "arr": "03:31",
+    "dep": "03:39",
+    "day": 2,
+    "km": 691
+   },
+   {
+    "code": "PRYJ",
+    "arr": "06:35",
+    "dep": "06:43",
+    "day": 2,
+    "km": 838
+   },
+   {
+    "code": "CNB",
+    "arr": "10:52",
+    "dep": "11:00",
+    "day": 2,
+    "km": 1046
+   },
+   {
+    "code": "NDLS",
+    "arr": "19:48",
+    "dep": null,
+    "day": 2,
+    "km": 1486
+   }
+  ]
+ },
+ {
+  "number": "RS143",
+  "name": "Delhi\u2013Patna Premium Express",
+  "category": "premium",
+  "category_label": "Premium Express",
+  "corridor": "delhi_patna",
+  "classes": [
+   "3A",
+   "2A",
+   "1A"
+  ],
+  "origin": "NDLS",
+  "destination": "PNBE",
+  "total_km": 1025,
+  "dynamic_fare": true,
+  "stops": [
+   {
+    "code": "NDLS",
+    "arr": null,
+    "dep": "18:35",
+    "day": 1,
+    "km": 0
+   },
+   {
+    "code": "CNB",
+    "arr": "00:32",
+    "dep": "00:37",
+    "day": 2,
+    "km": 440
+   },
+   {
+    "code": "PRYJ",
+    "arr": "03:25",
+    "dep": "03:30",
+    "day": 2,
+    "km": 648
+   },
+   {
+    "code": "DDU",
+    "arr": "05:29",
+    "dep": "05:34",
+    "day": 2,
+    "km": 795
+   },
+   {
+    "code": "PNBE",
+    "arr": "08:41",
+    "dep": null,
+    "day": 2,
+    "km": 1025
+   }
+  ]
+ },
+ {
+  "number": "RS144",
+  "name": "Patna\u2013Delhi Premium Express",
+  "category": "premium",
+  "category_label": "Premium Express",
+  "corridor": "delhi_patna",
+  "classes": [
+   "3A",
+   "2A",
+   "1A"
+  ],
+  "origin": "PNBE",
+  "destination": "NDLS",
+  "total_km": 1025,
+  "dynamic_fare": true,
+  "stops": [
+   {
+    "code": "PNBE",
+    "arr": null,
+    "dep": "17:30",
+    "day": 1,
+    "km": 0
+   },
+   {
+    "code": "DDU",
+    "arr": "20:37",
+    "dep": "20:42",
+    "day": 1,
+    "km": 230
+   },
+   {
+    "code": "PRYJ",
+    "arr": "22:41",
+    "dep": "22:46",
+    "day": 1,
+    "km": 377
+   },
+   {
+    "code": "CNB",
+    "arr": "01:34",
+    "dep": "01:39",
+    "day": 2,
+    "km": 585
+   },
+   {
+    "code": "NDLS",
+    "arr": "07:36",
+    "dep": null,
+    "day": 2,
+    "km": 1025
+   }
+  ]
+ },
+ {
+  "number": "RS145",
+  "name": "Delhi\u2013Patna Superfast Express",
+  "category": "superfast",
+  "category_label": "Superfast Express",
+  "corridor": "delhi_patna",
+  "classes": [
+   "SL",
+   "3A",
+   "2A",
+   "1A"
+  ],
+  "origin": "NDLS",
+  "destination": "PNBE",
+  "total_km": 1025,
+  "dynamic_fare": false,
+  "stops": [
+   {
+    "code": "NDLS",
+    "arr": null,
+    "dep": "16:30",
+    "day": 1,
+    "km": 0
+   },
+   {
+    "code": "CNB",
+    "arr": "23:50",
+    "dep": "23:58",
+    "day": 1,
+    "km": 440
+   },
+   {
+    "code": "PRYJ",
+    "arr": "03:26",
+    "dep": "03:34",
+    "day": 2,
+    "km": 648
+   },
+   {
+    "code": "DDU",
+    "arr": "06:01",
+    "dep": "06:09",
+    "day": 2,
+    "km": 795
+   },
+   {
+    "code": "PNBE",
+    "arr": "09:59",
+    "dep": null,
+    "day": 2,
+    "km": 1025
+   }
+  ]
+ },
+ {
+  "number": "RS146",
+  "name": "Patna\u2013Delhi Superfast Express",
+  "category": "superfast",
+  "category_label": "Superfast Express",
+  "corridor": "delhi_patna",
+  "classes": [
+   "SL",
+   "3A",
+   "2A",
+   "1A"
+  ],
+  "origin": "PNBE",
+  "destination": "NDLS",
+  "total_km": 1025,
+  "dynamic_fare": false,
+  "stops": [
+   {
+    "code": "PNBE",
+    "arr": null,
+    "dep": "06:30",
+    "day": 1,
+    "km": 0
+   },
+   {
+    "code": "DDU",
+    "arr": "10:20",
+    "dep": "10:28",
+    "day": 1,
+    "km": 230
+   },
+   {
+    "code": "PRYJ",
+    "arr": "12:55",
+    "dep": "13:03",
+    "day": 1,
+    "km": 377
+   },
+   {
+    "code": "CNB",
+    "arr": "16:31",
+    "dep": "16:39",
+    "day": 1,
+    "km": 585
+   },
+   {
+    "code": "NDLS",
+    "arr": "23:59",
+    "dep": null,
+    "day": 1,
+    "km": 1025
+   }
+  ]
+ },
+ {
+  "number": "RS147",
+  "name": "Delhi\u2013Patna Mail/Express",
+  "category": "express",
+  "category_label": "Mail/Express",
+  "corridor": "delhi_patna",
+  "classes": [
+   "2S",
+   "SL",
+   "3A",
+   "2A"
+  ],
+  "origin": "NDLS",
+  "destination": "PNBE",
+  "total_km": 1025,
+  "dynamic_fare": false,
+  "stops": [
+   {
+    "code": "NDLS",
+    "arr": null,
+    "dep": "09:55",
+    "day": 1,
+    "km": 0
+   },
+   {
+    "code": "CNB",
+    "arr": "18:43",
+    "dep": "18:51",
+    "day": 1,
+    "km": 440
+   },
+   {
+    "code": "PRYJ",
+    "arr": "23:00",
+    "dep": "23:08",
+    "day": 1,
+    "km": 648
+   },
+   {
+    "code": "DDU",
+    "arr": "02:04",
+    "dep": "02:12",
+    "day": 2,
+    "km": 795
+   },
+   {
+    "code": "PNBE",
+    "arr": "06:49",
+    "dep": null,
+    "day": 2,
+    "km": 1025
+   }
+  ]
+ },
+ {
+  "number": "RS148",
+  "name": "Patna\u2013Delhi Mail/Express",
+  "category": "express",
+  "category_label": "Mail/Express",
+  "corridor": "delhi_patna",
+  "classes": [
+   "2S",
+   "SL",
+   "3A",
+   "2A"
+  ],
+  "origin": "PNBE",
+  "destination": "NDLS",
+  "total_km": 1025,
+  "dynamic_fare": false,
+  "stops": [
+   {
+    "code": "PNBE",
+    "arr": null,
+    "dep": "01:05",
+    "day": 1,
+    "km": 0
+   },
+   {
+    "code": "DDU",
+    "arr": "05:42",
+    "dep": "05:50",
+    "day": 1,
+    "km": 230
+   },
+   {
+    "code": "PRYJ",
+    "arr": "08:46",
+    "dep": "08:54",
+    "day": 1,
+    "km": 377
+   },
+   {
+    "code": "CNB",
+    "arr": "13:03",
+    "dep": "13:11",
+    "day": 1,
+    "km": 585
+   },
+   {
+    "code": "NDLS",
+    "arr": "21:59",
+    "dep": null,
+    "day": 1,
+    "km": 1025
+   }
+  ]
+ },
+ {
+  "number": "RS149",
+  "name": "Delhi\u2013Patna Mail/Express",
+  "category": "express",
+  "category_label": "Mail/Express",
+  "corridor": "delhi_patna",
+  "classes": [
+   "2S",
+   "SL",
+   "3A",
+   "2A"
+  ],
+  "origin": "NDLS",
+  "destination": "PNBE",
+  "total_km": 1025,
+  "dynamic_fare": false,
+  "stops": [
+   {
+    "code": "NDLS",
+    "arr": null,
+    "dep": "16:35",
+    "day": 1,
+    "km": 0
+   },
+   {
+    "code": "CNB",
+    "arr": "01:23",
+    "dep": "01:31",
+    "day": 2,
+    "km": 440
+   },
+   {
+    "code": "PRYJ",
+    "arr": "05:40",
+    "dep": "05:48",
+    "day": 2,
+    "km": 648
+   },
+   {
+    "code": "DDU",
+    "arr": "08:44",
+    "dep": "08:52",
+    "day": 2,
+    "km": 795
+   },
+   {
+    "code": "PNBE",
+    "arr": "13:29",
+    "dep": null,
+    "day": 2,
+    "km": 1025
+   }
+  ]
+ },
+ {
+  "number": "RS150",
+  "name": "Patna\u2013Delhi Mail/Express",
+  "category": "express",
+  "category_label": "Mail/Express",
+  "corridor": "delhi_patna",
+  "classes": [
+   "2S",
+   "SL",
+   "3A",
+   "2A"
+  ],
+  "origin": "PNBE",
+  "destination": "NDLS",
+  "total_km": 1025,
+  "dynamic_fare": false,
+  "stops": [
+   {
+    "code": "PNBE",
+    "arr": null,
+    "dep": "15:05",
+    "day": 1,
+    "km": 0
+   },
+   {
+    "code": "DDU",
+    "arr": "19:42",
+    "dep": "19:50",
+    "day": 1,
+    "km": 230
+   },
+   {
+    "code": "PRYJ",
+    "arr": "22:46",
+    "dep": "22:54",
+    "day": 1,
+    "km": 377
+   },
+   {
+    "code": "CNB",
+    "arr": "03:03",
+    "dep": "03:11",
+    "day": 2,
+    "km": 585
+   },
+   {
+    "code": "NDLS",
+    "arr": "11:59",
+    "dep": null,
+    "day": 2,
+    "km": 1025
+   }
+  ]
+ },
+ {
+  "number": "RS151",
+  "name": "Delhi\u2013Lucknow Intercity Day Express",
+  "category": "intercity",
+  "category_label": "Intercity Day Express",
+  "corridor": "delhi_lucknow",
+  "classes": [
+   "2S",
+   "CC"
+  ],
+  "origin": "NDLS",
+  "destination": "LKO",
+  "total_km": 519,
+  "dynamic_fare": false,
+  "stops": [
+   {
+    "code": "NDLS",
+    "arr": null,
+    "dep": "14:15",
+    "day": 1,
+    "km": 0
+   },
+   {
+    "code": "CNB",
+    "arr": "21:08",
+    "dep": "21:13",
+    "day": 1,
+    "km": 440
+   },
+   {
+    "code": "LKO",
+    "arr": "22:27",
+    "dep": null,
+    "day": 1,
+    "km": 519
+   }
+  ]
+ },
+ {
+  "number": "RS152",
+  "name": "Lucknow\u2013Delhi Intercity Day Express",
+  "category": "intercity",
+  "category_label": "Intercity Day Express",
+  "corridor": "delhi_lucknow",
+  "classes": [
+   "2S",
+   "CC"
+  ],
+  "origin": "LKO",
+  "destination": "NDLS",
+  "total_km": 519,
+  "dynamic_fare": false,
+  "stops": [
+   {
+    "code": "LKO",
+    "arr": null,
+    "dep": "07:05",
+    "day": 1,
+    "km": 0
+   },
+   {
+    "code": "CNB",
+    "arr": "08:19",
+    "dep": "08:24",
+    "day": 1,
+    "km": 79
+   },
+   {
+    "code": "NDLS",
+    "arr": "15:17",
+    "dep": null,
+    "day": 1,
+    "km": 519
+   }
+  ]
+ },
+ {
+  "number": "RS153",
+  "name": "Delhi\u2013Lucknow Intercity Day Express",
+  "category": "intercity",
+  "category_label": "Intercity Day Express",
+  "corridor": "delhi_lucknow",
+  "classes": [
+   "2S",
+   "CC"
+  ],
+  "origin": "NDLS",
+  "destination": "LKO",
+  "total_km": 519,
+  "dynamic_fare": false,
+  "stops": [
+   {
+    "code": "NDLS",
+    "arr": null,
+    "dep": "06:45",
+    "day": 1,
+    "km": 0
+   },
+   {
+    "code": "CNB",
+    "arr": "13:38",
+    "dep": "13:43",
+    "day": 1,
+    "km": 440
+   },
+   {
+    "code": "LKO",
+    "arr": "14:57",
+    "dep": null,
+    "day": 1,
+    "km": 519
+   }
+  ]
+ },
+ {
+  "number": "RS154",
+  "name": "Lucknow\u2013Delhi Intercity Day Express",
+  "category": "intercity",
+  "category_label": "Intercity Day Express",
+  "corridor": "delhi_lucknow",
+  "classes": [
+   "2S",
+   "CC"
+  ],
+  "origin": "LKO",
+  "destination": "NDLS",
+  "total_km": 519,
+  "dynamic_fare": false,
+  "stops": [
+   {
+    "code": "LKO",
+    "arr": null,
+    "dep": "05:35",
+    "day": 1,
+    "km": 0
+   },
+   {
+    "code": "CNB",
+    "arr": "06:49",
+    "dep": "06:54",
+    "day": 1,
+    "km": 79
+   },
+   {
+    "code": "NDLS",
+    "arr": "13:47",
+    "dep": null,
+    "day": 1,
+    "km": 519
+   }
+  ]
+ },
+ {
+  "number": "RS155",
+  "name": "Delhi\u2013Lucknow Superfast Express",
+  "category": "superfast",
+  "category_label": "Superfast Express",
+  "corridor": "delhi_lucknow",
+  "classes": [
+   "SL",
+   "3A",
+   "2A",
+   "1A"
+  ],
+  "origin": "NDLS",
+  "destination": "LKO",
+  "total_km": 519,
+  "dynamic_fare": false,
+  "stops": [
+   {
+    "code": "NDLS",
+    "arr": null,
+    "dep": "15:30",
+    "day": 1,
+    "km": 0
+   },
+   {
+    "code": "CNB",
+    "arr": "22:50",
+    "dep": "22:58",
+    "day": 1,
+    "km": 440
+   },
+   {
+    "code": "LKO",
+    "arr": "00:17",
+    "dep": null,
+    "day": 2,
+    "km": 519
+   }
+  ]
+ },
+ {
+  "number": "RS156",
+  "name": "Lucknow\u2013Delhi Superfast Express",
+  "category": "superfast",
+  "category_label": "Superfast Express",
+  "corridor": "delhi_lucknow",
+  "classes": [
+   "SL",
+   "3A",
+   "2A",
+   "1A"
+  ],
+  "origin": "LKO",
+  "destination": "NDLS",
+  "total_km": 519,
+  "dynamic_fare": false,
+  "stops": [
+   {
+    "code": "LKO",
+    "arr": null,
+    "dep": "16:00",
+    "day": 1,
+    "km": 0
+   },
+   {
+    "code": "CNB",
+    "arr": "17:19",
+    "dep": "17:27",
+    "day": 1,
+    "km": 79
+   },
+   {
+    "code": "NDLS",
+    "arr": "00:47",
+    "dep": null,
+    "day": 2,
+    "km": 519
+   }
+  ]
+ },
+ {
+  "number": "RS157",
+  "name": "Delhi\u2013Lucknow Mail/Express",
+  "category": "express",
+  "category_label": "Mail/Express",
+  "corridor": "delhi_lucknow",
+  "classes": [
+   "2S",
+   "SL",
+   "3A",
+   "2A"
+  ],
+  "origin": "NDLS",
+  "destination": "LKO",
+  "total_km": 519,
+  "dynamic_fare": false,
+  "stops": [
+   {
+    "code": "NDLS",
+    "arr": null,
+    "dep": "15:10",
+    "day": 1,
+    "km": 0
+   },
+   {
+    "code": "CNB",
+    "arr": "23:58",
+    "dep": "00:06",
+    "day": 1,
+    "km": 440
+   },
+   {
+    "code": "LKO",
+    "arr": "01:41",
+    "dep": null,
+    "day": 2,
+    "km": 519
+   }
+  ]
+ },
+ {
+  "number": "RS158",
+  "name": "Lucknow\u2013Delhi Mail/Express",
+  "category": "express",
+  "category_label": "Mail/Express",
+  "corridor": "delhi_lucknow",
+  "classes": [
+   "2S",
+   "SL",
+   "3A",
+   "2A"
+  ],
+  "origin": "LKO",
+  "destination": "NDLS",
+  "total_km": 519,
+  "dynamic_fare": false,
+  "stops": [
+   {
+    "code": "LKO",
+    "arr": null,
+    "dep": "10:55",
+    "day": 1,
+    "km": 0
+   },
+   {
+    "code": "CNB",
+    "arr": "12:30",
+    "dep": "12:38",
+    "day": 1,
+    "km": 79
+   },
+   {
+    "code": "NDLS",
+    "arr": "21:26",
+    "dep": null,
+    "day": 1,
+    "km": 519
+   }
+  ]
+ },
+ {
+  "number": "RS159",
+  "name": "Delhi\u2013Varanasi Intercity Day Express",
+  "category": "intercity",
+  "category_label": "Intercity Day Express",
+  "corridor": "delhi_varanasi",
+  "classes": [
+   "2S",
+   "CC"
+  ],
+  "origin": "NDLS",
+  "destination": "BSB",
+  "total_km": 779,
+  "dynamic_fare": false,
+  "stops": [
+   {
+    "code": "NDLS",
+    "arr": null,
+    "dep": "05:30",
+    "day": 1,
+    "km": 0
+   },
+   {
+    "code": "CNB",
+    "arr": "12:23",
+    "dep": "12:28",
+    "day": 1,
+    "km": 440
+   },
+   {
+    "code": "PRYJ",
+    "arr": "15:43",
+    "dep": "15:48",
+    "day": 1,
+    "km": 648
+   },
+   {
+    "code": "BSB",
+    "arr": "17:51",
+    "dep": null,
+    "day": 1,
+    "km": 779
+   }
+  ]
+ },
+ {
+  "number": "RS160",
+  "name": "Varanasi\u2013Delhi Intercity Day Express",
+  "category": "intercity",
+  "category_label": "Intercity Day Express",
+  "corridor": "delhi_varanasi",
+  "classes": [
+   "2S",
+   "CC"
+  ],
+  "origin": "BSB",
+  "destination": "NDLS",
+  "total_km": 779,
+  "dynamic_fare": false,
+  "stops": [
+   {
+    "code": "BSB",
+    "arr": null,
+    "dep": "07:20",
+    "day": 1,
+    "km": 0
+   },
+   {
+    "code": "PRYJ",
+    "arr": "09:23",
+    "dep": "09:28",
+    "day": 1,
+    "km": 131
+   },
+   {
+    "code": "CNB",
+    "arr": "12:43",
+    "dep": "12:48",
+    "day": 1,
+    "km": 339
+   },
+   {
+    "code": "NDLS",
+    "arr": "19:41",
+    "dep": null,
+    "day": 1,
+    "km": 779
+   }
+  ]
+ },
+ {
+  "number": "RS161",
+  "name": "Delhi\u2013Varanasi Mail/Express",
+  "category": "express",
+  "category_label": "Mail/Express",
+  "corridor": "delhi_varanasi",
+  "classes": [
+   "2S",
+   "SL",
+   "3A",
+   "2A"
+  ],
+  "origin": "NDLS",
+  "destination": "BSB",
+  "total_km": 779,
+  "dynamic_fare": false,
+  "stops": [
+   {
+    "code": "NDLS",
+    "arr": null,
+    "dep": "21:10",
+    "day": 1,
+    "km": 0
+   },
+   {
+    "code": "CNB",
+    "arr": "05:58",
+    "dep": "06:06",
+    "day": 2,
+    "km": 440
+   },
+   {
+    "code": "PRYJ",
+    "arr": "10:15",
+    "dep": "10:23",
+    "day": 2,
+    "km": 648
+   },
+   {
+    "code": "BSB",
+    "arr": "13:00",
+    "dep": null,
+    "day": 2,
+    "km": 779
+   }
+  ]
+ },
+ {
+  "number": "RS162",
+  "name": "Varanasi\u2013Delhi Mail/Express",
+  "category": "express",
+  "category_label": "Mail/Express",
+  "corridor": "delhi_varanasi",
+  "classes": [
+   "2S",
+   "SL",
+   "3A",
+   "2A"
+  ],
+  "origin": "BSB",
+  "destination": "NDLS",
+  "total_km": 779,
+  "dynamic_fare": false,
+  "stops": [
+   {
+    "code": "BSB",
+    "arr": null,
+    "dep": "15:55",
+    "day": 1,
+    "km": 0
+   },
+   {
+    "code": "PRYJ",
+    "arr": "18:32",
+    "dep": "18:40",
+    "day": 1,
+    "km": 131
+   },
+   {
+    "code": "CNB",
+    "arr": "22:49",
+    "dep": "22:57",
+    "day": 1,
+    "km": 339
+   },
+   {
+    "code": "NDLS",
+    "arr": "07:45",
+    "dep": null,
+    "day": 2,
+    "km": 779
+   }
+  ]
+ },
+ {
+  "number": "RS163",
+  "name": "Delhi\u2013Amritsar Intercity Day Express",
+  "category": "intercity",
+  "category_label": "Intercity Day Express",
+  "corridor": "delhi_amritsar",
+  "classes": [
+   "2S",
+   "CC"
+  ],
+  "origin": "NDLS",
+  "destination": "ASR",
+  "total_km": 488,
+  "dynamic_fare": false,
+  "stops": [
+   {
+    "code": "NDLS",
+    "arr": null,
+    "dep": "06:00",
+    "day": 1,
+    "km": 0
+   },
+   {
+    "code": "UMB",
+    "arr": "09:22",
+    "dep": "09:27",
+    "day": 1,
+    "km": 216
+   },
+   {
+    "code": "LDH",
+    "arr": "11:26",
+    "dep": "11:31",
+    "day": 1,
+    "km": 342
+   },
+   {
+    "code": "JUC",
+    "arr": "12:26",
+    "dep": "12:31",
+    "day": 1,
+    "km": 401
+   },
+   {
+    "code": "ASR",
+    "arr": "13:52",
+    "dep": null,
+    "day": 1,
+    "km": 488
+   }
+  ]
+ },
+ {
+  "number": "RS164",
+  "name": "Amritsar\u2013Delhi Intercity Day Express",
+  "category": "intercity",
+  "category_label": "Intercity Day Express",
+  "corridor": "delhi_amritsar",
+  "classes": [
+   "2S",
+   "CC"
+  ],
+  "origin": "ASR",
+  "destination": "NDLS",
+  "total_km": 488,
+  "dynamic_fare": false,
+  "stops": [
+   {
+    "code": "ASR",
+    "arr": null,
+    "dep": "05:55",
+    "day": 1,
+    "km": 0
+   },
+   {
+    "code": "JUC",
+    "arr": "07:16",
+    "dep": "07:21",
+    "day": 1,
+    "km": 86
+   },
+   {
+    "code": "LDH",
+    "arr": "08:16",
+    "dep": "08:21",
+    "day": 1,
+    "km": 145
+   },
+   {
+    "code": "UMB",
+    "arr": "10:20",
+    "dep": "10:25",
+    "day": 1,
+    "km": 272
+   },
+   {
+    "code": "NDLS",
+    "arr": "13:47",
+    "dep": null,
+    "day": 1,
+    "km": 488
+   }
+  ]
+ },
+ {
+  "number": "RS165",
+  "name": "Delhi\u2013Amritsar Intercity Day Express",
+  "category": "intercity",
+  "category_label": "Intercity Day Express",
+  "corridor": "delhi_amritsar",
+  "classes": [
+   "2S",
+   "CC"
+  ],
+  "origin": "NDLS",
+  "destination": "ASR",
+  "total_km": 488,
+  "dynamic_fare": false,
+  "stops": [
+   {
+    "code": "NDLS",
+    "arr": null,
+    "dep": "07:50",
+    "day": 1,
+    "km": 0
+   },
+   {
+    "code": "UMB",
+    "arr": "11:12",
+    "dep": "11:17",
+    "day": 1,
+    "km": 216
+   },
+   {
+    "code": "LDH",
+    "arr": "13:16",
+    "dep": "13:21",
+    "day": 1,
+    "km": 342
+   },
+   {
+    "code": "JUC",
+    "arr": "14:16",
+    "dep": "14:21",
+    "day": 1,
+    "km": 401
+   },
+   {
+    "code": "ASR",
+    "arr": "15:42",
+    "dep": null,
+    "day": 1,
+    "km": 488
+   }
+  ]
+ },
+ {
+  "number": "RS166",
+  "name": "Amritsar\u2013Delhi Intercity Day Express",
+  "category": "intercity",
+  "category_label": "Intercity Day Express",
+  "corridor": "delhi_amritsar",
+  "classes": [
+   "2S",
+   "CC"
+  ],
+  "origin": "ASR",
+  "destination": "NDLS",
+  "total_km": 488,
+  "dynamic_fare": false,
+  "stops": [
+   {
+    "code": "ASR",
+    "arr": null,
+    "dep": "06:25",
+    "day": 1,
+    "km": 0
+   },
+   {
+    "code": "JUC",
+    "arr": "07:46",
+    "dep": "07:51",
+    "day": 1,
+    "km": 86
+   },
+   {
+    "code": "LDH",
+    "arr": "08:46",
+    "dep": "08:51",
+    "day": 1,
+    "km": 145
+   },
+   {
+    "code": "UMB",
+    "arr": "10:50",
+    "dep": "10:55",
+    "day": 1,
+    "km": 272
+   },
+   {
+    "code": "NDLS",
+    "arr": "14:17",
+    "dep": null,
+    "day": 1,
+    "km": 488
+   }
+  ]
+ },
+ {
+  "number": "RS167",
+  "name": "Delhi\u2013Amritsar Superfast Express",
+  "category": "superfast",
+  "category_label": "Superfast Express",
+  "corridor": "delhi_amritsar",
+  "classes": [
+   "SL",
+   "3A",
+   "2A",
+   "1A"
+  ],
+  "origin": "NDLS",
+  "destination": "ASR",
+  "total_km": 488,
+  "dynamic_fare": false,
+  "stops": [
+   {
+    "code": "NDLS",
+    "arr": null,
+    "dep": "06:35",
+    "day": 1,
+    "km": 0
+   },
+   {
+    "code": "UMB",
+    "arr": "10:11",
+    "dep": "10:19",
+    "day": 1,
+    "km": 216
+   },
+   {
+    "code": "LDH",
+    "arr": "12:26",
+    "dep": "12:34",
+    "day": 1,
+    "km": 342
+   },
+   {
+    "code": "JUC",
+    "arr": "13:33",
+    "dep": "13:41",
+    "day": 1,
+    "km": 401
+   },
+   {
+    "code": "ASR",
+    "arr": "15:07",
+    "dep": null,
+    "day": 1,
+    "km": 488
+   }
+  ]
+ },
+ {
+  "number": "RS168",
+  "name": "Amritsar\u2013Delhi Superfast Express",
+  "category": "superfast",
+  "category_label": "Superfast Express",
+  "corridor": "delhi_amritsar",
+  "classes": [
+   "SL",
+   "3A",
+   "2A",
+   "1A"
+  ],
+  "origin": "ASR",
+  "destination": "NDLS",
+  "total_km": 488,
+  "dynamic_fare": false,
+  "stops": [
+   {
+    "code": "ASR",
+    "arr": null,
+    "dep": "19:20",
+    "day": 1,
+    "km": 0
+   },
+   {
+    "code": "JUC",
+    "arr": "20:46",
+    "dep": "20:54",
+    "day": 1,
+    "km": 86
+   },
+   {
+    "code": "LDH",
+    "arr": "21:53",
+    "dep": "22:01",
+    "day": 1,
+    "km": 145
+   },
+   {
+    "code": "UMB",
+    "arr": "00:08",
+    "dep": "00:16",
+    "day": 2,
+    "km": 272
+   },
+   {
+    "code": "NDLS",
+    "arr": "03:52",
+    "dep": null,
+    "day": 2,
+    "km": 488
+   }
+  ]
+ },
+ {
+  "number": "RS169",
+  "name": "Delhi\u2013Amritsar Mail/Express",
+  "category": "express",
+  "category_label": "Mail/Express",
+  "corridor": "delhi_amritsar",
+  "classes": [
+   "2S",
+   "SL",
+   "3A",
+   "2A"
+  ],
+  "origin": "NDLS",
+  "destination": "ASR",
+  "total_km": 488,
+  "dynamic_fare": false,
+  "stops": [
+   {
+    "code": "NDLS",
+    "arr": null,
+    "dep": "02:10",
+    "day": 1,
+    "km": 0
+   },
+   {
+    "code": "UMB",
+    "arr": "06:29",
+    "dep": "06:37",
+    "day": 1,
+    "km": 216
+   },
+   {
+    "code": "LDH",
+    "arr": "09:09",
+    "dep": "09:17",
+    "day": 1,
+    "km": 342
+   },
+   {
+    "code": "JUC",
+    "arr": "10:28",
+    "dep": "10:36",
+    "day": 1,
+    "km": 401
+   },
+   {
+    "code": "ASR",
+    "arr": "12:20",
+    "dep": null,
+    "day": 1,
+    "km": 488
+   }
+  ]
+ },
+ {
+  "number": "RS170",
+  "name": "Amritsar\u2013Delhi Mail/Express",
+  "category": "express",
+  "category_label": "Mail/Express",
+  "corridor": "delhi_amritsar",
+  "classes": [
+   "2S",
+   "SL",
+   "3A",
+   "2A"
+  ],
+  "origin": "ASR",
+  "destination": "NDLS",
+  "total_km": 488,
+  "dynamic_fare": false,
+  "stops": [
+   {
+    "code": "ASR",
+    "arr": null,
+    "dep": "08:25",
+    "day": 1,
+    "km": 0
+   },
+   {
+    "code": "JUC",
+    "arr": "10:09",
+    "dep": "10:17",
+    "day": 1,
+    "km": 86
+   },
+   {
+    "code": "LDH",
+    "arr": "11:28",
+    "dep": "11:36",
+    "day": 1,
+    "km": 145
+   },
+   {
+    "code": "UMB",
+    "arr": "14:08",
+    "dep": "14:16",
+    "day": 1,
+    "km": 272
+   },
+   {
+    "code": "NDLS",
+    "arr": "18:35",
+    "dep": null,
+    "day": 1,
+    "km": 488
+   }
+  ]
+ },
+ {
+  "number": "RS171",
+  "name": "Delhi\u2013Chandigarh Intercity Day Express",
+  "category": "intercity",
+  "category_label": "Intercity Day Express",
+  "corridor": "delhi_chandigarh",
+  "classes": [
+   "2S",
+   "CC"
+  ],
+  "origin": "NDLS",
+  "destination": "CDG",
+  "total_km": 261,
+  "dynamic_fare": false,
+  "stops": [
+   {
+    "code": "NDLS",
+    "arr": null,
+    "dep": "05:35",
+    "day": 1,
+    "km": 0
+   },
+   {
+    "code": "UMB",
+    "arr": "08:57",
+    "dep": "09:02",
+    "day": 1,
+    "km": 216
+   },
+   {
+    "code": "CDG",
+    "arr": "09:44",
+    "dep": null,
+    "day": 1,
+    "km": 261
+   }
+  ]
+ },
+ {
+  "number": "RS172",
+  "name": "Chandigarh\u2013Delhi Intercity Day Express",
+  "category": "intercity",
+  "category_label": "Intercity Day Express",
+  "corridor": "delhi_chandigarh",
+  "classes": [
+   "2S",
+   "CC"
+  ],
+  "origin": "CDG",
+  "destination": "NDLS",
+  "total_km": 261,
+  "dynamic_fare": false,
+  "stops": [
+   {
+    "code": "CDG",
+    "arr": null,
+    "dep": "06:05",
+    "day": 1,
+    "km": 0
+   },
+   {
+    "code": "UMB",
+    "arr": "06:47",
+    "dep": "06:52",
+    "day": 1,
+    "km": 45
+   },
+   {
+    "code": "NDLS",
+    "arr": "10:14",
+    "dep": null,
+    "day": 1,
+    "km": 261
+   }
+  ]
+ },
+ {
+  "number": "RS173",
+  "name": "Delhi\u2013Chandigarh Intercity Day Express",
+  "category": "intercity",
+  "category_label": "Intercity Day Express",
+  "corridor": "delhi_chandigarh",
+  "classes": [
+   "2S",
+   "CC"
+  ],
+  "origin": "NDLS",
+  "destination": "CDG",
+  "total_km": 261,
+  "dynamic_fare": false,
+  "stops": [
+   {
+    "code": "NDLS",
+    "arr": null,
+    "dep": "15:50",
+    "day": 1,
+    "km": 0
+   },
+   {
+    "code": "UMB",
+    "arr": "19:12",
+    "dep": "19:17",
+    "day": 1,
+    "km": 216
+   },
+   {
+    "code": "CDG",
+    "arr": "19:59",
+    "dep": null,
+    "day": 1,
+    "km": 261
+   }
+  ]
+ },
+ {
+  "number": "RS174",
+  "name": "Chandigarh\u2013Delhi Intercity Day Express",
+  "category": "intercity",
+  "category_label": "Intercity Day Express",
+  "corridor": "delhi_chandigarh",
+  "classes": [
+   "2S",
+   "CC"
+  ],
+  "origin": "CDG",
+  "destination": "NDLS",
+  "total_km": 261,
+  "dynamic_fare": false,
+  "stops": [
+   {
+    "code": "CDG",
+    "arr": null,
+    "dep": "08:10",
+    "day": 1,
+    "km": 0
+   },
+   {
+    "code": "UMB",
+    "arr": "08:52",
+    "dep": "08:57",
+    "day": 1,
+    "km": 45
+   },
+   {
+    "code": "NDLS",
+    "arr": "12:19",
+    "dep": null,
+    "day": 1,
+    "km": 261
+   }
+  ]
+ },
+ {
+  "number": "RS175",
+  "name": "Delhi\u2013Jaipur Intercity Day Express",
+  "category": "intercity",
+  "category_label": "Intercity Day Express",
+  "corridor": "delhi_jaipur",
+  "classes": [
+   "2S",
+   "CC"
+  ],
+  "origin": "NDLS",
+  "destination": "JP",
+  "total_km": 266,
+  "dynamic_fare": false,
+  "stops": [
+   {
+    "code": "NDLS",
+    "arr": null,
+    "dep": "08:25",
+    "day": 1,
+    "km": 0
+   },
+   {
+    "code": "JP",
+    "arr": "12:35",
+    "dep": null,
+    "day": 1,
+    "km": 266
+   }
+  ]
+ },
+ {
+  "number": "RS176",
+  "name": "Jaipur\u2013Delhi Intercity Day Express",
+  "category": "intercity",
+  "category_label": "Intercity Day Express",
+  "corridor": "delhi_jaipur",
+  "classes": [
+   "2S",
+   "CC"
+  ],
+  "origin": "JP",
+  "destination": "NDLS",
+  "total_km": 266,
+  "dynamic_fare": false,
+  "stops": [
+   {
+    "code": "JP",
+    "arr": null,
+    "dep": "15:15",
+    "day": 1,
+    "km": 0
+   },
+   {
+    "code": "NDLS",
+    "arr": "19:25",
+    "dep": null,
+    "day": 1,
+    "km": 266
+   }
+  ]
+ },
+ {
+  "number": "RS177",
+  "name": "Delhi\u2013Jaipur Intercity Day Express",
+  "category": "intercity",
+  "category_label": "Intercity Day Express",
+  "corridor": "delhi_jaipur",
+  "classes": [
+   "2S",
+   "CC"
+  ],
+  "origin": "NDLS",
+  "destination": "JP",
+  "total_km": 266,
+  "dynamic_fare": false,
+  "stops": [
+   {
+    "code": "NDLS",
+    "arr": null,
+    "dep": "06:20",
+    "day": 1,
+    "km": 0
+   },
+   {
+    "code": "JP",
+    "arr": "10:30",
+    "dep": null,
+    "day": 1,
+    "km": 266
+   }
+  ]
+ },
+ {
+  "number": "RS178",
+  "name": "Jaipur\u2013Delhi Intercity Day Express",
+  "category": "intercity",
+  "category_label": "Intercity Day Express",
+  "corridor": "delhi_jaipur",
+  "classes": [
+   "2S",
+   "CC"
+  ],
+  "origin": "JP",
+  "destination": "NDLS",
+  "total_km": 266,
+  "dynamic_fare": false,
+  "stops": [
+   {
+    "code": "JP",
+    "arr": null,
+    "dep": "14:20",
+    "day": 1,
+    "km": 0
+   },
+   {
+    "code": "NDLS",
+    "arr": "18:30",
+    "dep": null,
+    "day": 1,
+    "km": 266
+   }
+  ]
+ },
+ {
+  "number": "RS179",
+  "name": "Delhi\u2013Ahmedabad Superfast Express",
+  "category": "superfast",
+  "category_label": "Superfast Express",
+  "corridor": "delhi_ahmedabad",
+  "classes": [
+   "SL",
+   "3A",
+   "2A",
+   "1A"
+  ],
+  "origin": "DEE",
+  "destination": "ADI",
+  "total_km": 892,
+  "dynamic_fare": false,
+  "stops": [
+   {
+    "code": "DEE",
+    "arr": null,
+    "dep": "17:00",
+    "day": 1,
+    "km": 0
+   },
+   {
+    "code": "JP",
+    "arr": "21:26",
+    "dep": "21:34",
+    "day": 1,
+    "km": 266
+   },
+   {
+    "code": "AII",
+    "arr": "23:54",
+    "dep": "00:02",
+    "day": 1,
+    "km": 407
+   },
+   {
+    "code": "ADI",
+    "arr": "08:07",
+    "dep": null,
+    "day": 2,
+    "km": 892
+   }
+  ]
+ },
+ {
+  "number": "RS180",
+  "name": "Ahmedabad\u2013Delhi Superfast Express",
+  "category": "superfast",
+  "category_label": "Superfast Express",
+  "corridor": "delhi_ahmedabad",
+  "classes": [
+   "SL",
+   "3A",
+   "2A",
+   "1A"
+  ],
+  "origin": "ADI",
+  "destination": "DEE",
+  "total_km": 892,
+  "dynamic_fare": false,
+  "stops": [
+   {
+    "code": "ADI",
+    "arr": null,
+    "dep": "16:10",
+    "day": 1,
+    "km": 0
+   },
+   {
+    "code": "AII",
+    "arr": "00:15",
+    "dep": "00:23",
+    "day": 2,
+    "km": 485
+   },
+   {
+    "code": "JP",
+    "arr": "02:43",
+    "dep": "02:51",
+    "day": 2,
+    "km": 626
+   },
+   {
+    "code": "DEE",
+    "arr": "07:17",
+    "dep": null,
+    "day": 2,
+    "km": 892
+   }
+  ]
+ },
+ {
+  "number": "RS181",
+  "name": "Delhi\u2013Ahmedabad Mail/Express",
+  "category": "express",
+  "category_label": "Mail/Express",
+  "corridor": "delhi_ahmedabad",
+  "classes": [
+   "2S",
+   "SL",
+   "3A",
+   "2A"
+  ],
+  "origin": "DEE",
+  "destination": "ADI",
+  "total_km": 892,
+  "dynamic_fare": false,
+  "stops": [
+   {
+    "code": "DEE",
+    "arr": null,
+    "dep": "01:50",
+    "day": 1,
+    "km": 0
+   },
+   {
+    "code": "JP",
+    "arr": "07:10",
+    "dep": "07:18",
+    "day": 1,
+    "km": 266
+   },
+   {
+    "code": "AII",
+    "arr": "10:06",
+    "dep": "10:14",
+    "day": 1,
+    "km": 407
+   },
+   {
+    "code": "ADI",
+    "arr": "19:56",
+    "dep": null,
+    "day": 1,
+    "km": 892
+   }
+  ]
+ },
+ {
+  "number": "RS182",
+  "name": "Ahmedabad\u2013Delhi Mail/Express",
+  "category": "express",
+  "category_label": "Mail/Express",
+  "corridor": "delhi_ahmedabad",
+  "classes": [
+   "2S",
+   "SL",
+   "3A",
+   "2A"
+  ],
+  "origin": "ADI",
+  "destination": "DEE",
+  "total_km": 892,
+  "dynamic_fare": false,
+  "stops": [
+   {
+    "code": "ADI",
+    "arr": null,
+    "dep": "15:00",
+    "day": 1,
+    "km": 0
+   },
+   {
+    "code": "AII",
+    "arr": "00:42",
+    "dep": "00:50",
+    "day": 2,
+    "km": 485
+   },
+   {
+    "code": "JP",
+    "arr": "03:38",
+    "dep": "03:46",
+    "day": 2,
+    "km": 626
+   },
+   {
+    "code": "DEE",
+    "arr": "09:06",
+    "dep": null,
+    "day": 2,
+    "km": 892
+   }
+  ]
+ },
+ {
+  "number": "RS183",
+  "name": "Delhi\u2013Ahmedabad Mail/Express",
+  "category": "express",
+  "category_label": "Mail/Express",
+  "corridor": "delhi_ahmedabad",
+  "classes": [
+   "2S",
+   "SL",
+   "3A",
+   "2A"
+  ],
+  "origin": "DEE",
+  "destination": "ADI",
+  "total_km": 892,
+  "dynamic_fare": false,
+  "stops": [
+   {
+    "code": "DEE",
+    "arr": null,
+    "dep": "03:50",
+    "day": 1,
+    "km": 0
+   },
+   {
+    "code": "JP",
+    "arr": "09:10",
+    "dep": "09:18",
+    "day": 1,
+    "km": 266
+   },
+   {
+    "code": "AII",
+    "arr": "12:06",
+    "dep": "12:14",
+    "day": 1,
+    "km": 407
+   },
+   {
+    "code": "ADI",
+    "arr": "21:56",
+    "dep": null,
+    "day": 1,
+    "km": 892
+   }
+  ]
+ },
+ {
+  "number": "RS184",
+  "name": "Ahmedabad\u2013Delhi Mail/Express",
+  "category": "express",
+  "category_label": "Mail/Express",
+  "corridor": "delhi_ahmedabad",
+  "classes": [
+   "2S",
+   "SL",
+   "3A",
+   "2A"
+  ],
+  "origin": "ADI",
+  "destination": "DEE",
+  "total_km": 892,
+  "dynamic_fare": false,
+  "stops": [
+   {
+    "code": "ADI",
+    "arr": null,
+    "dep": "10:10",
+    "day": 1,
+    "km": 0
+   },
+   {
+    "code": "AII",
+    "arr": "19:52",
+    "dep": "20:00",
+    "day": 1,
+    "km": 485
+   },
+   {
+    "code": "JP",
+    "arr": "22:48",
+    "dep": "22:56",
+    "day": 1,
+    "km": 626
+   },
+   {
+    "code": "DEE",
+    "arr": "04:16",
+    "dep": null,
+    "day": 2,
+    "km": 892
+   }
+  ]
+ },
+ {
+  "number": "RS185",
+  "name": "Mumbai\u2013Ahmedabad Intercity Day Express",
+  "category": "intercity",
+  "category_label": "Intercity Day Express",
+  "corridor": "mumbai_ahmedabad",
+  "classes": [
+   "2S",
+   "CC"
+  ],
+  "origin": "BDTS",
+  "destination": "ADI",
+  "total_km": 521,
+  "dynamic_fare": false,
+  "stops": [
+   {
+    "code": "BDTS",
+    "arr": null,
+    "dep": "08:10",
+    "day": 1,
+    "km": 0
+   },
+   {
+    "code": "ST",
+    "arr": "12:20",
+    "dep": "12:25",
+    "day": 1,
+    "km": 267
+   },
+   {
+    "code": "BRC",
+    "arr": "14:39",
+    "dep": "14:44",
+    "day": 1,
+    "km": 410
+   },
+   {
+    "code": "ADI",
+    "arr": "16:28",
+    "dep": null,
+    "day": 1,
+    "km": 521
+   }
+  ]
+ },
+ {
+  "number": "RS186",
+  "name": "Ahmedabad\u2013Mumbai Intercity Day Express",
+  "category": "intercity",
+  "category_label": "Intercity Day Express",
+  "corridor": "mumbai_ahmedabad",
+  "classes": [
+   "2S",
+   "CC"
+  ],
+  "origin": "ADI",
+  "destination": "BDTS",
+  "total_km": 521,
+  "dynamic_fare": false,
+  "stops": [
+   {
+    "code": "ADI",
+    "arr": null,
+    "dep": "07:45",
+    "day": 1,
+    "km": 0
+   },
+   {
+    "code": "BRC",
+    "arr": "09:29",
+    "dep": "09:34",
+    "day": 1,
+    "km": 111
+   },
+   {
+    "code": "ST",
+    "arr": "11:48",
+    "dep": "11:53",
+    "day": 1,
+    "km": 254
+   },
+   {
+    "code": "BDTS",
+    "arr": "16:03",
+    "dep": null,
+    "day": 1,
+    "km": 521
+   }
+  ]
+ },
+ {
+  "number": "RS187",
+  "name": "Mumbai\u2013Ahmedabad Intercity Day Express",
+  "category": "intercity",
+  "category_label": "Intercity Day Express",
+  "corridor": "mumbai_ahmedabad",
+  "classes": [
+   "2S",
+   "CC"
+  ],
+  "origin": "BDTS",
+  "destination": "ADI",
+  "total_km": 521,
+  "dynamic_fare": false,
+  "stops": [
+   {
+    "code": "BDTS",
+    "arr": null,
+    "dep": "15:35",
+    "day": 1,
+    "km": 0
+   },
+   {
+    "code": "ST",
+    "arr": "19:45",
+    "dep": "19:50",
+    "day": 1,
+    "km": 267
+   },
+   {
+    "code": "BRC",
+    "arr": "22:04",
+    "dep": "22:09",
+    "day": 1,
+    "km": 410
+   },
+   {
+    "code": "ADI",
+    "arr": "23:53",
+    "dep": null,
+    "day": 1,
+    "km": 521
+   }
+  ]
+ },
+ {
+  "number": "RS188",
+  "name": "Ahmedabad\u2013Mumbai Intercity Day Express",
+  "category": "intercity",
+  "category_label": "Intercity Day Express",
+  "corridor": "mumbai_ahmedabad",
+  "classes": [
+   "2S",
+   "CC"
+  ],
+  "origin": "ADI",
+  "destination": "BDTS",
+  "total_km": 521,
+  "dynamic_fare": false,
+  "stops": [
+   {
+    "code": "ADI",
+    "arr": null,
+    "dep": "15:05",
+    "day": 1,
+    "km": 0
+   },
+   {
+    "code": "BRC",
+    "arr": "16:49",
+    "dep": "16:54",
+    "day": 1,
+    "km": 111
+   },
+   {
+    "code": "ST",
+    "arr": "19:08",
+    "dep": "19:13",
+    "day": 1,
+    "km": 254
+   },
+   {
+    "code": "BDTS",
+    "arr": "23:23",
+    "dep": null,
+    "day": 1,
+    "km": 521
+   }
+  ]
+ },
+ {
+  "number": "RS189",
+  "name": "Mumbai\u2013Ahmedabad Superfast Express",
+  "category": "superfast",
+  "category_label": "Superfast Express",
+  "corridor": "mumbai_ahmedabad",
+  "classes": [
+   "SL",
+   "3A",
+   "2A",
+   "1A"
+  ],
+  "origin": "BDTS",
+  "destination": "ADI",
+  "total_km": 521,
+  "dynamic_fare": false,
+  "stops": [
+   {
+    "code": "BDTS",
+    "arr": null,
+    "dep": "20:45",
+    "day": 1,
+    "km": 0
+   },
+   {
+    "code": "ST",
+    "arr": "01:12",
+    "dep": "01:20",
+    "day": 2,
+    "km": 267
+   },
+   {
+    "code": "BRC",
+    "arr": "03:43",
+    "dep": "03:51",
+    "day": 2,
+    "km": 410
+   },
+   {
+    "code": "ADI",
+    "arr": "05:42",
+    "dep": null,
+    "day": 2,
+    "km": 521
+   }
+  ]
+ },
+ {
+  "number": "RS190",
+  "name": "Ahmedabad\u2013Mumbai Superfast Express",
+  "category": "superfast",
+  "category_label": "Superfast Express",
+  "corridor": "mumbai_ahmedabad",
+  "classes": [
+   "SL",
+   "3A",
+   "2A",
+   "1A"
+  ],
+  "origin": "ADI",
+  "destination": "BDTS",
+  "total_km": 521,
+  "dynamic_fare": false,
+  "stops": [
+   {
+    "code": "ADI",
+    "arr": null,
+    "dep": "19:20",
+    "day": 1,
+    "km": 0
+   },
+   {
+    "code": "BRC",
+    "arr": "21:11",
+    "dep": "21:19",
+    "day": 1,
+    "km": 111
+   },
+   {
+    "code": "ST",
+    "arr": "23:42",
+    "dep": "23:50",
+    "day": 1,
+    "km": 254
+   },
+   {
+    "code": "BDTS",
+    "arr": "04:17",
+    "dep": null,
+    "day": 2,
+    "km": 521
+   }
+  ]
+ },
+ {
+  "number": "RS191",
+  "name": "Mumbai\u2013Kolkata Superfast Express",
+  "category": "superfast",
+  "category_label": "Superfast Express",
+  "corridor": "mumbai_howrah",
+  "classes": [
+   "SL",
+   "3A",
+   "2A",
+   "1A"
+  ],
+  "origin": "CSMT",
+  "destination": "HWH",
+  "total_km": 1979,
+  "dynamic_fare": false,
+  "stops": [
+   {
+    "code": "CSMT",
+    "arr": null,
+    "dep": "07:00",
+    "day": 1,
+    "km": 0
+   },
+   {
+    "code": "KYN",
+    "arr": "07:50",
+    "dep": "07:58",
+    "day": 1,
+    "km": 50
+   },
+   {
+    "code": "NK",
+    "arr": "10:00",
+    "dep": "10:08",
+    "day": 1,
+    "km": 172
+   },
+   {
+    "code": "MMR",
+    "arr": "11:27",
+    "dep": "11:35",
+    "day": 1,
+    "km": 251
+   },
+   {
+    "code": "BSL",
+    "arr": "14:41",
+    "dep": "14:49",
+    "day": 1,
+    "km": 437
+   },
+   {
+    "code": "AK",
+    "arr": "17:16",
+    "dep": "17:24",
+    "day": 1,
+    "km": 584
+   },
+   {
+    "code": "BD",
+    "arr": "18:50",
+    "dep": "18:58",
+    "day": 1,
+    "km": 671
+   },
+   {
+    "code": "NGP",
+    "arr": "21:40",
+    "dep": "21:48",
+    "day": 1,
+    "km": 833
+   },
+   {
+    "code": "R",
+    "arr": "02:43",
+    "dep": "02:51",
+    "day": 2,
+    "km": 1128
+   },
+   {
+    "code": "BSP",
+    "arr": "04:49",
+    "dep": "04:57",
+    "day": 2,
+    "km": 1246
+   },
+   {
+    "code": "TATA",
+    "arr": "12:50",
+    "dep": "12:58",
+    "day": 2,
+    "km": 1718
+   },
+   {
+    "code": "KGP",
+    "arr": "15:18",
+    "dep": "15:26",
+    "day": 2,
+    "km": 1858
+   },
+   {
+    "code": "HWH",
+    "arr": "17:26",
+    "dep": null,
+    "day": 2,
+    "km": 1979
+   }
+  ]
+ },
+ {
+  "number": "RS192",
+  "name": "Kolkata\u2013Mumbai Superfast Express",
+  "category": "superfast",
+  "category_label": "Superfast Express",
+  "corridor": "mumbai_howrah",
+  "classes": [
+   "SL",
+   "3A",
+   "2A",
+   "1A"
+  ],
+  "origin": "HWH",
+  "destination": "CSMT",
+  "total_km": 1979,
+  "dynamic_fare": false,
+  "stops": [
+   {
+    "code": "HWH",
+    "arr": null,
+    "dep": "08:15",
+    "day": 1,
+    "km": 0
+   },
+   {
+    "code": "KGP",
+    "arr": "10:15",
+    "dep": "10:23",
+    "day": 1,
+    "km": 120
+   },
+   {
+    "code": "TATA",
+    "arr": "12:43",
+    "dep": "12:51",
+    "day": 1,
+    "km": 261
+   },
+   {
+    "code": "BSP",
+    "arr": "20:44",
+    "dep": "20:52",
+    "day": 1,
+    "km": 733
+   },
+   {
+    "code": "R",
+    "arr": "22:50",
+    "dep": "22:58",
+    "day": 1,
+    "km": 851
+   },
+   {
+    "code": "NGP",
+    "arr": "03:53",
+    "dep": "04:01",
+    "day": 2,
+    "km": 1146
+   },
+   {
+    "code": "BD",
+    "arr": "06:43",
+    "dep": "06:51",
+    "day": 2,
+    "km": 1308
+   },
+   {
+    "code": "AK",
+    "arr": "08:17",
+    "dep": "08:25",
+    "day": 2,
+    "km": 1394
+   },
+   {
+    "code": "BSL",
+    "arr": "10:52",
+    "dep": "11:00",
+    "day": 2,
+    "km": 1542
+   },
+   {
+    "code": "MMR",
+    "arr": "14:06",
+    "dep": "14:14",
+    "day": 2,
+    "km": 1728
+   },
+   {
+    "code": "NK",
+    "arr": "15:33",
+    "dep": "15:41",
+    "day": 2,
+    "km": 1807
+   },
+   {
+    "code": "KYN",
+    "arr": "17:43",
+    "dep": "17:51",
+    "day": 2,
+    "km": 1929
+   },
+   {
+    "code": "CSMT",
+    "arr": "18:41",
+    "dep": null,
+    "day": 2,
+    "km": 1979
+   }
+  ]
+ },
+ {
+  "number": "RS193",
+  "name": "Mumbai\u2013Kolkata Superfast Express",
+  "category": "superfast",
+  "category_label": "Superfast Express",
+  "corridor": "mumbai_howrah",
+  "classes": [
+   "SL",
+   "3A",
+   "2A",
+   "1A"
+  ],
+  "origin": "CSMT",
+  "destination": "HWH",
+  "total_km": 1979,
+  "dynamic_fare": false,
+  "stops": [
+   {
+    "code": "CSMT",
+    "arr": null,
+    "dep": "05:40",
+    "day": 1,
+    "km": 0
+   },
+   {
+    "code": "KYN",
+    "arr": "06:30",
+    "dep": "06:38",
+    "day": 1,
+    "km": 50
+   },
+   {
+    "code": "NK",
+    "arr": "08:40",
+    "dep": "08:48",
+    "day": 1,
+    "km": 172
+   },
+   {
+    "code": "MMR",
+    "arr": "10:07",
+    "dep": "10:15",
+    "day": 1,
+    "km": 251
+   },
+   {
+    "code": "BSL",
+    "arr": "13:21",
+    "dep": "13:29",
+    "day": 1,
+    "km": 437
+   },
+   {
+    "code": "AK",
+    "arr": "15:56",
+    "dep": "16:04",
+    "day": 1,
+    "km": 584
+   },
+   {
+    "code": "BD",
+    "arr": "17:30",
+    "dep": "17:38",
+    "day": 1,
+    "km": 671
+   },
+   {
+    "code": "NGP",
+    "arr": "20:20",
+    "dep": "20:28",
+    "day": 1,
+    "km": 833
+   },
+   {
+    "code": "R",
+    "arr": "01:23",
+    "dep": "01:31",
+    "day": 2,
+    "km": 1128
+   },
+   {
+    "code": "BSP",
+    "arr": "03:29",
+    "dep": "03:37",
+    "day": 2,
+    "km": 1246
+   },
+   {
+    "code": "TATA",
+    "arr": "11:30",
+    "dep": "11:38",
+    "day": 2,
+    "km": 1718
+   },
+   {
+    "code": "KGP",
+    "arr": "13:58",
+    "dep": "14:06",
+    "day": 2,
+    "km": 1858
+   },
+   {
+    "code": "HWH",
+    "arr": "16:06",
+    "dep": null,
+    "day": 2,
+    "km": 1979
+   }
+  ]
+ },
+ {
+  "number": "RS194",
+  "name": "Kolkata\u2013Mumbai Superfast Express",
+  "category": "superfast",
+  "category_label": "Superfast Express",
+  "corridor": "mumbai_howrah",
+  "classes": [
+   "SL",
+   "3A",
+   "2A",
+   "1A"
+  ],
+  "origin": "HWH",
+  "destination": "CSMT",
+  "total_km": 1979,
+  "dynamic_fare": false,
+  "stops": [
+   {
+    "code": "HWH",
+    "arr": null,
+    "dep": "17:20",
+    "day": 1,
+    "km": 0
+   },
+   {
+    "code": "KGP",
+    "arr": "19:20",
+    "dep": "19:28",
+    "day": 1,
+    "km": 120
+   },
+   {
+    "code": "TATA",
+    "arr": "21:48",
+    "dep": "21:56",
+    "day": 1,
+    "km": 261
+   },
+   {
+    "code": "BSP",
+    "arr": "05:49",
+    "dep": "05:57",
+    "day": 2,
+    "km": 733
+   },
+   {
+    "code": "R",
+    "arr": "07:55",
+    "dep": "08:03",
+    "day": 2,
+    "km": 851
+   },
+   {
+    "code": "NGP",
+    "arr": "12:58",
+    "dep": "13:06",
+    "day": 2,
+    "km": 1146
+   },
+   {
+    "code": "BD",
+    "arr": "15:48",
+    "dep": "15:56",
+    "day": 2,
+    "km": 1308
+   },
+   {
+    "code": "AK",
+    "arr": "17:22",
+    "dep": "17:30",
+    "day": 2,
+    "km": 1394
+   },
+   {
+    "code": "BSL",
+    "arr": "19:57",
+    "dep": "20:05",
+    "day": 2,
+    "km": 1542
+   },
+   {
+    "code": "MMR",
+    "arr": "23:11",
+    "dep": "23:19",
+    "day": 2,
+    "km": 1728
+   },
+   {
+    "code": "NK",
+    "arr": "00:38",
+    "dep": "00:46",
+    "day": 3,
+    "km": 1807
+   },
+   {
+    "code": "KYN",
+    "arr": "02:48",
+    "dep": "02:56",
+    "day": 3,
+    "km": 1929
+   },
+   {
+    "code": "CSMT",
+    "arr": "03:46",
+    "dep": null,
+    "day": 3,
+    "km": 1979
+   }
+  ]
+ },
+ {
+  "number": "RS195",
+  "name": "Mumbai\u2013Kolkata Mail/Express",
+  "category": "express",
+  "category_label": "Mail/Express",
+  "corridor": "mumbai_howrah",
+  "classes": [
+   "2S",
+   "SL",
+   "3A",
+   "2A"
+  ],
+  "origin": "CSMT",
+  "destination": "HWH",
+  "total_km": 1979,
+  "dynamic_fare": false,
+  "stops": [
+   {
+    "code": "CSMT",
+    "arr": null,
+    "dep": "23:10",
+    "day": 1,
+    "km": 0
+   },
+   {
+    "code": "KYN",
+    "arr": "00:10",
+    "dep": "00:18",
+    "day": 2,
+    "km": 50
+   },
+   {
+    "code": "NK",
+    "arr": "02:44",
+    "dep": "02:52",
+    "day": 2,
+    "km": 172
+   },
+   {
+    "code": "MMR",
+    "arr": "04:27",
+    "dep": "04:35",
+    "day": 2,
+    "km": 251
+   },
+   {
+    "code": "BSL",
+    "arr": "08:18",
+    "dep": "08:26",
+    "day": 2,
+    "km": 437
+   },
+   {
+    "code": "AK",
+    "arr": "11:23",
+    "dep": "11:31",
+    "day": 2,
+    "km": 584
+   },
+   {
+    "code": "BD",
+    "arr": "13:14",
+    "dep": "13:22",
+    "day": 2,
+    "km": 671
+   },
+   {
+    "code": "NGP",
+    "arr": "16:36",
+    "dep": "16:44",
+    "day": 2,
+    "km": 833
+   },
+   {
+    "code": "R",
+    "arr": "22:38",
+    "dep": "22:46",
+    "day": 2,
+    "km": 1128
+   },
+   {
+    "code": "BSP",
+    "arr": "01:07",
+    "dep": "01:15",
+    "day": 3,
+    "km": 1246
+   },
+   {
+    "code": "TATA",
+    "arr": "10:42",
+    "dep": "10:50",
+    "day": 3,
+    "km": 1718
+   },
+   {
+    "code": "KGP",
+    "arr": "13:38",
+    "dep": "13:46",
+    "day": 3,
+    "km": 1858
+   },
+   {
+    "code": "HWH",
+    "arr": "16:10",
+    "dep": null,
+    "day": 3,
+    "km": 1979
+   }
+  ]
+ },
+ {
+  "number": "RS196",
+  "name": "Kolkata\u2013Mumbai Mail/Express",
+  "category": "express",
+  "category_label": "Mail/Express",
+  "corridor": "mumbai_howrah",
+  "classes": [
+   "2S",
+   "SL",
+   "3A",
+   "2A"
+  ],
+  "origin": "HWH",
+  "destination": "CSMT",
+  "total_km": 1979,
+  "dynamic_fare": false,
+  "stops": [
+   {
+    "code": "HWH",
+    "arr": null,
+    "dep": "04:15",
+    "day": 1,
+    "km": 0
+   },
+   {
+    "code": "KGP",
+    "arr": "06:39",
+    "dep": "06:47",
+    "day": 1,
+    "km": 120
+   },
+   {
+    "code": "TATA",
+    "arr": "09:35",
+    "dep": "09:43",
+    "day": 1,
+    "km": 261
+   },
+   {
+    "code": "BSP",
+    "arr": "19:10",
+    "dep": "19:18",
+    "day": 1,
+    "km": 733
+   },
+   {
+    "code": "R",
+    "arr": "21:39",
+    "dep": "21:47",
+    "day": 1,
+    "km": 851
+   },
+   {
+    "code": "NGP",
+    "arr": "03:41",
+    "dep": "03:49",
+    "day": 2,
+    "km": 1146
+   },
+   {
+    "code": "BD",
+    "arr": "07:03",
+    "dep": "07:11",
+    "day": 2,
+    "km": 1308
+   },
+   {
+    "code": "AK",
+    "arr": "08:54",
+    "dep": "09:02",
+    "day": 2,
+    "km": 1394
+   },
+   {
+    "code": "BSL",
+    "arr": "11:59",
+    "dep": "12:07",
+    "day": 2,
+    "km": 1542
+   },
+   {
+    "code": "MMR",
+    "arr": "15:50",
+    "dep": "15:58",
+    "day": 2,
+    "km": 1728
+   },
+   {
+    "code": "NK",
+    "arr": "17:33",
+    "dep": "17:41",
+    "day": 2,
+    "km": 1807
+   },
+   {
+    "code": "KYN",
+    "arr": "20:07",
+    "dep": "20:15",
+    "day": 2,
+    "km": 1929
+   },
+   {
+    "code": "CSMT",
+    "arr": "21:15",
+    "dep": null,
+    "day": 2,
+    "km": 1979
+   }
+  ]
+ },
+ {
+  "number": "RS197",
+  "name": "Mumbai\u2013Chennai Superfast Express",
+  "category": "superfast",
+  "category_label": "Superfast Express",
+  "corridor": "mumbai_chennai",
+  "classes": [
+   "SL",
+   "3A",
+   "2A",
+   "1A"
+  ],
+  "origin": "CSMT",
+  "destination": "MAS",
+  "total_km": 1269,
+  "dynamic_fare": false,
+  "stops": [
+   {
+    "code": "CSMT",
+    "arr": null,
+    "dep": "08:05",
+    "day": 1,
+    "km": 0
+   },
+   {
+    "code": "KYN",
+    "arr": "08:55",
+    "dep": "09:03",
+    "day": 1,
+    "km": 50
+   },
+   {
+    "code": "PUNE",
+    "arr": "11:07",
+    "dep": "11:15",
+    "day": 1,
+    "km": 174
+   },
+   {
+    "code": "DD",
+    "arr": "12:39",
+    "dep": "12:47",
+    "day": 1,
+    "km": 258
+   },
+   {
+    "code": "SUR",
+    "arr": "15:52",
+    "dep": "16:00",
+    "day": 1,
+    "km": 442
+   },
+   {
+    "code": "WADI",
+    "arr": "18:31",
+    "dep": "18:39",
+    "day": 1,
+    "km": 594
+   },
+   {
+    "code": "GTL",
+    "arr": "22:37",
+    "dep": "22:45",
+    "day": 1,
+    "km": 832
+   },
+   {
+    "code": "RU",
+    "arr": "04:06",
+    "dep": "04:14",
+    "day": 2,
+    "km": 1153
+   },
+   {
+    "code": "MAS",
+    "arr": "06:10",
+    "dep": null,
+    "day": 2,
+    "km": 1269
+   }
+  ]
+ },
+ {
+  "number": "RS198",
+  "name": "Chennai\u2013Mumbai Superfast Express",
+  "category": "superfast",
+  "category_label": "Superfast Express",
+  "corridor": "mumbai_chennai",
+  "classes": [
+   "SL",
+   "3A",
+   "2A",
+   "1A"
+  ],
+  "origin": "MAS",
+  "destination": "CSMT",
+  "total_km": 1269,
+  "dynamic_fare": false,
+  "stops": [
+   {
+    "code": "MAS",
+    "arr": null,
+    "dep": "20:30",
+    "day": 1,
+    "km": 0
+   },
+   {
+    "code": "RU",
+    "arr": "22:26",
+    "dep": "22:34",
+    "day": 1,
+    "km": 116
+   },
+   {
+    "code": "GTL",
+    "arr": "03:55",
+    "dep": "04:03",
+    "day": 2,
+    "km": 437
+   },
+   {
+    "code": "WADI",
+    "arr": "08:01",
+    "dep": "08:09",
+    "day": 2,
+    "km": 675
+   },
+   {
+    "code": "SUR",
+    "arr": "10:40",
+    "dep": "10:48",
+    "day": 2,
+    "km": 826
+   },
+   {
+    "code": "DD",
+    "arr": "13:53",
+    "dep": "14:01",
+    "day": 2,
+    "km": 1011
+   },
+   {
+    "code": "PUNE",
+    "arr": "15:25",
+    "dep": "15:33",
+    "day": 2,
+    "km": 1095
+   },
+   {
+    "code": "KYN",
+    "arr": "17:37",
+    "dep": "17:45",
+    "day": 2,
+    "km": 1219
+   },
+   {
+    "code": "CSMT",
+    "arr": "18:35",
+    "dep": null,
+    "day": 2,
+    "km": 1269
+   }
+  ]
+ },
+ {
+  "number": "RS199",
+  "name": "Mumbai\u2013Chennai Mail/Express",
+  "category": "express",
+  "category_label": "Mail/Express",
+  "corridor": "mumbai_chennai",
+  "classes": [
+   "2S",
+   "SL",
+   "3A",
+   "2A"
+  ],
+  "origin": "CSMT",
+  "destination": "MAS",
+  "total_km": 1269,
+  "dynamic_fare": false,
+  "stops": [
+   {
+    "code": "CSMT",
+    "arr": null,
+    "dep": "04:20",
+    "day": 1,
+    "km": 0
+   },
+   {
+    "code": "KYN",
+    "arr": "05:20",
+    "dep": "05:28",
+    "day": 1,
+    "km": 50
+   },
+   {
+    "code": "PUNE",
+    "arr": "07:57",
+    "dep": "08:05",
+    "day": 1,
+    "km": 174
+   },
+   {
+    "code": "DD",
+    "arr": "09:45",
+    "dep": "09:53",
+    "day": 1,
+    "km": 258
+   },
+   {
+    "code": "SUR",
+    "arr": "13:35",
+    "dep": "13:43",
+    "day": 1,
+    "km": 442
+   },
+   {
+    "code": "WADI",
+    "arr": "16:44",
+    "dep": "16:52",
+    "day": 1,
+    "km": 594
+   },
+   {
+    "code": "GTL",
+    "arr": "21:38",
+    "dep": "21:46",
+    "day": 1,
+    "km": 832
+   },
+   {
+    "code": "RU",
+    "arr": "04:12",
+    "dep": "04:20",
+    "day": 2,
+    "km": 1153
+   },
+   {
+    "code": "MAS",
+    "arr": "06:39",
+    "dep": null,
+    "day": 2,
+    "km": 1269
+   }
+  ]
+ },
+ {
+  "number": "RS200",
+  "name": "Chennai\u2013Mumbai Mail/Express",
+  "category": "express",
+  "category_label": "Mail/Express",
+  "corridor": "mumbai_chennai",
+  "classes": [
+   "2S",
+   "SL",
+   "3A",
+   "2A"
+  ],
+  "origin": "MAS",
+  "destination": "CSMT",
+  "total_km": 1269,
+  "dynamic_fare": false,
+  "stops": [
+   {
+    "code": "MAS",
+    "arr": null,
+    "dep": "14:20",
+    "day": 1,
+    "km": 0
+   },
+   {
+    "code": "RU",
+    "arr": "16:39",
+    "dep": "16:47",
+    "day": 1,
+    "km": 116
+   },
+   {
+    "code": "GTL",
+    "arr": "23:13",
+    "dep": "23:21",
+    "day": 1,
+    "km": 437
+   },
+   {
+    "code": "WADI",
+    "arr": "04:07",
+    "dep": "04:15",
+    "day": 2,
+    "km": 675
+   },
+   {
+    "code": "SUR",
+    "arr": "07:16",
+    "dep": "07:24",
+    "day": 2,
+    "km": 826
+   },
+   {
+    "code": "DD",
+    "arr": "11:06",
+    "dep": "11:14",
+    "day": 2,
+    "km": 1011
+   },
+   {
+    "code": "PUNE",
+    "arr": "12:54",
+    "dep": "13:02",
+    "day": 2,
+    "km": 1095
+   },
+   {
+    "code": "KYN",
+    "arr": "15:31",
+    "dep": "15:39",
+    "day": 2,
+    "km": 1219
+   },
+   {
+    "code": "CSMT",
+    "arr": "16:39",
+    "dep": null,
+    "day": 2,
+    "km": 1269
+   }
+  ]
+ },
+ {
+  "number": "RS201",
+  "name": "Mumbai\u2013Chennai Mail/Express",
+  "category": "express",
+  "category_label": "Mail/Express",
+  "corridor": "mumbai_chennai",
+  "classes": [
+   "2S",
+   "SL",
+   "3A",
+   "2A"
+  ],
+  "origin": "CSMT",
+  "destination": "MAS",
+  "total_km": 1269,
+  "dynamic_fare": false,
+  "stops": [
+   {
+    "code": "CSMT",
+    "arr": null,
+    "dep": "19:10",
+    "day": 1,
+    "km": 0
+   },
+   {
+    "code": "KYN",
+    "arr": "20:10",
+    "dep": "20:18",
+    "day": 1,
+    "km": 50
+   },
+   {
+    "code": "PUNE",
+    "arr": "22:47",
+    "dep": "22:55",
+    "day": 1,
+    "km": 174
+   },
+   {
+    "code": "DD",
+    "arr": "00:35",
+    "dep": "00:43",
+    "day": 2,
+    "km": 258
+   },
+   {
+    "code": "SUR",
+    "arr": "04:25",
+    "dep": "04:33",
+    "day": 2,
+    "km": 442
+   },
+   {
+    "code": "WADI",
+    "arr": "07:34",
+    "dep": "07:42",
+    "day": 2,
+    "km": 594
+   },
+   {
+    "code": "GTL",
+    "arr": "12:28",
+    "dep": "12:36",
+    "day": 2,
+    "km": 832
+   },
+   {
+    "code": "RU",
+    "arr": "19:02",
+    "dep": "19:10",
+    "day": 2,
+    "km": 1153
+   },
+   {
+    "code": "MAS",
+    "arr": "21:29",
+    "dep": null,
+    "day": 2,
+    "km": 1269
+   }
+  ]
+ },
+ {
+  "number": "RS202",
+  "name": "Chennai\u2013Mumbai Mail/Express",
+  "category": "express",
+  "category_label": "Mail/Express",
+  "corridor": "mumbai_chennai",
+  "classes": [
+   "2S",
+   "SL",
+   "3A",
+   "2A"
+  ],
+  "origin": "MAS",
+  "destination": "CSMT",
+  "total_km": 1269,
+  "dynamic_fare": false,
+  "stops": [
+   {
+    "code": "MAS",
+    "arr": null,
+    "dep": "08:30",
+    "day": 1,
+    "km": 0
+   },
+   {
+    "code": "RU",
+    "arr": "10:49",
+    "dep": "10:57",
+    "day": 1,
+    "km": 116
+   },
+   {
+    "code": "GTL",
+    "arr": "17:23",
+    "dep": "17:31",
+    "day": 1,
+    "km": 437
+   },
+   {
+    "code": "WADI",
+    "arr": "22:17",
+    "dep": "22:25",
+    "day": 1,
+    "km": 675
+   },
+   {
+    "code": "SUR",
+    "arr": "01:26",
+    "dep": "01:34",
+    "day": 2,
+    "km": 826
+   },
+   {
+    "code": "DD",
+    "arr": "05:16",
+    "dep": "05:24",
+    "day": 2,
+    "km": 1011
+   },
+   {
+    "code": "PUNE",
+    "arr": "07:04",
+    "dep": "07:12",
+    "day": 2,
+    "km": 1095
+   },
+   {
+    "code": "KYN",
+    "arr": "09:41",
+    "dep": "09:49",
+    "day": 2,
+    "km": 1219
+   },
+   {
+    "code": "CSMT",
+    "arr": "10:49",
+    "dep": null,
+    "day": 2,
+    "km": 1269
+   }
+  ]
+ },
+ {
+  "number": "RS203",
+  "name": "Bengaluru\u2013Delhi Premium Express",
+  "category": "premium",
+  "category_label": "Premium Express",
+  "corridor": "bengaluru_delhi",
+  "classes": [
+   "3A",
+   "2A",
+   "1A"
+  ],
+  "origin": "SBC",
+  "destination": "NZM",
+  "total_km": 2074,
+  "dynamic_fare": true,
+  "stops": [
+   {
+    "code": "SBC",
+    "arr": null,
+    "dep": "16:20",
+    "day": 1,
+    "km": 0
+   },
+   {
+    "code": "GTL",
+    "arr": "20:03",
+    "dep": "20:08",
+    "day": 1,
+    "km": 275
+   },
+   {
+    "code": "SC",
+    "arr": "00:21",
+    "dep": "00:26",
+    "day": 2,
+    "km": 587
+   },
+   {
+    "code": "NGP",
+    "arr": "06:46",
+    "dep": "06:51",
+    "day": 2,
+    "km": 1055
+   },
+   {
+    "code": "BPL",
+    "arr": "11:16",
+    "dep": "11:21",
+    "day": 2,
+    "km": 1382
+   },
+   {
+    "code": "GWL",
+    "arr": "16:27",
+    "dep": "16:32",
+    "day": 2,
+    "km": 1759
+   },
+   {
+    "code": "AGC",
+    "arr": "18:09",
+    "dep": "18:14",
+    "day": 2,
+    "km": 1879
+   },
+   {
+    "code": "NZM",
+    "arr": "20:53",
+    "dep": null,
+    "day": 2,
+    "km": 2074
+   }
+  ]
+ },
+ {
+  "number": "RS204",
+  "name": "Delhi\u2013Bengaluru Premium Express",
+  "category": "premium",
+  "category_label": "Premium Express",
+  "corridor": "bengaluru_delhi",
+  "classes": [
+   "3A",
+   "2A",
+   "1A"
+  ],
+  "origin": "NZM",
+  "destination": "SBC",
+  "total_km": 2074,
+  "dynamic_fare": true,
+  "stops": [
+   {
+    "code": "NZM",
+    "arr": null,
+    "dep": "17:40",
+    "day": 1,
+    "km": 0
+   },
+   {
+    "code": "AGC",
+    "arr": "20:19",
+    "dep": "20:24",
+    "day": 1,
+    "km": 196
+   },
+   {
+    "code": "GWL",
+    "arr": "22:01",
+    "dep": "22:06",
+    "day": 1,
+    "km": 315
+   },
+   {
+    "code": "BPL",
+    "arr": "03:12",
+    "dep": "03:17",
+    "day": 2,
+    "km": 692
+   },
+   {
+    "code": "NGP",
+    "arr": "07:42",
+    "dep": "07:47",
+    "day": 2,
+    "km": 1019
+   },
+   {
+    "code": "SC",
+    "arr": "14:07",
+    "dep": "14:12",
+    "day": 2,
+    "km": 1487
+   },
+   {
+    "code": "GTL",
+    "arr": "18:25",
+    "dep": "18:30",
+    "day": 2,
+    "km": 1799
+   },
+   {
+    "code": "SBC",
+    "arr": "22:13",
+    "dep": null,
+    "day": 2,
+    "km": 2074
+   }
+  ]
+ },
+ {
+  "number": "RS205",
+  "name": "Bengaluru\u2013Delhi Superfast Express",
+  "category": "superfast",
+  "category_label": "Superfast Express",
+  "corridor": "bengaluru_delhi",
+  "classes": [
+   "SL",
+   "3A",
+   "2A",
+   "1A"
+  ],
+  "origin": "SBC",
+  "destination": "NZM",
+  "total_km": 2074,
+  "dynamic_fare": false,
+  "stops": [
+   {
+    "code": "SBC",
+    "arr": null,
+    "dep": "07:15",
+    "day": 1,
+    "km": 0
+   },
+   {
+    "code": "GTL",
+    "arr": "11:50",
+    "dep": "11:58",
+    "day": 1,
+    "km": 275
+   },
+   {
+    "code": "SC",
+    "arr": "17:10",
+    "dep": "17:18",
+    "day": 1,
+    "km": 587
+   },
+   {
+    "code": "NGP",
+    "arr": "01:06",
+    "dep": "01:14",
+    "day": 2,
+    "km": 1055
+   },
+   {
+    "code": "BPL",
+    "arr": "06:40",
+    "dep": "06:48",
+    "day": 2,
+    "km": 1382
+   },
+   {
+    "code": "GWL",
+    "arr": "13:05",
+    "dep": "13:13",
+    "day": 2,
+    "km": 1759
+   },
+   {
+    "code": "AGC",
+    "arr": "15:12",
+    "dep": "15:20",
+    "day": 2,
+    "km": 1879
+   },
+   {
+    "code": "NZM",
+    "arr": "18:36",
+    "dep": null,
+    "day": 2,
+    "km": 2074
+   }
+  ]
+ },
+ {
+  "number": "RS206",
+  "name": "Delhi\u2013Bengaluru Superfast Express",
+  "category": "superfast",
+  "category_label": "Superfast Express",
+  "corridor": "bengaluru_delhi",
+  "classes": [
+   "SL",
+   "3A",
+   "2A",
+   "1A"
+  ],
+  "origin": "NZM",
+  "destination": "SBC",
+  "total_km": 2074,
+  "dynamic_fare": false,
+  "stops": [
+   {
+    "code": "NZM",
+    "arr": null,
+    "dep": "06:20",
+    "day": 1,
+    "km": 0
+   },
+   {
+    "code": "AGC",
+    "arr": "09:36",
+    "dep": "09:44",
+    "day": 1,
+    "km": 196
+   },
+   {
+    "code": "GWL",
+    "arr": "11:43",
+    "dep": "11:51",
+    "day": 1,
+    "km": 315
+   },
+   {
+    "code": "BPL",
+    "arr": "18:08",
+    "dep": "18:16",
+    "day": 1,
+    "km": 692
+   },
+   {
+    "code": "NGP",
+    "arr": "23:42",
+    "dep": "23:50",
+    "day": 1,
+    "km": 1019
+   },
+   {
+    "code": "SC",
+    "arr": "07:38",
+    "dep": "07:46",
+    "day": 2,
+    "km": 1487
+   },
+   {
+    "code": "GTL",
+    "arr": "12:58",
+    "dep": "13:06",
+    "day": 2,
+    "km": 1799
+   },
+   {
+    "code": "SBC",
+    "arr": "17:41",
+    "dep": null,
+    "day": 2,
+    "km": 2074
+   }
+  ]
+ },
+ {
+  "number": "RS207",
+  "name": "Bengaluru\u2013Delhi Mail/Express",
+  "category": "express",
+  "category_label": "Mail/Express",
+  "corridor": "bengaluru_delhi",
+  "classes": [
+   "2S",
+   "SL",
+   "3A",
+   "2A"
+  ],
+  "origin": "SBC",
+  "destination": "NZM",
+  "total_km": 2074,
+  "dynamic_fare": false,
+  "stops": [
+   {
+    "code": "SBC",
+    "arr": null,
+    "dep": "00:25",
+    "day": 1,
+    "km": 0
+   },
+   {
+    "code": "GTL",
+    "arr": "05:55",
+    "dep": "06:03",
+    "day": 1,
+    "km": 275
+   },
+   {
+    "code": "SC",
+    "arr": "12:18",
+    "dep": "12:26",
+    "day": 1,
+    "km": 587
+   },
+   {
+    "code": "NGP",
+    "arr": "21:48",
+    "dep": "21:56",
+    "day": 1,
+    "km": 1055
+   },
+   {
+    "code": "BPL",
+    "arr": "04:28",
+    "dep": "04:36",
+    "day": 2,
+    "km": 1382
+   },
+   {
+    "code": "GWL",
+    "arr": "12:09",
+    "dep": "12:17",
+    "day": 2,
+    "km": 1759
+   },
+   {
+    "code": "AGC",
+    "arr": "14:40",
+    "dep": "14:48",
+    "day": 2,
+    "km": 1879
+   },
+   {
+    "code": "NZM",
+    "arr": "18:43",
+    "dep": null,
+    "day": 2,
+    "km": 2074
+   }
+  ]
+ },
+ {
+  "number": "RS208",
+  "name": "Delhi\u2013Bengaluru Mail/Express",
+  "category": "express",
+  "category_label": "Mail/Express",
+  "corridor": "bengaluru_delhi",
+  "classes": [
+   "2S",
+   "SL",
+   "3A",
+   "2A"
+  ],
+  "origin": "NZM",
+  "destination": "SBC",
+  "total_km": 2074,
+  "dynamic_fare": false,
+  "stops": [
+   {
+    "code": "NZM",
+    "arr": null,
+    "dep": "19:45",
+    "day": 1,
+    "km": 0
+   },
+   {
+    "code": "AGC",
+    "arr": "23:40",
+    "dep": "23:48",
+    "day": 1,
+    "km": 196
+   },
+   {
+    "code": "GWL",
+    "arr": "02:11",
+    "dep": "02:19",
+    "day": 2,
+    "km": 315
+   },
+   {
+    "code": "BPL",
+    "arr": "09:52",
+    "dep": "10:00",
+    "day": 2,
+    "km": 692
+   },
+   {
+    "code": "NGP",
+    "arr": "16:32",
+    "dep": "16:40",
+    "day": 2,
+    "km": 1019
+   },
+   {
+    "code": "SC",
+    "arr": "02:02",
+    "dep": "02:10",
+    "day": 3,
+    "km": 1487
+   },
+   {
+    "code": "GTL",
+    "arr": "08:25",
+    "dep": "08:33",
+    "day": 3,
+    "km": 1799
+   },
+   {
+    "code": "SBC",
+    "arr": "14:03",
+    "dep": null,
+    "day": 3,
+    "km": 2074
+   }
+  ]
+ },
+ {
+  "number": "RS209",
+  "name": "Chennai\u2013Delhi Premium Express",
+  "category": "premium",
+  "category_label": "Premium Express",
+  "corridor": "chennai_delhi",
+  "classes": [
+   "3A",
+   "2A",
+   "1A"
+  ],
+  "origin": "MAS",
+  "destination": "NDLS",
+  "total_km": 2063,
+  "dynamic_fare": true,
+  "stops": [
+   {
+    "code": "MAS",
+    "arr": null,
+    "dep": "16:20",
+    "day": 1,
+    "km": 0
+   },
+   {
+    "code": "BZA",
+    "arr": "22:08",
+    "dep": "22:13",
+    "day": 1,
+    "km": 430
+   },
+   {
+    "code": "NGP",
+    "arr": "06:23",
+    "dep": "06:28",
+    "day": 2,
+    "km": 1034
+   },
+   {
+    "code": "ET",
+    "arr": "09:40",
+    "dep": "09:45",
+    "day": 2,
+    "km": 1271
+   },
+   {
+    "code": "BPL",
+    "arr": "10:59",
+    "dep": "11:04",
+    "day": 2,
+    "km": 1363
+   },
+   {
+    "code": "GWL",
+    "arr": "16:10",
+    "dep": "16:15",
+    "day": 2,
+    "km": 1740
+   },
+   {
+    "code": "AGC",
+    "arr": "17:52",
+    "dep": "17:57",
+    "day": 2,
+    "km": 1860
+   },
+   {
+    "code": "NDLS",
+    "arr": "20:42",
+    "dep": null,
+    "day": 2,
+    "km": 2063
+   }
+  ]
+ },
+ {
+  "number": "RS210",
+  "name": "Delhi\u2013Chennai Premium Express",
+  "category": "premium",
+  "category_label": "Premium Express",
+  "corridor": "chennai_delhi",
+  "classes": [
+   "3A",
+   "2A",
+   "1A"
+  ],
+  "origin": "NDLS",
+  "destination": "MAS",
+  "total_km": 2063,
+  "dynamic_fare": true,
+  "stops": [
+   {
+    "code": "NDLS",
+    "arr": null,
+    "dep": "16:10",
+    "day": 1,
+    "km": 0
+   },
+   {
+    "code": "AGC",
+    "arr": "18:55",
+    "dep": "19:00",
+    "day": 1,
+    "km": 203
+   },
+   {
+    "code": "GWL",
+    "arr": "20:37",
+    "dep": "20:42",
+    "day": 1,
+    "km": 323
+   },
+   {
+    "code": "BPL",
+    "arr": "01:48",
+    "dep": "01:53",
+    "day": 2,
+    "km": 700
+   },
+   {
+    "code": "ET",
+    "arr": "03:07",
+    "dep": "03:12",
+    "day": 2,
+    "km": 792
+   },
+   {
+    "code": "NGP",
+    "arr": "06:24",
+    "dep": "06:29",
+    "day": 2,
+    "km": 1029
+   },
+   {
+    "code": "BZA",
+    "arr": "14:39",
+    "dep": "14:44",
+    "day": 2,
+    "km": 1633
+   },
+   {
+    "code": "MAS",
+    "arr": "20:32",
+    "dep": null,
+    "day": 2,
+    "km": 2063
+   }
+  ]
+ },
+ {
+  "number": "RS211",
+  "name": "Chennai\u2013Delhi Superfast Express",
+  "category": "superfast",
+  "category_label": "Superfast Express",
+  "corridor": "chennai_delhi",
+  "classes": [
+   "SL",
+   "3A",
+   "2A",
+   "1A"
+  ],
+  "origin": "MAS",
+  "destination": "NDLS",
+  "total_km": 2063,
+  "dynamic_fare": false,
+  "stops": [
+   {
+    "code": "MAS",
+    "arr": null,
+    "dep": "07:45",
+    "day": 1,
+    "km": 0
+   },
+   {
+    "code": "BZA",
+    "arr": "14:55",
+    "dep": "15:03",
+    "day": 1,
+    "km": 430
+   },
+   {
+    "code": "NGP",
+    "arr": "01:08",
+    "dep": "01:16",
+    "day": 2,
+    "km": 1034
+   },
+   {
+    "code": "ET",
+    "arr": "05:13",
+    "dep": "05:21",
+    "day": 2,
+    "km": 1271
+   },
+   {
+    "code": "BPL",
+    "arr": "06:53",
+    "dep": "07:01",
+    "day": 2,
+    "km": 1363
+   },
+   {
+    "code": "GWL",
+    "arr": "13:18",
+    "dep": "13:26",
+    "day": 2,
+    "km": 1740
+   },
+   {
+    "code": "AGC",
+    "arr": "15:25",
+    "dep": "15:33",
+    "day": 2,
+    "km": 1860
+   },
+   {
+    "code": "NDLS",
+    "arr": "18:56",
+    "dep": null,
+    "day": 2,
+    "km": 2063
+   }
+  ]
+ },
+ {
+  "number": "RS212",
+  "name": "Delhi\u2013Chennai Superfast Express",
+  "category": "superfast",
+  "category_label": "Superfast Express",
+  "corridor": "chennai_delhi",
+  "classes": [
+   "SL",
+   "3A",
+   "2A",
+   "1A"
+  ],
+  "origin": "NDLS",
+  "destination": "MAS",
+  "total_km": 2063,
+  "dynamic_fare": false,
+  "stops": [
+   {
+    "code": "NDLS",
+    "arr": null,
+    "dep": "08:35",
+    "day": 1,
+    "km": 0
+   },
+   {
+    "code": "AGC",
+    "arr": "11:58",
+    "dep": "12:06",
+    "day": 1,
+    "km": 203
+   },
+   {
+    "code": "GWL",
+    "arr": "14:05",
+    "dep": "14:13",
+    "day": 1,
+    "km": 323
+   },
+   {
+    "code": "BPL",
+    "arr": "20:30",
+    "dep": "20:38",
+    "day": 1,
+    "km": 700
+   },
+   {
+    "code": "ET",
+    "arr": "22:10",
+    "dep": "22:18",
+    "day": 1,
+    "km": 792
+   },
+   {
+    "code": "NGP",
+    "arr": "02:15",
+    "dep": "02:23",
+    "day": 2,
+    "km": 1029
+   },
+   {
+    "code": "BZA",
+    "arr": "12:28",
+    "dep": "12:36",
+    "day": 2,
+    "km": 1633
+   },
+   {
+    "code": "MAS",
+    "arr": "19:46",
+    "dep": null,
+    "day": 2,
+    "km": 2063
+   }
+  ]
+ },
+ {
+  "number": "RS213",
+  "name": "Chennai\u2013Delhi Mail/Express",
+  "category": "express",
+  "category_label": "Mail/Express",
+  "corridor": "chennai_delhi",
+  "classes": [
+   "2S",
+   "SL",
+   "3A",
+   "2A"
+  ],
+  "origin": "MAS",
+  "destination": "NDLS",
+  "total_km": 2063,
+  "dynamic_fare": false,
+  "stops": [
+   {
+    "code": "MAS",
+    "arr": null,
+    "dep": "04:00",
+    "day": 1,
+    "km": 0
+   },
+   {
+    "code": "BZA",
+    "arr": "12:36",
+    "dep": "12:44",
+    "day": 1,
+    "km": 430
+   },
+   {
+    "code": "NGP",
+    "arr": "00:50",
+    "dep": "00:58",
+    "day": 2,
+    "km": 1034
+   },
+   {
+    "code": "ET",
+    "arr": "05:42",
+    "dep": "05:50",
+    "day": 2,
+    "km": 1271
+   },
+   {
+    "code": "BPL",
+    "arr": "07:40",
+    "dep": "07:48",
+    "day": 2,
+    "km": 1363
+   },
+   {
+    "code": "GWL",
+    "arr": "15:21",
+    "dep": "15:29",
+    "day": 2,
+    "km": 1740
+   },
+   {
+    "code": "AGC",
+    "arr": "17:52",
+    "dep": "18:00",
+    "day": 2,
+    "km": 1860
+   },
+   {
+    "code": "NDLS",
+    "arr": "22:04",
+    "dep": null,
+    "day": 2,
+    "km": 2063
+   }
+  ]
+ },
+ {
+  "number": "RS214",
+  "name": "Delhi\u2013Chennai Mail/Express",
+  "category": "express",
+  "category_label": "Mail/Express",
+  "corridor": "chennai_delhi",
+  "classes": [
+   "2S",
+   "SL",
+   "3A",
+   "2A"
+  ],
+  "origin": "NDLS",
+  "destination": "MAS",
+  "total_km": 2063,
+  "dynamic_fare": false,
+  "stops": [
+   {
+    "code": "NDLS",
+    "arr": null,
+    "dep": "08:45",
+    "day": 1,
+    "km": 0
+   },
+   {
+    "code": "AGC",
+    "arr": "12:49",
+    "dep": "12:57",
+    "day": 1,
+    "km": 203
+   },
+   {
+    "code": "GWL",
+    "arr": "15:20",
+    "dep": "15:28",
+    "day": 1,
+    "km": 323
+   },
+   {
+    "code": "BPL",
+    "arr": "23:01",
+    "dep": "23:09",
+    "day": 1,
+    "km": 700
+   },
+   {
+    "code": "ET",
+    "arr": "00:59",
+    "dep": "01:07",
+    "day": 2,
+    "km": 792
+   },
+   {
+    "code": "NGP",
+    "arr": "05:51",
+    "dep": "05:59",
+    "day": 2,
+    "km": 1029
+   },
+   {
+    "code": "BZA",
+    "arr": "18:05",
+    "dep": "18:13",
+    "day": 2,
+    "km": 1633
+   },
+   {
+    "code": "MAS",
+    "arr": "02:49",
+    "dep": null,
+    "day": 3,
+    "km": 2063
+   }
+  ]
+ },
+ {
+  "number": "RS215",
+  "name": "Chennai\u2013Kolkata Superfast Express",
+  "category": "superfast",
+  "category_label": "Superfast Express",
+  "corridor": "chennai_howrah",
+  "classes": [
+   "SL",
+   "3A",
+   "2A",
+   "1A"
+  ],
+  "origin": "MAS",
+  "destination": "HWH",
+  "total_km": 1649,
+  "dynamic_fare": false,
+  "stops": [
+   {
+    "code": "MAS",
+    "arr": null,
+    "dep": "07:00",
+    "day": 1,
+    "km": 0
+   },
+   {
+    "code": "BZA",
+    "arr": "14:10",
+    "dep": "14:18",
+    "day": 1,
+    "km": 430
+   },
+   {
+    "code": "VSKP",
+    "arr": "20:09",
+    "dep": "20:17",
+    "day": 1,
+    "km": 781
+   },
+   {
+    "code": "BBS",
+    "arr": "03:34",
+    "dep": "03:42",
+    "day": 2,
+    "km": 1218
+   },
+   {
+    "code": "KGP",
+    "arr": "08:53",
+    "dep": "09:01",
+    "day": 2,
+    "km": 1529
+   },
+   {
+    "code": "HWH",
+    "arr": "11:01",
+    "dep": null,
+    "day": 2,
+    "km": 1649
+   }
+  ]
+ },
+ {
+  "number": "RS216",
+  "name": "Kolkata\u2013Chennai Superfast Express",
+  "category": "superfast",
+  "category_label": "Superfast Express",
+  "corridor": "chennai_howrah",
+  "classes": [
+   "SL",
+   "3A",
+   "2A",
+   "1A"
+  ],
+  "origin": "HWH",
+  "destination": "MAS",
+  "total_km": 1649,
+  "dynamic_fare": false,
+  "stops": [
+   {
+    "code": "HWH",
+    "arr": null,
+    "dep": "08:25",
+    "day": 1,
+    "km": 0
+   },
+   {
+    "code": "KGP",
+    "arr": "10:25",
+    "dep": "10:33",
+    "day": 1,
+    "km": 120
+   },
+   {
+    "code": "BBS",
+    "arr": "15:44",
+    "dep": "15:52",
+    "day": 1,
+    "km": 431
+   },
+   {
+    "code": "VSKP",
+    "arr": "23:09",
+    "dep": "23:17",
+    "day": 1,
+    "km": 868
+   },
+   {
+    "code": "BZA",
+    "arr": "05:08",
+    "dep": "05:16",
+    "day": 2,
+    "km": 1219
+   },
+   {
+    "code": "MAS",
+    "arr": "12:26",
+    "dep": null,
+    "day": 2,
+    "km": 1649
+   }
+  ]
+ },
+ {
+  "number": "RS217",
+  "name": "Chennai\u2013Kolkata Superfast Express",
+  "category": "superfast",
+  "category_label": "Superfast Express",
+  "corridor": "chennai_howrah",
+  "classes": [
+   "SL",
+   "3A",
+   "2A",
+   "1A"
+  ],
+  "origin": "MAS",
+  "destination": "HWH",
+  "total_km": 1649,
+  "dynamic_fare": false,
+  "stops": [
+   {
+    "code": "MAS",
+    "arr": null,
+    "dep": "18:00",
+    "day": 1,
+    "km": 0
+   },
+   {
+    "code": "BZA",
+    "arr": "01:10",
+    "dep": "01:18",
+    "day": 2,
+    "km": 430
+   },
+   {
+    "code": "VSKP",
+    "arr": "07:09",
+    "dep": "07:17",
+    "day": 2,
+    "km": 781
+   },
+   {
+    "code": "BBS",
+    "arr": "14:34",
+    "dep": "14:42",
+    "day": 2,
+    "km": 1218
+   },
+   {
+    "code": "KGP",
+    "arr": "19:53",
+    "dep": "20:01",
+    "day": 2,
+    "km": 1529
+   },
+   {
+    "code": "HWH",
+    "arr": "22:01",
+    "dep": null,
+    "day": 2,
+    "km": 1649
+   }
+  ]
+ },
+ {
+  "number": "RS218",
+  "name": "Kolkata\u2013Chennai Superfast Express",
+  "category": "superfast",
+  "category_label": "Superfast Express",
+  "corridor": "chennai_howrah",
+  "classes": [
+   "SL",
+   "3A",
+   "2A",
+   "1A"
+  ],
+  "origin": "HWH",
+  "destination": "MAS",
+  "total_km": 1649,
+  "dynamic_fare": false,
+  "stops": [
+   {
+    "code": "HWH",
+    "arr": null,
+    "dep": "19:25",
+    "day": 1,
+    "km": 0
+   },
+   {
+    "code": "KGP",
+    "arr": "21:25",
+    "dep": "21:33",
+    "day": 1,
+    "km": 120
+   },
+   {
+    "code": "BBS",
+    "arr": "02:44",
+    "dep": "02:52",
+    "day": 2,
+    "km": 431
+   },
+   {
+    "code": "VSKP",
+    "arr": "10:09",
+    "dep": "10:17",
+    "day": 2,
+    "km": 868
+   },
+   {
+    "code": "BZA",
+    "arr": "16:08",
+    "dep": "16:16",
+    "day": 2,
+    "km": 1219
+   },
+   {
+    "code": "MAS",
+    "arr": "23:26",
+    "dep": null,
+    "day": 2,
+    "km": 1649
+   }
+  ]
+ },
+ {
+  "number": "RS219",
+  "name": "Chennai\u2013Kolkata Mail/Express",
+  "category": "express",
+  "category_label": "Mail/Express",
+  "corridor": "chennai_howrah",
+  "classes": [
+   "2S",
+   "SL",
+   "3A",
+   "2A"
+  ],
+  "origin": "MAS",
+  "destination": "HWH",
+  "total_km": 1649,
+  "dynamic_fare": false,
+  "stops": [
+   {
+    "code": "MAS",
+    "arr": null,
+    "dep": "23:05",
+    "day": 1,
+    "km": 0
+   },
+   {
+    "code": "BZA",
+    "arr": "07:41",
+    "dep": "07:49",
+    "day": 2,
+    "km": 430
+   },
+   {
+    "code": "VSKP",
+    "arr": "14:51",
+    "dep": "14:59",
+    "day": 2,
+    "km": 781
+   },
+   {
+    "code": "BBS",
+    "arr": "23:43",
+    "dep": "23:51",
+    "day": 2,
+    "km": 1218
+   },
+   {
+    "code": "KGP",
+    "arr": "06:04",
+    "dep": "06:12",
+    "day": 3,
+    "km": 1529
+   },
+   {
+    "code": "HWH",
+    "arr": "08:36",
+    "dep": null,
+    "day": 3,
+    "km": 1649
+   }
+  ]
+ },
+ {
+  "number": "RS220",
+  "name": "Kolkata\u2013Chennai Mail/Express",
+  "category": "express",
+  "category_label": "Mail/Express",
+  "corridor": "chennai_howrah",
+  "classes": [
+   "2S",
+   "SL",
+   "3A",
+   "2A"
+  ],
+  "origin": "HWH",
+  "destination": "MAS",
+  "total_km": 1649,
+  "dynamic_fare": false,
+  "stops": [
+   {
+    "code": "HWH",
+    "arr": null,
+    "dep": "13:20",
+    "day": 1,
+    "km": 0
+   },
+   {
+    "code": "KGP",
+    "arr": "15:44",
+    "dep": "15:52",
+    "day": 1,
+    "km": 120
+   },
+   {
+    "code": "BBS",
+    "arr": "22:05",
+    "dep": "22:13",
+    "day": 1,
+    "km": 431
+   },
+   {
+    "code": "VSKP",
+    "arr": "06:57",
+    "dep": "07:05",
+    "day": 2,
+    "km": 868
+   },
+   {
+    "code": "BZA",
+    "arr": "14:07",
+    "dep": "14:15",
+    "day": 2,
+    "km": 1219
+   },
+   {
+    "code": "MAS",
+    "arr": "22:51",
+    "dep": null,
+    "day": 2,
+    "km": 1649
+   }
+  ]
+ },
+ {
+  "number": "RS221",
+  "name": "Chennai\u2013Bengaluru Intercity Day Express",
+  "category": "intercity",
+  "category_label": "Intercity Day Express",
+  "corridor": "chennai_bengaluru",
+  "classes": [
+   "2S",
+   "CC"
+  ],
+  "origin": "MAS",
+  "destination": "SBC",
+  "total_km": 357,
+  "dynamic_fare": false,
+  "stops": [
+   {
+    "code": "MAS",
+    "arr": null,
+    "dep": "14:40",
+    "day": 1,
+    "km": 0
+   },
+   {
+    "code": "KPD",
+    "arr": "16:50",
+    "dep": "16:55",
+    "day": 1,
+    "km": 139
+   },
+   {
+    "code": "JTJ",
+    "arr": "18:15",
+    "dep": "18:20",
+    "day": 1,
+    "km": 224
+   },
+   {
+    "code": "SBC",
+    "arr": "20:25",
+    "dep": null,
+    "day": 1,
+    "km": 357
+   }
+  ]
+ },
+ {
+  "number": "RS222",
+  "name": "Bengaluru\u2013Chennai Intercity Day Express",
+  "category": "intercity",
+  "category_label": "Intercity Day Express",
+  "corridor": "chennai_bengaluru",
+  "classes": [
+   "2S",
+   "CC"
+  ],
+  "origin": "SBC",
+  "destination": "MAS",
+  "total_km": 357,
+  "dynamic_fare": false,
+  "stops": [
+   {
+    "code": "SBC",
+    "arr": null,
+    "dep": "13:30",
+    "day": 1,
+    "km": 0
+   },
+   {
+    "code": "JTJ",
+    "arr": "15:35",
+    "dep": "15:40",
+    "day": 1,
+    "km": 133
+   },
+   {
+    "code": "KPD",
+    "arr": "17:00",
+    "dep": "17:05",
+    "day": 1,
+    "km": 218
+   },
+   {
+    "code": "MAS",
+    "arr": "19:15",
+    "dep": null,
+    "day": 1,
+    "km": 357
+   }
+  ]
+ },
+ {
+  "number": "RS223",
+  "name": "Chennai\u2013Bengaluru Intercity Day Express",
+  "category": "intercity",
+  "category_label": "Intercity Day Express",
+  "corridor": "chennai_bengaluru",
+  "classes": [
+   "2S",
+   "CC"
+  ],
+  "origin": "MAS",
+  "destination": "SBC",
+  "total_km": 357,
+  "dynamic_fare": false,
+  "stops": [
+   {
+    "code": "MAS",
+    "arr": null,
+    "dep": "07:50",
+    "day": 1,
+    "km": 0
+   },
+   {
+    "code": "KPD",
+    "arr": "10:00",
+    "dep": "10:05",
+    "day": 1,
+    "km": 139
+   },
+   {
+    "code": "JTJ",
+    "arr": "11:25",
+    "dep": "11:30",
+    "day": 1,
+    "km": 224
+   },
+   {
+    "code": "SBC",
+    "arr": "13:35",
+    "dep": null,
+    "day": 1,
+    "km": 357
+   }
+  ]
+ },
+ {
+  "number": "RS224",
+  "name": "Bengaluru\u2013Chennai Intercity Day Express",
+  "category": "intercity",
+  "category_label": "Intercity Day Express",
+  "corridor": "chennai_bengaluru",
+  "classes": [
+   "2S",
+   "CC"
+  ],
+  "origin": "SBC",
+  "destination": "MAS",
+  "total_km": 357,
+  "dynamic_fare": false,
+  "stops": [
+   {
+    "code": "SBC",
+    "arr": null,
+    "dep": "14:55",
+    "day": 1,
+    "km": 0
+   },
+   {
+    "code": "JTJ",
+    "arr": "17:00",
+    "dep": "17:05",
+    "day": 1,
+    "km": 133
+   },
+   {
+    "code": "KPD",
+    "arr": "18:25",
+    "dep": "18:30",
+    "day": 1,
+    "km": 218
+   },
+   {
+    "code": "MAS",
+    "arr": "20:40",
+    "dep": null,
+    "day": 1,
+    "km": 357
+   }
+  ]
+ },
+ {
+  "number": "RS225",
+  "name": "Chennai\u2013Bengaluru Mail/Express",
+  "category": "express",
+  "category_label": "Mail/Express",
+  "corridor": "chennai_bengaluru",
+  "classes": [
+   "2S",
+   "SL",
+   "3A",
+   "2A"
+  ],
+  "origin": "MAS",
+  "destination": "SBC",
+  "total_km": 357,
+  "dynamic_fare": false,
+  "stops": [
+   {
+    "code": "MAS",
+    "arr": null,
+    "dep": "00:00",
+    "day": 1,
+    "km": 0
+   },
+   {
+    "code": "KPD",
+    "arr": "02:47",
+    "dep": "02:55",
+    "day": 1,
+    "km": 139
+   },
+   {
+    "code": "JTJ",
+    "arr": "04:37",
+    "dep": "04:45",
+    "day": 1,
+    "km": 224
+   },
+   {
+    "code": "SBC",
+    "arr": "07:25",
+    "dep": null,
+    "day": 1,
+    "km": 357
+   }
+  ]
+ },
+ {
+  "number": "RS226",
+  "name": "Bengaluru\u2013Chennai Mail/Express",
+  "category": "express",
+  "category_label": "Mail/Express",
+  "corridor": "chennai_bengaluru",
+  "classes": [
+   "2S",
+   "SL",
+   "3A",
+   "2A"
+  ],
+  "origin": "SBC",
+  "destination": "MAS",
+  "total_km": 357,
+  "dynamic_fare": false,
+  "stops": [
+   {
+    "code": "SBC",
+    "arr": null,
+    "dep": "22:10",
+    "day": 1,
+    "km": 0
+   },
+   {
+    "code": "JTJ",
+    "arr": "00:50",
+    "dep": "00:58",
+    "day": 2,
+    "km": 133
+   },
+   {
+    "code": "KPD",
+    "arr": "02:40",
+    "dep": "02:48",
+    "day": 2,
+    "km": 218
+   },
+   {
+    "code": "MAS",
+    "arr": "05:35",
+    "dep": null,
+    "day": 2,
+    "km": 357
+   }
+  ]
+ },
+ {
+  "number": "RS227",
+  "name": "Mumbai\u2013Madgaon Intercity Day Express",
+  "category": "intercity",
+  "category_label": "Intercity Day Express",
+  "corridor": "mumbai_goa",
+  "classes": [
+   "2S",
+   "CC"
+  ],
+  "origin": "CSMT",
+  "destination": "MAO",
+  "total_km": 511,
+  "dynamic_fare": false,
+  "stops": [
+   {
+    "code": "CSMT",
+    "arr": null,
+    "dep": "14:45",
+    "day": 1,
+    "km": 0
+   },
+   {
+    "code": "PNVL",
+    "arr": "15:17",
+    "dep": "15:22",
+    "day": 1,
+    "km": 34
+   },
+   {
+    "code": "RN",
+    "arr": "19:16",
+    "dep": "19:21",
+    "day": 1,
+    "km": 283
+   },
+   {
+    "code": "MAO",
+    "arr": "22:55",
+    "dep": null,
+    "day": 1,
+    "km": 511
+   }
+  ]
+ },
+ {
+  "number": "RS228",
+  "name": "Madgaon\u2013Mumbai Intercity Day Express",
+  "category": "intercity",
+  "category_label": "Intercity Day Express",
+  "corridor": "mumbai_goa",
+  "classes": [
+   "2S",
+   "CC"
+  ],
+  "origin": "MAO",
+  "destination": "CSMT",
+  "total_km": 511,
+  "dynamic_fare": false,
+  "stops": [
+   {
+    "code": "MAO",
+    "arr": null,
+    "dep": "06:30",
+    "day": 1,
+    "km": 0
+   },
+   {
+    "code": "RN",
+    "arr": "10:04",
+    "dep": "10:09",
+    "day": 1,
+    "km": 228
+   },
+   {
+    "code": "PNVL",
+    "arr": "14:03",
+    "dep": "14:08",
+    "day": 1,
+    "km": 477
+   },
+   {
+    "code": "CSMT",
+    "arr": "14:40",
+    "dep": null,
+    "day": 1,
+    "km": 511
+   }
+  ]
+ },
+ {
+  "number": "RS229",
+  "name": "Mumbai\u2013Madgaon Mail/Express",
+  "category": "express",
+  "category_label": "Mail/Express",
+  "corridor": "mumbai_goa",
+  "classes": [
+   "2S",
+   "SL",
+   "3A",
+   "2A"
+  ],
+  "origin": "CSMT",
+  "destination": "MAO",
+  "total_km": 511,
+  "dynamic_fare": false,
+  "stops": [
+   {
+    "code": "CSMT",
+    "arr": null,
+    "dep": "00:05",
+    "day": 1,
+    "km": 0
+   },
+   {
+    "code": "PNVL",
+    "arr": "00:46",
+    "dep": "00:54",
+    "day": 1,
+    "km": 34
+   },
+   {
+    "code": "RN",
+    "arr": "05:53",
+    "dep": "06:01",
+    "day": 1,
+    "km": 283
+   },
+   {
+    "code": "MAO",
+    "arr": "10:35",
+    "dep": null,
+    "day": 1,
+    "km": 511
+   }
+  ]
+ },
+ {
+  "number": "RS230",
+  "name": "Madgaon\u2013Mumbai Mail/Express",
+  "category": "express",
+  "category_label": "Mail/Express",
+  "corridor": "mumbai_goa",
+  "classes": [
+   "2S",
+   "SL",
+   "3A",
+   "2A"
+  ],
+  "origin": "MAO",
+  "destination": "CSMT",
+  "total_km": 511,
+  "dynamic_fare": false,
+  "stops": [
+   {
+    "code": "MAO",
+    "arr": null,
+    "dep": "19:35",
+    "day": 1,
+    "km": 0
+   },
+   {
+    "code": "RN",
+    "arr": "00:09",
+    "dep": "00:17",
+    "day": 2,
+    "km": 228
+   },
+   {
+    "code": "PNVL",
+    "arr": "05:16",
+    "dep": "05:24",
+    "day": 2,
+    "km": 477
+   },
+   {
+    "code": "CSMT",
+    "arr": "06:05",
+    "dep": null,
+    "day": 2,
+    "km": 511
+   }
+  ]
+ },
+ {
+  "number": "RS231",
+  "name": "Mumbai\u2013Madgaon Mail/Express",
+  "category": "express",
+  "category_label": "Mail/Express",
+  "corridor": "mumbai_goa",
+  "classes": [
+   "2S",
+   "SL",
+   "3A",
+   "2A"
+  ],
+  "origin": "CSMT",
+  "destination": "MAO",
+  "total_km": 511,
+  "dynamic_fare": false,
+  "stops": [
+   {
+    "code": "CSMT",
+    "arr": null,
+    "dep": "04:50",
+    "day": 1,
+    "km": 0
+   },
+   {
+    "code": "PNVL",
+    "arr": "05:31",
+    "dep": "05:39",
+    "day": 1,
+    "km": 34
+   },
+   {
+    "code": "RN",
+    "arr": "10:38",
+    "dep": "10:46",
+    "day": 1,
+    "km": 283
+   },
+   {
+    "code": "MAO",
+    "arr": "15:20",
+    "dep": null,
+    "day": 1,
+    "km": 511
+   }
+  ]
+ },
+ {
+  "number": "RS232",
+  "name": "Madgaon\u2013Mumbai Mail/Express",
+  "category": "express",
+  "category_label": "Mail/Express",
+  "corridor": "mumbai_goa",
+  "classes": [
+   "2S",
+   "SL",
+   "3A",
+   "2A"
+  ],
+  "origin": "MAO",
+  "destination": "CSMT",
+  "total_km": 511,
+  "dynamic_fare": false,
+  "stops": [
+   {
+    "code": "MAO",
+    "arr": null,
+    "dep": "15:55",
+    "day": 1,
+    "km": 0
+   },
+   {
+    "code": "RN",
+    "arr": "20:29",
+    "dep": "20:37",
+    "day": 1,
+    "km": 228
+   },
+   {
+    "code": "PNVL",
+    "arr": "01:36",
+    "dep": "01:44",
+    "day": 2,
+    "km": 477
+   },
+   {
+    "code": "CSMT",
+    "arr": "02:25",
+    "dep": null,
+    "day": 2,
+    "km": 511
+   }
+  ]
+ },
+ {
+  "number": "RS233",
+  "name": "Pune\u2013Bengaluru Mail/Express",
+  "category": "express",
+  "category_label": "Mail/Express",
+  "corridor": "pune_bengaluru",
+  "classes": [
+   "2S",
+   "SL",
+   "3A",
+   "2A"
+  ],
+  "origin": "PUNE",
+  "destination": "SBC",
+  "total_km": 840,
+  "dynamic_fare": false,
+  "stops": [
+   {
+    "code": "PUNE",
+    "arr": null,
+    "dep": "22:35",
+    "day": 1,
+    "km": 0
+   },
+   {
+    "code": "MRJ",
+    "arr": "03:13",
+    "dep": "03:21",
+    "day": 2,
+    "km": 231
+   },
+   {
+    "code": "UBL",
+    "arr": "07:12",
+    "dep": "07:20",
+    "day": 2,
+    "km": 424
+   },
+   {
+    "code": "SBC",
+    "arr": "15:39",
+    "dep": null,
+    "day": 2,
+    "km": 840
+   }
+  ]
+ },
+ {
+  "number": "RS234",
+  "name": "Bengaluru\u2013Pune Mail/Express",
+  "category": "express",
+  "category_label": "Mail/Express",
+  "corridor": "pune_bengaluru",
+  "classes": [
+   "2S",
+   "SL",
+   "3A",
+   "2A"
+  ],
+  "origin": "SBC",
+  "destination": "PUNE",
+  "total_km": 840,
+  "dynamic_fare": false,
+  "stops": [
+   {
+    "code": "SBC",
+    "arr": null,
+    "dep": "10:40",
+    "day": 1,
+    "km": 0
+   },
+   {
+    "code": "UBL",
+    "arr": "18:59",
+    "dep": "19:07",
+    "day": 1,
+    "km": 416
+   },
+   {
+    "code": "MRJ",
+    "arr": "22:58",
+    "dep": "23:06",
+    "day": 1,
+    "km": 608
+   },
+   {
+    "code": "PUNE",
+    "arr": "03:44",
+    "dep": null,
+    "day": 2,
+    "km": 840
+   }
+  ]
+ },
+ {
+  "number": "RS235",
+  "name": "Pune\u2013Bengaluru Mail/Express",
+  "category": "express",
+  "category_label": "Mail/Express",
+  "corridor": "pune_bengaluru",
+  "classes": [
+   "2S",
+   "SL",
+   "3A",
+   "2A"
+  ],
+  "origin": "PUNE",
+  "destination": "SBC",
+  "total_km": 840,
+  "dynamic_fare": false,
+  "stops": [
+   {
+    "code": "PUNE",
+    "arr": null,
+    "dep": "01:00",
+    "day": 1,
+    "km": 0
+   },
+   {
+    "code": "MRJ",
+    "arr": "05:38",
+    "dep": "05:46",
+    "day": 1,
+    "km": 231
+   },
+   {
+    "code": "UBL",
+    "arr": "09:37",
+    "dep": "09:45",
+    "day": 1,
+    "km": 424
+   },
+   {
+    "code": "SBC",
+    "arr": "18:04",
+    "dep": null,
+    "day": 1,
+    "km": 840
+   }
+  ]
+ },
+ {
+  "number": "RS236",
+  "name": "Bengaluru\u2013Pune Mail/Express",
+  "category": "express",
+  "category_label": "Mail/Express",
+  "corridor": "pune_bengaluru",
+  "classes": [
+   "2S",
+   "SL",
+   "3A",
+   "2A"
+  ],
+  "origin": "SBC",
+  "destination": "PUNE",
+  "total_km": 840,
+  "dynamic_fare": false,
+  "stops": [
+   {
+    "code": "SBC",
+    "arr": null,
+    "dep": "00:05",
+    "day": 1,
+    "km": 0
+   },
+   {
+    "code": "UBL",
+    "arr": "08:24",
+    "dep": "08:32",
+    "day": 1,
+    "km": 416
+   },
+   {
+    "code": "MRJ",
+    "arr": "12:23",
+    "dep": "12:31",
+    "day": 1,
+    "km": 608
+   },
+   {
+    "code": "PUNE",
+    "arr": "17:09",
+    "dep": null,
+    "day": 1,
+    "km": 840
+   }
+  ]
+ },
+ {
+  "number": "RS237",
+  "name": "Thiruvananthapuram\u2013Bengaluru Intercity Day Express",
+  "category": "intercity",
+  "category_label": "Intercity Day Express",
+  "corridor": "kerala_bengaluru",
+  "classes": [
+   "2S",
+   "CC"
+  ],
+  "origin": "TVC",
+  "destination": "SBC",
+  "total_km": 770,
+  "dynamic_fare": false,
+  "stops": [
+   {
+    "code": "TVC",
+    "arr": null,
+    "dep": "13:40",
+    "day": 1,
+    "km": 0
+   },
+   {
+    "code": "ERS",
+    "arr": "16:49",
+    "dep": "16:54",
+    "day": 1,
+    "km": 202
+   },
+   {
+    "code": "PGT",
+    "arr": "18:39",
+    "dep": "18:44",
+    "day": 1,
+    "km": 314
+   },
+   {
+    "code": "CBE",
+    "arr": "19:28",
+    "dep": "19:33",
+    "day": 1,
+    "km": 361
+   },
+   {
+    "code": "JTJ",
+    "arr": "23:52",
+    "dep": "23:57",
+    "day": 1,
+    "km": 637
+   },
+   {
+    "code": "SBC",
+    "arr": "02:02",
+    "dep": null,
+    "day": 2,
+    "km": 770
+   }
+  ]
+ },
+ {
+  "number": "RS238",
+  "name": "Bengaluru\u2013Thiruvananthapuram Intercity Day Express",
+  "category": "intercity",
+  "category_label": "Intercity Day Express",
+  "corridor": "kerala_bengaluru",
+  "classes": [
+   "2S",
+   "CC"
+  ],
+  "origin": "SBC",
+  "destination": "TVC",
+  "total_km": 770,
+  "dynamic_fare": false,
+  "stops": [
+   {
+    "code": "SBC",
+    "arr": null,
+    "dep": "06:40",
+    "day": 1,
+    "km": 0
+   },
+   {
+    "code": "JTJ",
+    "arr": "08:45",
+    "dep": "08:50",
+    "day": 1,
+    "km": 133
+   },
+   {
+    "code": "CBE",
+    "arr": "13:09",
+    "dep": "13:14",
+    "day": 1,
+    "km": 410
+   },
+   {
+    "code": "PGT",
+    "arr": "13:58",
+    "dep": "14:03",
+    "day": 1,
+    "km": 456
+   },
+   {
+    "code": "ERS",
+    "arr": "15:48",
+    "dep": "15:53",
+    "day": 1,
+    "km": 569
+   },
+   {
+    "code": "TVC",
+    "arr": "19:02",
+    "dep": null,
+    "day": 1,
+    "km": 770
+   }
+  ]
+ },
+ {
+  "number": "RS239",
+  "name": "Thiruvananthapuram\u2013Bengaluru Mail/Express",
+  "category": "express",
+  "category_label": "Mail/Express",
+  "corridor": "kerala_bengaluru",
+  "classes": [
+   "2S",
+   "SL",
+   "3A",
+   "2A"
+  ],
+  "origin": "TVC",
+  "destination": "SBC",
+  "total_km": 770,
+  "dynamic_fare": false,
+  "stops": [
+   {
+    "code": "TVC",
+    "arr": null,
+    "dep": "09:35",
+    "day": 1,
+    "km": 0
+   },
+   {
+    "code": "ERS",
+    "arr": "13:37",
+    "dep": "13:45",
+    "day": 1,
+    "km": 202
+   },
+   {
+    "code": "PGT",
+    "arr": "16:00",
+    "dep": "16:08",
+    "day": 1,
+    "km": 314
+   },
+   {
+    "code": "CBE",
+    "arr": "17:04",
+    "dep": "17:12",
+    "day": 1,
+    "km": 361
+   },
+   {
+    "code": "JTJ",
+    "arr": "22:44",
+    "dep": "22:52",
+    "day": 1,
+    "km": 637
+   },
+   {
+    "code": "SBC",
+    "arr": "01:32",
+    "dep": null,
+    "day": 2,
+    "km": 770
+   }
+  ]
+ },
+ {
+  "number": "RS240",
+  "name": "Bengaluru\u2013Thiruvananthapuram Mail/Express",
+  "category": "express",
+  "category_label": "Mail/Express",
+  "corridor": "kerala_bengaluru",
+  "classes": [
+   "2S",
+   "SL",
+   "3A",
+   "2A"
+  ],
+  "origin": "SBC",
+  "destination": "TVC",
+  "total_km": 770,
+  "dynamic_fare": false,
+  "stops": [
+   {
+    "code": "SBC",
+    "arr": null,
+    "dep": "13:30",
+    "day": 1,
+    "km": 0
+   },
+   {
+    "code": "JTJ",
+    "arr": "16:10",
+    "dep": "16:18",
+    "day": 1,
+    "km": 133
+   },
+   {
+    "code": "CBE",
+    "arr": "21:50",
+    "dep": "21:58",
+    "day": 1,
+    "km": 410
+   },
+   {
+    "code": "PGT",
+    "arr": "22:54",
+    "dep": "23:02",
+    "day": 1,
+    "km": 456
+   },
+   {
+    "code": "ERS",
+    "arr": "01:17",
+    "dep": "01:25",
+    "day": 2,
+    "km": 569
+   },
+   {
+    "code": "TVC",
+    "arr": "05:27",
+    "dep": null,
+    "day": 2,
+    "km": 770
+   }
+  ]
+ },
+ {
+  "number": "RS241",
+  "name": "Thiruvananthapuram\u2013Bengaluru Mail/Express",
+  "category": "express",
+  "category_label": "Mail/Express",
+  "corridor": "kerala_bengaluru",
+  "classes": [
+   "2S",
+   "SL",
+   "3A",
+   "2A"
+  ],
+  "origin": "TVC",
+  "destination": "SBC",
+  "total_km": 770,
+  "dynamic_fare": false,
+  "stops": [
+   {
+    "code": "TVC",
+    "arr": null,
+    "dep": "02:55",
+    "day": 1,
+    "km": 0
+   },
+   {
+    "code": "ERS",
+    "arr": "06:57",
+    "dep": "07:05",
+    "day": 1,
+    "km": 202
+   },
+   {
+    "code": "PGT",
+    "arr": "09:20",
+    "dep": "09:28",
+    "day": 1,
+    "km": 314
+   },
+   {
+    "code": "CBE",
+    "arr": "10:24",
+    "dep": "10:32",
+    "day": 1,
+    "km": 361
+   },
+   {
+    "code": "JTJ",
+    "arr": "16:04",
+    "dep": "16:12",
+    "day": 1,
+    "km": 637
+   },
+   {
+    "code": "SBC",
+    "arr": "18:52",
+    "dep": null,
+    "day": 1,
+    "km": 770
+   }
+  ]
+ },
+ {
+  "number": "RS242",
+  "name": "Bengaluru\u2013Thiruvananthapuram Mail/Express",
+  "category": "express",
+  "category_label": "Mail/Express",
+  "corridor": "kerala_bengaluru",
+  "classes": [
+   "2S",
+   "SL",
+   "3A",
+   "2A"
+  ],
+  "origin": "SBC",
+  "destination": "TVC",
+  "total_km": 770,
+  "dynamic_fare": false,
+  "stops": [
+   {
+    "code": "SBC",
+    "arr": null,
+    "dep": "08:05",
+    "day": 1,
+    "km": 0
+   },
+   {
+    "code": "JTJ",
+    "arr": "10:45",
+    "dep": "10:53",
+    "day": 1,
+    "km": 133
+   },
+   {
+    "code": "CBE",
+    "arr": "16:25",
+    "dep": "16:33",
+    "day": 1,
+    "km": 410
+   },
+   {
+    "code": "PGT",
+    "arr": "17:29",
+    "dep": "17:37",
+    "day": 1,
+    "km": 456
+   },
+   {
+    "code": "ERS",
+    "arr": "19:52",
+    "dep": "20:00",
+    "day": 1,
+    "km": 569
+   },
+   {
+    "code": "TVC",
+    "arr": "00:02",
+    "dep": null,
+    "day": 2,
+    "km": 770
+   }
+  ]
+ },
+ {
+  "number": "RS243",
+  "name": "Kolkata\u2013Guwahati Superfast Express",
+  "category": "superfast",
+  "category_label": "Superfast Express",
+  "corridor": "howrah_guwahati",
+  "classes": [
+   "SL",
+   "3A",
+   "2A",
+   "1A"
+  ],
+  "origin": "HWH",
+  "destination": "GHY",
+  "total_km": 885,
+  "dynamic_fare": false,
+  "stops": [
+   {
+    "code": "HWH",
+    "arr": null,
+    "dep": "06:00",
+    "day": 1,
+    "km": 0
+   },
+   {
+    "code": "NJP",
+    "arr": "14:31",
+    "dep": "14:39",
+    "day": 1,
+    "km": 511
+   },
+   {
+    "code": "GHY",
+    "arr": "20:53",
+    "dep": null,
+    "day": 1,
+    "km": 885
+   }
+  ]
+ },
+ {
+  "number": "RS244",
+  "name": "Guwahati\u2013Kolkata Superfast Express",
+  "category": "superfast",
+  "category_label": "Superfast Express",
+  "corridor": "howrah_guwahati",
+  "classes": [
+   "SL",
+   "3A",
+   "2A",
+   "1A"
+  ],
+  "origin": "GHY",
+  "destination": "HWH",
+  "total_km": 885,
+  "dynamic_fare": false,
+  "stops": [
+   {
+    "code": "GHY",
+    "arr": null,
+    "dep": "20:25",
+    "day": 1,
+    "km": 0
+   },
+   {
+    "code": "NJP",
+    "arr": "02:39",
+    "dep": "02:47",
+    "day": 2,
+    "km": 374
+   },
+   {
+    "code": "HWH",
+    "arr": "11:18",
+    "dep": null,
+    "day": 2,
+    "km": 885
+   }
+  ]
+ },
+ {
+  "number": "RS245",
+  "name": "Kolkata\u2013Guwahati Mail/Express",
+  "category": "express",
+  "category_label": "Mail/Express",
+  "corridor": "howrah_guwahati",
+  "classes": [
+   "2S",
+   "SL",
+   "3A",
+   "2A"
+  ],
+  "origin": "HWH",
+  "destination": "GHY",
+  "total_km": 885,
+  "dynamic_fare": false,
+  "stops": [
+   {
+    "code": "HWH",
+    "arr": null,
+    "dep": "18:10",
+    "day": 1,
+    "km": 0
+   },
+   {
+    "code": "NJP",
+    "arr": "04:23",
+    "dep": "04:31",
+    "day": 2,
+    "km": 511
+   },
+   {
+    "code": "GHY",
+    "arr": "12:00",
+    "dep": null,
+    "day": 2,
+    "km": 885
+   }
+  ]
+ },
+ {
+  "number": "RS246",
+  "name": "Guwahati\u2013Kolkata Mail/Express",
+  "category": "express",
+  "category_label": "Mail/Express",
+  "corridor": "howrah_guwahati",
+  "classes": [
+   "2S",
+   "SL",
+   "3A",
+   "2A"
+  ],
+  "origin": "GHY",
+  "destination": "HWH",
+  "total_km": 885,
+  "dynamic_fare": false,
+  "stops": [
+   {
+    "code": "GHY",
+    "arr": null,
+    "dep": "09:05",
+    "day": 1,
+    "km": 0
+   },
+   {
+    "code": "NJP",
+    "arr": "16:34",
+    "dep": "16:42",
+    "day": 1,
+    "km": 374
+   },
+   {
+    "code": "HWH",
+    "arr": "02:55",
+    "dep": null,
+    "day": 2,
+    "km": 885
+   }
+  ]
+ },
+ {
+  "number": "RS247",
+  "name": "Kolkata\u2013Guwahati Mail/Express",
+  "category": "express",
+  "category_label": "Mail/Express",
+  "corridor": "howrah_guwahati",
+  "classes": [
+   "2S",
+   "SL",
+   "3A",
+   "2A"
+  ],
+  "origin": "HWH",
+  "destination": "GHY",
+  "total_km": 885,
+  "dynamic_fare": false,
+  "stops": [
+   {
+    "code": "HWH",
+    "arr": null,
+    "dep": "19:30",
+    "day": 1,
+    "km": 0
+   },
+   {
+    "code": "NJP",
+    "arr": "05:43",
+    "dep": "05:51",
+    "day": 2,
+    "km": 511
+   },
+   {
+    "code": "GHY",
+    "arr": "13:20",
+    "dep": null,
+    "day": 2,
+    "km": 885
+   }
+  ]
+ },
+ {
+  "number": "RS248",
+  "name": "Guwahati\u2013Kolkata Mail/Express",
+  "category": "express",
+  "category_label": "Mail/Express",
+  "corridor": "howrah_guwahati",
+  "classes": [
+   "2S",
+   "SL",
+   "3A",
+   "2A"
+  ],
+  "origin": "GHY",
+  "destination": "HWH",
+  "total_km": 885,
+  "dynamic_fare": false,
+  "stops": [
+   {
+    "code": "GHY",
+    "arr": null,
+    "dep": "02:00",
+    "day": 1,
+    "km": 0
+   },
+   {
+    "code": "NJP",
+    "arr": "09:29",
+    "dep": "09:37",
+    "day": 1,
+    "km": 374
+   },
+   {
+    "code": "HWH",
+    "arr": "19:50",
+    "dep": null,
+    "day": 1,
+    "km": 885
+   }
+  ]
+ },
+ {
+  "number": "RS249",
+  "name": "Hyderabad\u2013Chennai Mail/Express",
+  "category": "express",
+  "category_label": "Mail/Express",
+  "corridor": "hyderabad_chennai",
+  "classes": [
+   "2S",
+   "SL",
+   "3A",
+   "2A"
+  ],
+  "origin": "SC",
+  "destination": "MAS",
+  "total_km": 706,
+  "dynamic_fare": false,
+  "stops": [
+   {
+    "code": "SC",
+    "arr": null,
+    "dep": "02:00",
+    "day": 1,
+    "km": 0
+   },
+   {
+    "code": "BZA",
+    "arr": "07:32",
+    "dep": "07:40",
+    "day": 1,
+    "km": 277
+   },
+   {
+    "code": "MAS",
+    "arr": "16:16",
+    "dep": null,
+    "day": 1,
+    "km": 706
+   }
+  ]
+ },
+ {
+  "number": "RS250",
+  "name": "Chennai\u2013Hyderabad Mail/Express",
+  "category": "express",
+  "category_label": "Mail/Express",
+  "corridor": "hyderabad_chennai",
+  "classes": [
+   "2S",
+   "SL",
+   "3A",
+   "2A"
+  ],
+  "origin": "MAS",
+  "destination": "SC",
+  "total_km": 706,
+  "dynamic_fare": false,
+  "stops": [
+   {
+    "code": "MAS",
+    "arr": null,
+    "dep": "05:45",
+    "day": 1,
+    "km": 0
+   },
+   {
+    "code": "BZA",
+    "arr": "14:21",
+    "dep": "14:29",
+    "day": 1,
+    "km": 430
+   },
+   {
+    "code": "SC",
+    "arr": "20:01",
+    "dep": null,
+    "day": 1,
+    "km": 706
+   }
+  ]
+ },
+ {
+  "number": "RS251",
+  "name": "Hyderabad\u2013Chennai Mail/Express",
+  "category": "express",
+  "category_label": "Mail/Express",
+  "corridor": "hyderabad_chennai",
+  "classes": [
+   "2S",
+   "SL",
+   "3A",
+   "2A"
+  ],
+  "origin": "SC",
+  "destination": "MAS",
+  "total_km": 706,
+  "dynamic_fare": false,
+  "stops": [
+   {
+    "code": "SC",
+    "arr": null,
+    "dep": "11:20",
+    "day": 1,
+    "km": 0
+   },
+   {
+    "code": "BZA",
+    "arr": "16:52",
+    "dep": "17:00",
+    "day": 1,
+    "km": 277
+   },
+   {
+    "code": "MAS",
+    "arr": "01:36",
+    "dep": null,
+    "day": 2,
+    "km": 706
+   }
+  ]
+ },
+ {
+  "number": "RS252",
+  "name": "Chennai\u2013Hyderabad Mail/Express",
+  "category": "express",
+  "category_label": "Mail/Express",
+  "corridor": "hyderabad_chennai",
+  "classes": [
+   "2S",
+   "SL",
+   "3A",
+   "2A"
+  ],
+  "origin": "MAS",
+  "destination": "SC",
+  "total_km": 706,
+  "dynamic_fare": false,
+  "stops": [
+   {
+    "code": "MAS",
+    "arr": null,
+    "dep": "22:30",
+    "day": 1,
+    "km": 0
+   },
+   {
+    "code": "BZA",
+    "arr": "07:06",
+    "dep": "07:14",
+    "day": 2,
+    "km": 430
+   },
+   {
+    "code": "SC",
+    "arr": "12:46",
+    "dep": null,
+    "day": 2,
+    "km": 706
+   }
+  ]
+ },
+ {
+  "number": "RS253",
+  "name": "Jabalpur\u2013Mumbai Mail/Express",
+  "category": "express",
+  "category_label": "Mail/Express",
+  "corridor": "jabalpur_mumbai",
+  "classes": [
+   "2S",
+   "SL",
+   "3A",
+   "2A"
+  ],
+  "origin": "JBP",
+  "destination": "CSMT",
+  "total_km": 997,
+  "dynamic_fare": false,
+  "stops": [
+   {
+    "code": "JBP",
+    "arr": null,
+    "dep": "11:10",
+    "day": 1,
+    "km": 0
+   },
+   {
+    "code": "ET",
+    "arr": "16:22",
+    "dep": "16:30",
+    "day": 1,
+    "km": 260
+   },
+   {
+    "code": "BSL",
+    "arr": "22:30",
+    "dep": "22:38",
+    "day": 1,
+    "km": 560
+   },
+   {
+    "code": "MMR",
+    "arr": "02:21",
+    "dep": "02:29",
+    "day": 2,
+    "km": 746
+   },
+   {
+    "code": "NK",
+    "arr": "04:04",
+    "dep": "04:12",
+    "day": 2,
+    "km": 825
+   },
+   {
+    "code": "KYN",
+    "arr": "06:38",
+    "dep": "06:46",
+    "day": 2,
+    "km": 947
+   },
+   {
+    "code": "CSMT",
+    "arr": "07:46",
+    "dep": null,
+    "day": 2,
+    "km": 997
+   }
+  ]
+ },
+ {
+  "number": "RS254",
+  "name": "Mumbai\u2013Jabalpur Mail/Express",
+  "category": "express",
+  "category_label": "Mail/Express",
+  "corridor": "jabalpur_mumbai",
+  "classes": [
+   "2S",
+   "SL",
+   "3A",
+   "2A"
+  ],
+  "origin": "CSMT",
+  "destination": "JBP",
+  "total_km": 997,
+  "dynamic_fare": false,
+  "stops": [
+   {
+    "code": "CSMT",
+    "arr": null,
+    "dep": "10:30",
+    "day": 1,
+    "km": 0
+   },
+   {
+    "code": "KYN",
+    "arr": "11:30",
+    "dep": "11:38",
+    "day": 1,
+    "km": 50
+   },
+   {
+    "code": "NK",
+    "arr": "14:04",
+    "dep": "14:12",
+    "day": 1,
+    "km": 172
+   },
+   {
+    "code": "MMR",
+    "arr": "15:47",
+    "dep": "15:55",
+    "day": 1,
+    "km": 251
+   },
+   {
+    "code": "BSL",
+    "arr": "19:38",
+    "dep": "19:46",
+    "day": 1,
+    "km": 437
+   },
+   {
+    "code": "ET",
+    "arr": "01:46",
+    "dep": "01:54",
+    "day": 2,
+    "km": 737
+   },
+   {
+    "code": "JBP",
+    "arr": "07:06",
+    "dep": null,
+    "day": 2,
+    "km": 997
+   }
+  ]
+ },
+ {
+  "number": "RS255",
+  "name": "Jabalpur\u2013Mumbai Superfast Express",
+  "category": "superfast",
+  "category_label": "Superfast Express",
+  "corridor": "jabalpur_mumbai",
+  "classes": [
+   "SL",
+   "3A",
+   "2A",
+   "1A"
+  ],
+  "origin": "JBP",
+  "destination": "CSMT",
+  "total_km": 997,
+  "dynamic_fare": false,
+  "stops": [
+   {
+    "code": "JBP",
+    "arr": null,
+    "dep": "05:40",
+    "day": 1,
+    "km": 0
+   },
+   {
+    "code": "ET",
+    "arr": "10:00",
+    "dep": "10:08",
+    "day": 1,
+    "km": 260
+   },
+   {
+    "code": "BSL",
+    "arr": "15:08",
+    "dep": "15:16",
+    "day": 1,
+    "km": 560
+   },
+   {
+    "code": "MMR",
+    "arr": "18:22",
+    "dep": "18:30",
+    "day": 1,
+    "km": 746
+   },
+   {
+    "code": "NK",
+    "arr": "19:49",
+    "dep": "19:57",
+    "day": 1,
+    "km": 825
+   },
+   {
+    "code": "KYN",
+    "arr": "21:59",
+    "dep": "22:07",
+    "day": 1,
+    "km": 947
+   },
+   {
+    "code": "CSMT",
+    "arr": "22:57",
+    "dep": null,
+    "day": 1,
+    "km": 997
+   }
+  ]
+ },
+ {
+  "number": "RS256",
+  "name": "Mumbai\u2013Jabalpur Superfast Express",
+  "category": "superfast",
+  "category_label": "Superfast Express",
+  "corridor": "jabalpur_mumbai",
+  "classes": [
+   "SL",
+   "3A",
+   "2A",
+   "1A"
+  ],
+  "origin": "CSMT",
+  "destination": "JBP",
+  "total_km": 997,
+  "dynamic_fare": false,
+  "stops": [
+   {
+    "code": "CSMT",
+    "arr": null,
+    "dep": "06:40",
+    "day": 1,
+    "km": 0
+   },
+   {
+    "code": "KYN",
+    "arr": "07:30",
+    "dep": "07:38",
+    "day": 1,
+    "km": 50
+   },
+   {
+    "code": "NK",
+    "arr": "09:40",
+    "dep": "09:48",
+    "day": 1,
+    "km": 172
+   },
+   {
+    "code": "MMR",
+    "arr": "11:07",
+    "dep": "11:15",
+    "day": 1,
+    "km": 251
+   },
+   {
+    "code": "BSL",
+    "arr": "14:21",
+    "dep": "14:29",
+    "day": 1,
+    "km": 437
+   },
+   {
+    "code": "ET",
+    "arr": "19:29",
+    "dep": "19:37",
+    "day": 1,
+    "km": 737
+   },
+   {
+    "code": "JBP",
+    "arr": "23:57",
+    "dep": null,
+    "day": 1,
+    "km": 997
+   }
+  ]
+ }
+]

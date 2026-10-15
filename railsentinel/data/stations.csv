@@ -1,0 +1,71 @@
+code,name,city,state,region,lat,lon,source_code
+NDLS,New Delhi,Delhi,Delhi,North,28.64231,77.22,NDLS
+NZM,Hazrat Nizamuddin,Delhi,Delhi,North,28.58733,77.25425,NZM
+DEE,Delhi Sarai Rohilla,Delhi,Delhi,North,28.66299,77.18711,DEE
+CDG,Chandigarh,Chandigarh,Chandigarh,North,30.70198,76.82208,CDG
+UMB,Ambala Cantt Jn,Ambala,Haryana,North,30.33892,76.82697,UMB
+LDH,Ludhiana Jn,Ludhiana,Punjab,North,30.91237,75.84787,LDH
+JUC,Jalandhar City,Jalandhar,Punjab,North,31.33167,75.5915,JUC
+ASR,Amritsar Jn,Amritsar,Punjab,North,31.63151,74.85802,ASR
+MTJ,Mathura Jn,Mathura,Uttar Pradesh,North,27.48015,77.67312,MTJ
+AGC,Agra Cantt,Agra,Uttar Pradesh,North,27.15799,77.99015,AGC
+CNB,Kanpur Central,Kanpur,Uttar Pradesh,North,26.45424,80.35097,CNB
+LKO,Lucknow,Lucknow,Uttar Pradesh,North,26.83067,80.92529,LKO
+PRYJ,Prayagraj Jn,Prayagraj,Uttar Pradesh,North,25.44624,81.82882,ALD
+BSB,Varanasi Jn,Varanasi,Uttar Pradesh,North,25.32728,82.98647,BSB
+DDU,Pt. Deen Dayal Upadhyaya Jn,Mughalsarai,Uttar Pradesh,North,25.27815,83.11925,MGS
+JP,Jaipur Jn,Jaipur,Rajasthan,North,26.9202,75.78692,JP
+AII,Ajmer Jn,Ajmer,Rajasthan,North,26.45661,74.63746,AII
+KOTA,Kota Jn,Kota,Rajasthan,North,25.22355,75.8805,KOTA
+GWL,Gwalior Jn,Gwalior,Madhya Pradesh,Central,26.21648,78.18229,GWL
+BPL,Bhopal Jn,Bhopal,Madhya Pradesh,Central,23.26688,77.41314,BPL
+ET,Itarsi Jn,Itarsi,Madhya Pradesh,Central,22.60826,77.76713,ET
+JBP,Jabalpur,Jabalpur,Madhya Pradesh,Central,23.16464,79.95092,JBP
+RTM,Ratlam Jn,Ratlam,Madhya Pradesh,Central,23.34038,75.05083,RTM
+NGP,Nagpur,Nagpur,Maharashtra,Central,21.15357,79.089,NGP
+R,Raipur Jn,Raipur,Chhattisgarh,Central,21.25646,81.62933,R
+BSP,Bilaspur Jn,Bilaspur,Chhattisgarh,Central,22.05747,82.16759,BSP
+CSMT,Mumbai CSMT,Mumbai,Maharashtra,West,18.94448,72.8369,CSTM
+LTT,Lokmanya Tilak Terminus,Mumbai,Maharashtra,West,19.07032,72.89174,LTT
+BDTS,Mumbai Bandra Terminus,Mumbai,Maharashtra,West,19.06191,72.84054,BDTS
+KYN,Kalyan Jn,Kalyan,Maharashtra,West,19.23472,73.12974,KYN
+PNVL,Panvel,Panvel,Maharashtra,West,18.99092,73.12176,PNVL
+PUNE,Pune Jn,Pune,Maharashtra,West,18.52938,73.87309,PUNE
+DD,Daund Jn,Daund,Maharashtra,West,18.46355,74.57862,DD
+NK,Nasik Road,Nashik,Maharashtra,West,19.94763,73.8419,NK
+MMR,Manmad Jn,Manmad,Maharashtra,West,20.24989,74.4383,MMR
+BSL,Bhusaval Jn,Bhusaval,Maharashtra,West,21.04728,75.78867,BSL
+AK,Akola Jn,Akola,Maharashtra,West,20.72308,77.0055,AK
+BD,Badnera Jn,Badnera,Maharashtra,West,20.85679,77.73232,BD
+SUR,Solapur Jn,Solapur,Maharashtra,West,17.6645,75.8934,SUR
+MRJ,Miraj Jn,Miraj,Maharashtra,West,16.81995,74.63884,MRJ
+RN,Ratnagiri,Ratnagiri,Maharashtra,West,17.00279,73.35694,RN
+MAO,Madgaon,Madgaon,Goa,West,15.26791,73.97072,MAO
+ST,Surat,Surat,Gujarat,West,21.20657,72.84079,ST
+BRC,Vadodara Jn,Vadodara,Gujarat,West,22.31076,73.18107,BRC
+ADI,Ahmedabad Jn,Ahmedabad,Gujarat,West,23.02551,72.60152,ADI
+HWH,Howrah Jn,Kolkata,West Bengal,East,22.58408,88.341,HWH
+SDAH,Sealdah,Kolkata,West Bengal,East,22.56676,88.37471,SDAH
+KGP,Kharagpur Jn,Kharagpur,West Bengal,East,22.34143,87.32846,KGP
+NJP,New Jalpaiguri,Siliguri,West Bengal,East,26.68303,88.44339,NJP
+TATA,Tatanagar Jn,Jamshedpur,Jharkhand,East,22.76895,86.20056,TATA
+DHN,Dhanbad Jn,Dhanbad,Jharkhand,East,23.79097,86.42896,DHN
+GAYA,Gaya Jn,Gaya,Bihar,East,24.80398,84.99929,GAYA
+PNBE,Patna Jn,Patna,Bihar,East,25.60256,85.13682,PNBE
+BBS,Bhubaneswar,Bhubaneswar,Odisha,East,20.26539,85.84259,BBS
+GHY,Guwahati,Guwahati,Assam,Northeast,26.18264,91.75185,GHY
+MAS,Chennai Central,Chennai,Tamil Nadu,South,13.08476,80.27486,MAS
+KPD,Katpadi Jn,Vellore,Tamil Nadu,South,12.97273,79.13534,KPD
+JTJ,Jolarpettai Jn,Jolarpettai,Tamil Nadu,South,12.56085,78.57782,JTJ
+CBE,Coimbatore Jn,Coimbatore,Tamil Nadu,South,10.99764,76.9663,CBE
+SBC,KSR Bengaluru City,Bengaluru,Karnataka,South,12.9776,77.56808,SBC
+UBL,Hubballi Jn,Hubballi,Karnataka,South,15.3503,75.1481,UBL
+WADI,Wadi Jn,Wadi,Karnataka,South,17.05431,76.99155,WADI
+SC,Secunderabad Jn,Hyderabad,Telangana,South,17.43315,78.50148,SC
+GTL,Guntakal Jn,Guntakal,Andhra Pradesh,South,15.17556,77.36661,GTL
+RU,Renigunta Jn,Renigunta,Andhra Pradesh,South,13.63626,79.50629,RU
+BZA,Vijayawada Jn,Vijayawada,Andhra Pradesh,South,16.51826,80.61865,BZA
+VSKP,Visakhapatnam,Visakhapatnam,Andhra Pradesh,South,17.72159,83.28951,VSKP
+ERS,Ernakulam Jn,Kochi,Kerala,South,9.96954,76.29067,ERS
+TVC,Thiruvananthapuram Central,Thiruvananthapuram,Kerala,South,8.48668,76.95121,TVC
+PGT,Palakkad Jn,Palakkad,Kerala,South,10.80209,76.64193,PGT

@@ -1,0 +1,19 @@
+# Runtime dependencies (tested on Python 3.11, 3.12 and 3.13)
+google-genai==2.25.0
+fastapi==0.143.0
+uvicorn[standard]==0.54.0
+pydantic==2.14.1
+httpx==0.28.1
+streamlit==1.65.0
+altair==6.3.0
+numpy==2.4.6
+pandas==3.0.6
+# Model artifacts store pandas frames with Arrow-backed strings, so pyarrow is needed to load them
+pyarrow==25.0.1
+scipy==1.17.1
+scikit-learn==1.9.1
+joblib==1.6.0
+threadpoolctl==3.7.0
+PyYAML==6.0.3
+python-dotenv==1.2.4
+psutil==7.2.2

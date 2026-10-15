@@ -1,0 +1,43 @@
+# docker compose up --build
+#   UI:  http://localhost:8501
+#   API: http://localhost:8000/docs
+# Values come from your .env file if present (Compose reads it automatically), otherwise the defaults below.
+services:
+  api:
+    build: .
+    image: railsentinel:latest
+    command: uvicorn railsentinel.api.main:app --host 0.0.0.0 --port 8000
+    ports:
+      - "8000:8000"
+    environment:
+      GEMINI_API_KEY: ${GEMINI_API_KEY:-}
+      RS_LLM_MODEL: ${RS_LLM_MODEL:-gemini-3.8-flash}
+      RS_LLM_JUDGE_MODEL: ${RS_LLM_JUDGE_MODEL:-gemini-3.5-flash-lite}
+      RS_API_KEYS: ${RS_API_KEYS:-passenger:rs-passenger-demo,operator:rs-operator-demo,admin:rs-admin-demo}
+      RS_PASSPORT_SECRET: ${RS_PASSPORT_SECRET:-rs-demo-passport-secret-change-me}
+      RS_SUPERVISOR_INTERVAL: ${RS_SUPERVISOR_INTERVAL:-45}
+      RS_BACKGROUND_TRAFFIC: ${RS_BACKGROUND_TRAFFIC:-true}
+    volumes:
+      - rs-data:/home/user/app/data
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8000/health', timeout=3)"]
+      interval: 10s
+      timeout: 5s
+      retries: 30
+      start_period: 20s
+
+  ui:
+    image: railsentinel:latest
+    pull_policy: never   # built by the api service above; never pulled from a registry
+    command: streamlit run ui/Home.py --server.port 8501 --server.address 0.0.0.0
+    ports:
+      - "8501:8501"
+    environment:
+      RS_API_URL: http://api:8000
+      RS_UI_API_KEY: ${RS_UI_API_KEY:-rs-admin-demo}
+    depends_on:
+      api:
+        condition: service_healthy
+
+volumes:
+  rs-data:
