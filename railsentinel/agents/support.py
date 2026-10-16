@@ -102,6 +102,16 @@ CAPABILITIES = ("I can check a PNR, track a refund, explain cancellation charges
                 "a journey.")
 
 
+def describe_hours(hours: float) -> str:
+    """Time before departure in words: days once it is two days or more, hours below that (the refund
+    rules change at 48, 12 and 4 hours, so hours are what matter close to departure)."""
+    if hours < 1:
+        return "less than an hour"
+    if hours < 48:
+        return f"about {hours:.0f} hours"
+    return f"about {round(hours / 24)} days"
+
+
 class SupportAssistant:
     def __init__(self, platform):
         self.p = platform
@@ -144,7 +154,8 @@ class SupportAssistant:
             per_pax = b["fare"] / max(1, b["passengers"])
             calc = cancellation_refund(per_pax, b["travel_class"], b["current_status"].split()[0], hours,
                                        quota=b["quota"])
-            return {"pnr": pnr, "hours_before_departure": round(hours, 1), "passengers": b["passengers"],
+            return {"pnr": pnr, "hours_before_departure": round(hours, 1),
+                    "time_before_departure": describe_hours(hours), "passengers": b["passengers"],
                     "fare_per_passenger": round(per_pax), "refund_per_passenger": calc["refund"],
                     "charge_per_passenger": calc["charges"], "total_refund": round(calc["refund"] * b["passengers"]),
                     "rule": calc["rule"], "source": calc["source"]}
@@ -302,7 +313,7 @@ class SupportAssistant:
                 return (f"I could not find PNR {pnr} in RailSentinel's demo reservation system.", [dumps(est)], [])
             if est.get("already_cancelled"):
                 return (f"PNR {pnr} is already cancelled. Ask me for its refund status.", [dumps(est)], [])
-            text = (f"If you cancel PNR {pnr} now, about {est['hours_before_departure']} hours before departure, "
+            text = (f"If you cancel PNR {pnr} now, {est['time_before_departure']} before departure, "
                     f"the charge is Rs {est['charge_per_passenger']:,.0f} per passenger and the total refund is "
                     f"Rs {est['total_refund']:,.0f} for {est['passengers']} passenger(s). Rule: {est['rule']}.")
             return text, [text, dumps(est)], [{"title": "Indian Railways refund rules", "url": est["source"]}]

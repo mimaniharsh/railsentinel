@@ -10,6 +10,8 @@ from __future__ import annotations
 import json
 from datetime import datetime
 
+from railsentinel.agents.nlu import arrival_shortfall_min
+
 
 class AgentAuditor:
     def validate(self, constraints: dict, result: dict, steps: list[dict], config: dict,
@@ -33,9 +35,10 @@ class AgentAuditor:
                 (disclosed if "budget" in relaxed else violations).append(
                     f"fare Rs {best['fare']} exceeds budget Rs {budget:.0f}")
             arrive_by = constraints.get("arrive_by")
-            if arrive_by and datetime.fromisoformat(best["arrival"]).strftime("%H:%M") > arrive_by:
+            if arrive_by and legs and arrival_shortfall_min(best, arrive_by) > 0:
+                arrival = datetime.fromisoformat(best["arrival"])
                 (disclosed if "arrive_by" in relaxed else violations).append(
-                    f"arrives at {best['arrival'][11:16]}, after the requested {arrive_by}")
+                    f"arrives {arrival:%a %d %b %H:%M}, after the requested {arrive_by} (travel day or next day)")
             min_conf = float(config.get("min_confirm_prob", 0.4))
             if best.get("confirm_prob") is not None and best["confirm_prob"] < min_conf:
                 (disclosed if "confirmation" in relaxed else violations).append(

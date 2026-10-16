@@ -13,13 +13,18 @@ import time
 from dataclasses import dataclass, field
 from datetime import date, datetime, timedelta
 
+from railsentinel.agents.nlu import arrival_deadline
 from railsentinel.twin import inventory as inv
 from railsentinel.twin import live
 from railsentinel.twin.generators import delay_features, is_overnight
-from railsentinel.twin.network import TRAVEL_CLASSES, Segment
+from railsentinel.twin.network import TRAVEL_CLASSES, Segment, haversine_km
 
 MIN_TRANSFER_MIN = 45
 MAX_TRANSFER_MIN = 8 * 60
+# A one-change route is offered only if its rail distance is at most this multiple of the straight-line
+# distance. Direct corridors in the twin run up to about 1.7x; routes beyond 1.8x double back through a
+# distant hub (Bengaluru to Chennai via Nagpur is about 12x) and no passenger would take them.
+MAX_DETOUR = 1.8
 TRANSFER_BUFFER_MIN = 20
 CONFIRMATION_CLASSES = {"SL", "CC", "3A", "2A", "1A"}
 
@@ -118,6 +123,9 @@ class JourneyTools:
                 arr1 = s1.arrival_dt(jdate)
                 for s2 in seconds:
                     if s2.train.number == s1.train.number:
+                        continue
+                    a, b = net.stations[s1.origin], net.stations[s2.destination]
+                    if s1.distance_km + s2.distance_km > MAX_DETOUR * haversine_km(a.lat, a.lon, b.lat, b.lon):
                         continue
                     for boarding2 in (arr1.date(), arr1.date() + timedelta(days=1)):
                         dep2 = s2.departure_dt(boarding2)
@@ -258,8 +266,7 @@ class JourneyTools:
         if not arrive_by:
             return None
         arr = datetime.fromisoformat(option["arrival"])
-        hh, mm = (int(x) for x in arrive_by.split(":"))
-        deadline = arr.replace(hour=hh, minute=mm)
+        deadline = arrival_deadline(datetime.fromisoformat(option["departure"]), arr, arrive_by)
         slack = (deadline - arr).total_seconds() / 60
         lo, hi = option["delay_interval"]
         p = prob_delay_within(slack, lo, option["expected_delay_min"], hi)

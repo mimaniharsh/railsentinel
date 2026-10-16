@@ -17,7 +17,7 @@ import uuid
 from datetime import date, datetime, timedelta
 
 from railsentinel.agents.llm import run_tool_loop
-from railsentinel.agents.nlu import parse_request
+from railsentinel.agents.nlu import arrival_deadline, arrival_shortfall_min, parse_request
 from railsentinel.agents.tools import JourneyTools, ToolError, Trace
 from railsentinel.db import dumps, loads
 from railsentinel.twin.generators import today_ist
@@ -212,7 +212,7 @@ class TravelPlanner:
         if c.get("budget") is not None and "budget" not in skip:
             checks["budget"] = o["fare"] <= c["budget"]
         if c.get("arrive_by") and "arrive_by" not in skip:
-            checks["arrive_by"] = o["arrival"][11:16] <= c["arrive_by"]
+            checks["arrive_by"] = arrival_shortfall_min(o, c["arrive_by"]) == 0
         if c.get("depart_after"):
             checks["depart_after"] = o["departure"][11:16] >= c["depart_after"]
         if c.get("classes") and "classes" not in skip:
@@ -260,16 +260,20 @@ class TravelPlanner:
 
     @staticmethod
     def _shortfall(o: dict, c: dict) -> dict:
-        """How far an option misses the budget (Rs) and the arrival time (minutes); 0 when it meets them.
-        Arrival is compared with the clock time on the day the train arrives, like `_meets`."""
+        """How far an option misses the budget (Rs) and the arrival deadline (minutes); 0 when it meets them.
+        The deadline is the requested time on the travel day or the next day (`nlu.arrival_deadline`)."""
         out = {}
         if c.get("budget") is not None:
             out["budget"] = max(0.0, float(o["fare"]) - float(c["budget"]))
         if c.get("arrive_by"):
-            arr = datetime.fromisoformat(o["arrival"])
-            hh, mm = (int(x) for x in c["arrive_by"].split(":"))
-            out["arrive_by"] = max(0.0, (arr - arr.replace(hour=hh, minute=mm)).total_seconds() / 60)
+            out["arrive_by"] = arrival_shortfall_min(o, c["arrive_by"])
         return out
+
+    @staticmethod
+    def _deadline_text(o: dict, arrive_by: str) -> str:
+        arrival = datetime.fromisoformat(o["arrival"])
+        deadline = arrival_deadline(datetime.fromisoformat(o["departure"]), arrival, arrive_by)
+        return f"{deadline:%a} {arrive_by}"
 
     def _trade_offs(self, o: dict, c: dict, min_confirm: float) -> list[str]:
         sf = self._shortfall(o, c)
@@ -278,7 +282,8 @@ class TravelPlanner:
             parts.append(f"costs Rs {sf['budget']:,.0f} more than your Rs {c['budget']:,.0f} budget")
         if sf.get("arrive_by"):
             h, m = divmod(int(round(sf["arrive_by"])), 60)
-            parts.append(f"arrives {f'{h} h {m:02d} min' if h else f'{m} min'} after {c['arrive_by']}")
+            parts.append(f"arrives {f'{h} h {m:02d} min' if h else f'{m} min'} after "
+                         f"{self._deadline_text(o, c['arrive_by'])}")
         if o["confirm_prob"] < min_confirm:
             parts.append(f"has only a {o['confirm_prob'] * 100:.0f}% chance of a confirmed berth")
         return parts
@@ -287,10 +292,8 @@ class TravelPlanner:
         """Why no option meets every constraint: how full the date is and how the literal matches look."""
         jdate = date.fromisoformat(c["date"])
         waitlisted = sum(1 for o in options if o["confirm_prob"] < min_confirm)
-        season = season_of(jdate)
-        note = {"festival": " (festival-season demand)", "summer_vacation": " (summer-holiday demand)",
-                "winter_holiday": " (winter-holiday demand)"}.get(season, "")
-        text = f"{waitlisted} of {len(options)} train and class options on {jdate:%a %d %b} are waitlisted{note}."
+        text = (f"{waitlisted} of {len(options)} train and class options on {jdate:%a %d %b} are waitlisted"
+                f"{self._season_note(jdate)}.")
         literal = [o for o in options if all(v for k, v in self._meets(o, c, frozenset({"confirmation"})).items()
                                              if k != "bookable")]
         if literal:
@@ -301,6 +304,75 @@ class TravelPlanner:
         else:
             text += " No train fits your budget and timing on this date."
         return text
+
+    @staticmethod
+    def _season_note(jdate: date) -> str:
+        return {"festival": " (festival-season demand)", "summer_vacation": " (summer-holiday demand)",
+                "winter_holiday": " (winter-holiday demand)"}.get(season_of(jdate), "")
+
+    def _no_realistic_seat(self, constraints: dict, trace: Trace, today: date, source: str,
+                           itineraries: list[dict], options: list[dict], min_confirm: float) -> dict:
+        """No option in the requested class is likely to be confirmed. Instead of a dead end, show the best
+        waitlisted option, the closest class that still has seats on the same day, and the next date that
+        meets every constraint. Nothing is proposed for booking."""
+        c = constraints
+        jdate = date.fromisoformat(c["date"])
+        ids = {o["option_id"] for o in options}
+        classes = c.get("classes") or []
+        in_class = f" in {'/'.join(classes)}" if classes else ""
+        best_wl = sorted(options, key=lambda o: (o["transfers"], -o["confirm_prob"], o["rec_rank"]))[0]
+        count = ("the only matching train and class option is" if len(options) == 1
+                 else f"all {len(options)} matching train and class options are")
+        lines = [f"**No realistic seat{in_class} on {jdate:%a %d %b}:** {count} unlikely to be confirmed"
+                 f"{self._season_note(jdate)}. The best is {best_wl['summary']} in "
+                 f"{best_wl['travel_class']} at {best_wl['availability']} ({best_wl['confirm_prob'] * 100:.0f}% chance "
+                 "of confirmation)."]
+        alternatives = []
+        if classes:
+            # Same day, other classes: the closest in comfort to what was asked for, then the cheapest.
+            others = [o for o in self.tools.assess(itineraries, today, trace=trace) if o["travel_class"] not in classes]
+            self._apply_party_size(others, c)
+            for o in others:
+                o["option_id"] = f"CLASS-{o['travel_class']}-{o['option_id']}"
+                o["on_time_prob"] = self.tools.on_time_probability(o, c.get("arrive_by"))
+            ids |= {o["option_id"] for o in others}
+            any_class = {**c, "classes": []}
+            fits = ([o for o in others if all(self._meets(o, any_class, frozenset(), min_confirm).values())]
+                    or [o for o in others if all(self._meets(o, any_class, frozenset({"budget", "arrive_by"}),
+                                                             min_confirm).values())])
+            if fits:
+                wanted = sum(TRAVEL_CLASSES[k]["comfort"] for k in classes) / len(classes)
+                other = min(fits, key=lambda o: (abs(TRAVEL_CLASSES[o["travel_class"]]["comfort"] - wanted), o["fare"]))
+                other["note"] = f"Same day in {other['travel_class']}, with a realistic chance of a seat"
+                gaps = self._trade_offs(other, any_class, min_confirm)
+                lines.append(f"**Same day, another class:** {self._describe(other, c)}"
+                             + (f" Trade-off: it {' and '.join(gaps)}." if gaps else ""))
+                alternatives.append(other)
+            else:
+                lines.append(f"No other class on {jdate:%a %d %b} has a realistic chance of a seat either.")
+        flex = None
+        if source in ("api", "support"):
+            flex = self._date_flex(c, trace, jdate, today, min_confirm)
+            if flex["option"]:
+                ids.add(flex["option"]["option_id"])
+                lines.append(f"**Another date:** {self._describe(flex['option'], c)}")
+                alternatives.append(flex["option"])
+            elif flex["checked"]:
+                days = [date.fromisoformat(d) for d in flex["checked"]]
+                lines.append(f"**Other dates:** I also checked {days[0]:%d %b} to {days[-1]:%d %b}; nothing{in_class} "
+                             "has a realistic chance on those days either.")
+        best_wl["note"] = "Best of the waitlisted options"
+        alternatives.append(best_wl)
+        lines.append("Nothing has been booked. You could also try the Tatkal quota, which opens one day before "
+                     "travel, or ask again with one of the options below.")
+        lines.extend(c.get("assumptions", []))
+        trace.add("planner", "no_realistic_seat", {"options": len(options)}, True, 0.0,
+                  f"{len(alternatives)} alternative(s) offered, nothing proposed for booking")
+        return {"status": "no_options", "message": "\n".join(lines), "alternatives": alternatives,
+                "date_flex": None if flex is None else {"checked": flex["checked"],
+                                                        "found": flex["option"]["departure"][:10]
+                                                        if flex["option"] else None},
+                "returned_option_ids": ids}
 
     def _date_flex(self, constraints: dict, trace: Trace, jdate: date, today: date, min_confirm: float,
                    days: int = 3) -> dict | None:
@@ -348,7 +420,8 @@ class TravelPlanner:
                 f"passenger · {o['availability']} · confirmation chance {o['confirm_prob'] * 100:.0f}% · expected "
                 f"arrival delay about {o['expected_delay_min']:.0f} min.")
         if o.get("on_time_prob") is not None:
-            text += f" Chance of arriving before {c['arrive_by']}: {o['on_time_prob'] * 100:.0f}%."
+            text += (f" Chance of arriving by {self._deadline_text(o, c['arrive_by'])}: "
+                     f"{o['on_time_prob'] * 100:.0f}%.")
         return text
 
     def _compose(self, best, alts, relaxed, c, outlook, min_confirm: float, situation: str | None = None,
@@ -387,7 +460,8 @@ class TravelPlanner:
                          + (f" Trade-off: it {' and '.join(gaps)}." if gaps else ""))
         lines.extend(c.get("assumptions", []))
         if c.get("arrive_by"):
-            lines.append(f"Arrival times are checked against {c['arrive_by']} on the day the train arrives.")
+            lines.append(f"\"Arrive by {c['arrive_by']}\" is read as {c['arrive_by']} on the travel day or, for an "
+                         f"overnight journey, {c['arrive_by']} the next day.")
         lines.append("Approve to book the recommended itinerary (creates a demo PNR in RailSentinel).")
         return "\n".join(lines)
 
@@ -406,8 +480,9 @@ class TravelPlanner:
             return {"status": "tool_failure", "message": "The timetable service is not responding right now. "
                     "Please try again in a few minutes.", "returned_option_ids": set()}
         if not itineraries:
-            return {"status": "no_options", "message": "I could not find trains between those places on that date.",
-                    "returned_option_ids": set()}
+            return {"status": "no_options", "message": "RailSentinel's simulated network has no direct train or "
+                    "sensible one-change route between these places. It covers 70 stations on 25 corridors, so some "
+                    "real routes are missing.", "returned_option_ids": set()}
         options = self._assess_and_rank(constraints, trace, today, source, profile, itineraries)
         ids = {o["option_id"] for o in options}
         if not options:
@@ -416,10 +491,10 @@ class TravelPlanner:
         min_confirm = float(config.get("min_confirm_prob", 0.4))
         feasible, relaxed = self._select(options, constraints, min_confirm)
         if not feasible:
-            return {"status": "no_options", "message": "None of the options can be booked with a realistic chance of "
-                    "confirmation. Try another date or class.", "returned_option_ids": ids}
+            return self._no_realistic_seat(constraints, trace, today, source, itineraries, options, min_confirm)
         best = feasible[0]
-        pool = feasible[1:] + sorted(options, key=lambda o: o["rec_rank"])
+        # Further alternatives: options with a realistic chance of a seat first, then by recommender rank.
+        pool = feasible[1:] + sorted(options, key=lambda o: (o["confirm_prob"] < min_confirm, o["rec_rank"]))
         picked: list[dict] = []
         situation = flex = None
         if relaxed:

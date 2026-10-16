@@ -37,7 +37,7 @@ Most entries for a brief like this build a chatbot and add a monitoring dashboar
 
 ## Five-minute demo
 
-1. **Travel Planner** → keep the example *"I want to travel from Pune to Delhi tomorrow under ₹1500 and reach before 10:00 AM."* and press **Plan my journey**. Show the agent trace (search, availability, confirmation, delay, ranking, date-flex and fare agents) and the auditor verdict. When no train meets every constraint (the twin's festival season runs from mid-October to mid-November, so most trains are waitlisted), the agent says why, quantifies each trade-off ("Rs 745 over budget, arrives 8 h 36 min after 10:00"), checks the next three days and offers the option closest to your deadline. Approve to create a demo PNR.
+1. **Travel Planner** → keep the example *"I want to travel from Pune to Delhi tomorrow under ₹1500 and reach before 10:00 AM."* and press **Plan my journey**. Show the agent trace (search, availability, confirmation, delay, ranking, date-flex and fare agents) and the auditor verdict. When no train meets every constraint (the twin's festival season runs from mid-October to mid-November, so most trains are waitlisted), the agent says why, quantifies each trade-off ("costs Rs 1,695 more than your Rs 1,500 budget and arrives 28 min after Sun 10:00"), checks the next three days and offers the option closest to your deadline. Approve to create a demo PNR.
 2. **Ticket Confirmation** → pick a waitlisted demo PNR. Open the **explanation passport**, click **Verify signature**. Then open **Historical trends** to see how far this train's waitlists usually clear.
 3. **Support Assistant** → ask *"How much refund if I cancel PNR …?"* and *"Can I get a refund on a confirmed Tatkal ticket?"*. Note the grounding badge and the official sources.
 4. **Chaos Lab** → **Autopilot** on *Corrupted fare feed* (about 15 s: blocked at the contract, traced to `fare_feed`, quarantined, verified). Then *Bad recommender release* (rolled back automatically) and *Passengers stop cancelling* (concept drift: waits for post-change labels, the recalibrated model beats both retrained candidates on the holdout, wins again on live shadow traffic, promoted; about 40-60 s).
@@ -331,7 +331,7 @@ enabled, the faulty prompt is sent to Gemini as is.
 ## Tests
 
 ```bash
-pytest -m "not slow"   # 49 fast tests, about 1-2 minutes
+pytest -m "not slow"   # 62 fast tests, about 1-2 minutes
 pytest                 # adds 9 end-to-end chaos scenarios, about 6 minutes in total
 python -m pyflakes railsentinel ui scripts tests   # lint (make lint)
 ```
@@ -411,34 +411,6 @@ ephemeral, so the demo resets to its trained state when the Space restarts.
 docker build -t railsentinel .
 docker run -p 8501:8501 -e GEMINI_API_KEY=... railsentinel
 ```
-
----
-
-## Push to GitHub
-
-**With GitHub Desktop (Windows or macOS):**
-
-1. File → **Add local repository…** → choose the `railsentinel` folder (the one with this README).
-2. It reports that the folder is not a Git repository yet: click **create a repository**, keep the name
-   `railsentinel`, leave README, Git ignore and License as they are, and click **Create repository**. GitHub Desktop
-   makes the first commit with every file `.gitignore` allows (no `.venv`, `data` or `.env`).
-3. Click **Publish repository**, untick **Keep this code private** if judges or reviewers need to see it, and publish.
-
-**From the command line** (create an empty `railsentinel` repository on GitHub first, with no README, licence or
-.gitignore, since they are included):
-
-```bash
-cd railsentinel
-git init
-git add .
-git commit -m "RailSentinel: AI rail travel with autonomous AI governance"
-git branch -M main
-git remote add origin https://github.com/mimaniharsh/railsentinel.git
-git push -u origin main
-```
-
-With the GitHub CLI, the repository can be created and pushed in one step:
-`gh repo create mimaniharsh/railsentinel --public --source=. --push`.
 
 ---
 

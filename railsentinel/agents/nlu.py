@@ -7,7 +7,7 @@ LLM planner's decisions against (so the LLM cannot quietly drop a constraint).
 from __future__ import annotations
 
 import re
-from datetime import date, time, timedelta
+from datetime import date, datetime, time, timedelta
 
 from railsentinel.twin.network import Network
 
@@ -43,6 +43,22 @@ def _time_from(h: str, m: str | None, ampm: str | None) -> time | None:
     if 0 <= hour <= 23 and 0 <= minute <= 59:
         return time(hour, minute)
     return None
+
+
+def arrival_deadline(departure: datetime, arrival: datetime, arrive_by: str) -> datetime:
+    """What "reach by HH:MM" means for one journey: by HH:MM on the travel day or, for an overnight
+    journey, by HH:MM the next day, never later. A train leaving on Saturday evening that arrives at
+    07:00 on Sunday meets "before 10:00"; one that arrives at 07:00 on Monday misses it by 21 hours."""
+    hh, mm = (int(x) for x in arrive_by.split(":"))
+    day = min(arrival.date(), departure.date() + timedelta(days=1))
+    return datetime.combine(day, time(hh, mm))
+
+
+def arrival_shortfall_min(option: dict, arrive_by: str) -> float:
+    """Minutes an option's scheduled arrival is past its `arrival_deadline` (0 when it arrives in time)."""
+    departure = datetime.fromisoformat(option["departure"])
+    arrival = datetime.fromisoformat(option["arrival"])
+    return max(0.0, (arrival - arrival_deadline(departure, arrival, arrive_by)).total_seconds() / 60)
 
 
 def _find_places(text: str, network: Network) -> list[tuple[int, str, list[str]]]:
@@ -153,6 +169,18 @@ def parse_request(text: str, network: Network, today: date) -> dict:
                   r"(\d{1,2})(?::(\d{2}))?\s*(a\.?m\.?|p\.?m\.?)?", lower)
     if m:
         arrive_by = _time_from(m.group(1), m.group(2), m.group(3))
+    if arrive_by is None:
+        # Without a verb such as "reach", "by 6 am" or "before 06:30" still sets the arrival time, as long as
+        # the time is unambiguous (am/pm or hh:mm) and is not about leaving ("leave before 6 am").
+        for m in re.finditer(r"\b(?:no later than|latest by|by|before)\s*(\d{1,2})(?::(\d{2}))?\s*"
+                             r"(a\.?m\.?|p\.?m\.?)?(?![\w:])", lower):
+            if not (m.group(2) or m.group(3)):
+                continue
+            if re.search(r"(?:leave|leaving|depart|departing|start|starting)\w*\s*$", lower[:m.start()]):
+                continue
+            arrive_by = _time_from(m.group(1), m.group(2), m.group(3))
+            if arrive_by:
+                break
     m = re.search(r"(?:leave|leaving|depart|departing|start|starting)\w*\s*(?:after)\s*(\d{1,2})(?::(\d{2}))?\s*"
                   r"(a\.?m\.?|p\.?m\.?)?", lower)
     if m:

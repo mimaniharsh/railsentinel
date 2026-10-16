@@ -156,6 +156,41 @@ def test_planner_falls_back_offline_when_gemini_fails(platform, with_fake_gemini
     assert any(s["tool"] == "gemini_call" and not s["ok"] for s in plan["steps"])
 
 
+def test_planner_never_counts_a_two_day_journey_as_on_time(platform):
+    from datetime import datetime
+
+    plan = platform.planner.plan("I want to travel from Pune to Delhi tomorrow under ₹1500 and reach before 10:00 AM.",
+                                 create_intent=False)
+    shown = [plan["recommended"]] + plan["alternatives"]
+    for o in [o for o in shown if o and o.get("on_time_prob") is not None]:
+        days = (datetime.fromisoformat(o["arrival"]).date() - datetime.fromisoformat(o["departure"]).date()).days
+        if days >= 2:
+            assert o["on_time_prob"] < 0.01, o["summary"]
+    assert plan["verdict"]["valid"], plan["verdict"]
+
+
+def test_one_change_routes_never_double_back(platform):
+    from railsentinel.agents.tools import MAX_DETOUR
+    from railsentinel.twin.network import haversine_km
+
+    net = platform.network
+    its = platform.planner.tools.search(["SBC"], ["MAS"], today_ist() + timedelta(days=5))
+    assert its
+    for it in its:
+        a, b = net.stations[it["legs"][0]["origin"]], net.stations[it["legs"][-1]["destination"]]
+        assert sum(leg["distance_km"] for leg in it["legs"]) <= MAX_DETOUR * haversine_km(a.lat, a.lon, b.lat, b.lon)
+
+
+def test_fully_waitlisted_request_gets_alternatives_not_a_dead_end(platform, monkeypatch):
+    # Every option in the requested class counts as unbookable, as on a peak festival date.
+    monkeypatch.setattr(platform.planner, "_select", lambda options, constraints, min_confirm: ([], []))
+    plan = platform.planner.plan("Delhi to Lucknow in 3A on " + (today_ist() + timedelta(days=4)).isoformat())
+    assert plan["status"] == "no_options" and plan["booking_intent_id"] is None
+    assert "No realistic seat in 3A" in plan["message"] and plan["alternatives"]
+    assert any(a.get("note") == "Best of the waitlisted options" for a in plan["alternatives"])
+    assert plan["verdict"]["valid"], plan["verdict"]
+
+
 def test_support_offline_answers_are_grounded(platform):
     pnr = next(b["pnr"] for b in platform.bookings.list(100) if b["current_status"] != "CANCELLED")
     res = platform.support.answer(f"What is the status of PNR {pnr}?")
